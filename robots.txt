@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://g3ortega.com/sitemap.xml 

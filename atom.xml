@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Gerardo Ortega]]></title>
+  <link href="http://g3ortega.com/atom.xml" rel="self"/>
+  <link href="http://g3ortega.com/"/>
+  <updated>2013-11-16T17:37:02-06:00</updated>
+  <id>http://g3ortega.com/</id>
+  <author>
+    <name><![CDATA[Gerardo Ortega]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Blog with Octopress]]></title>
+    <link href="http://g3ortega.com/blog/2013/11/16/blog-with-octopress/"/>
+    <updated>2013-11-16T17:31:00-06:00</updated>
+    <id>http://g3ortega.com/blog/2013/11/16/blog-with-octopress</id>
+    <content type="html"><![CDATA[<p>Hello World!</p>
+]]></content>
+  </entry>
+  
+</feed>

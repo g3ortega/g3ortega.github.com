@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
+    <url>
+        <loc>http://g3ortega.com/blog/2013/11/16/blog-with-octopress/</loc>
+        <lastmod>2013-11-16T17:31:52-06:00</lastmod>
+    </url>
+    <url>
+        <loc>http://g3ortega.com/robots.txt</loc>
+        <lastmod>2013-11-16T17:18:47-06:00</lastmod>
+    </url>
+    <url>
+        <loc>http://g3ortega.com/blog/archives/</loc>
+        <lastmod>2013-11-16T17:31:52-06:00</lastmod>
+    </url>
+    <url>
+        <loc>http://g3ortega.com/</loc>
+        <lastmod>2013-11-16T17:31:52-06:00</lastmod>
+    </url>
+    <url>
+        <loc>http://g3ortega.com/about/</loc>
+        <lastmod>2013-11-16T17:33:21-06:00</lastmod>
+    </url>
+</urlset>
