@@ -4,7 +4,7 @@
   <title><![CDATA[Gerardo Ortega]]></title>
   <link href="http://g3ortega.com/atom.xml" rel="self"/>
   <link href="http://g3ortega.com/"/>
-  <updated>2013-11-16T18:23:45-06:00</updated>
+  <updated>2013-11-16T19:29:31-06:00</updated>
   <id>http://g3ortega.com/</id>
   <author>
     <name><![CDATA[Gerardo Ortega]]></name>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Blog with Octopress]]></title>
-    <link href="http://g3ortega.com/blog/2013/11/blog-with-octopress/"/>
+    <link href="http://g3ortega.com/blog/blog-with-octopress/"/>
     <updated>2013-11-16T17:31:00-06:00</updated>
-    <id>http://g3ortega.com/blog/2013/11/blog-with-octopress</id>
+    <id>http://g3ortega.com/blog/blog-with-octopress</id>
     <content type="html"><![CDATA[<p>Hello World!</p>
 ]]></content>
   </entry>
