@@ -4,7 +4,7 @@
   <title><![CDATA[Gerardo Ortega]]></title>
   <link href="http://g3ortega.com/atom.xml" rel="self"/>
   <link href="http://g3ortega.com/"/>
-  <updated>2013-12-15T13:21:42-06:00</updated>
+  <updated>2013-12-15T13:56:17-06:00</updated>
   <id>http://g3ortega.com/</id>
   <author>
     <name><![CDATA[Gerardo Ortega]]></name>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[The end of web apps as they used to be]]></title>
-    <link href="http://g3ortega.com/blog/the-end-of-web-apps-as-they-used-to-be/"/>
+    <link href="http://g3ortega.com/news/the-end-of-web-apps-as-they-used-to-be/"/>
     <updated>2013-11-25T19:02:00-06:00</updated>
-    <id>http://g3ortega.com/blog/the-end-of-web-apps-as-they-used-to-be</id>
+    <id>http://g3ortega.com/news/the-end-of-web-apps-as-they-used-to-be</id>
     <content type="html"><![CDATA[<p>Some years ago, when i started programming</p>
 ]]></content>
   </entry>

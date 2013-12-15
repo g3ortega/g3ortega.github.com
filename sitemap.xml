@@ -1,8 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://g3ortega.com/blog/the-end-of-web-apps-as-they-used-to-be/</loc>
+        <loc>http://g3ortega.com/news/the-end-of-web-apps-as-they-used-to-be/</loc>
         <lastmod>2013-12-15T12:13:30-06:00</lastmod>
+    </url>
+    <url>
+        <loc>http://g3ortega.com/news/archives/</loc>
+        <lastmod>2013-12-15T13:55:11-06:00</lastmod>
+    </url>
+    <url>
+        <loc>http://g3ortega.com/news/</loc>
+        <lastmod>2013-12-15T13:53:49-06:00</lastmod>
     </url>
     <url>
         <loc>http://g3ortega.com/robots.txt</loc>
@@ -11,14 +19,6 @@
     <url>
         <loc>http://g3ortega.com/contact/</loc>
         <lastmod>2013-12-15T13:05:54-06:00</lastmod>
-    </url>
-    <url>
-        <loc>http://g3ortega.com/blog/archives/</loc>
-        <lastmod>2013-12-15T12:13:30-06:00</lastmod>
-    </url>
-    <url>
-        <loc>http://g3ortega.com/blog/</loc>
-        <lastmod>2013-12-15T12:13:30-06:00</lastmod>
     </url>
     <url>
         <loc>http://g3ortega.com/</loc>
