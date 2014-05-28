@@ -6,17 +6,29 @@ title: Contact Page
 <h2>Let's Keep In Touch!</h2>
 <br />
 
-<!-- Do not change the code! -->
-<a id="foxyform_embed_link_419028" ></a>
-<script type="text/javascript">
-(function(d, t){
-   var g = d.createElement(t),
-       s = d.getElementsByTagName(t)[0];
-   g.src = "http://www.foxyform.com/js.php?id=419028&sec_hash=97ac4cddcd5&width=600px&height=600px";
-   s.parentNode.insertBefore(g, s);
-}(document, "script"));
-</script>
-<!-- Do not change the code! -->
+			<div class="form_container">
+
+
+				<form id="formulario_de_contacto" class="form-horizontal" role="form" method="POST" action="http://kakaomailer.herokuapp.com/user/5a5832d0-b180-0131-677b-1ad8e2d78281">
+					<div class="form-group">
+							Name: 
+					  		<input name="name" id="name" type="text" class="form-control"><br />
+
+							Email:
+							<input name="email" id="email" type="email" class="form-control"><br /> 
+
+							Subject:
+							<input name="subject" id="subject"type="text" class="form-control"><br />
+
+							Message:
+							<textarea name="message" id="message" class="form-control" rows="3"></textarea><br />
+
+					<div class="form-group">
+							<button class="btn">SEND</button>
+					</div>
+				</form>
+			</div>
+
 
 
 
