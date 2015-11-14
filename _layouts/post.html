@@ -1,60 +1,105 @@
-<!DOCTYPE HTML>
+---
+layout: default
+---
+<div class="post">
 
-<html>
-  <head>
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset='utf-8'>
-	     <link rel="stylesheet" type="text/css" href="/css/font-awesome/css/font-awesome.min.css" media="screen"/>
-      <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css" media="screen"/>    
-      <link rel="stylesheet" type="text/css" href="/css/stylesheet.css" media="screen" />
-      <meta name=”twitter:site” content=”@g3ortega”>
-      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js" type="text/javascript"></script> 
-    <link rel="shortcut icon" href="/favicon.png">  
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+<div class="post-header-container {% if page.cover %}has-cover{% endif %}" {% if page.cover %}style="background-image: url({{ page.cover | prepend: site.baseurl }});"{% endif %}>
+	<div class="scrim {% if page.cover %}has-cover{% endif %}">
+		<header class="post-header">
+		  <h1 class="title">{{ page.title }}</h1>
+		  <p class="info">by <strong>{{ page.author }}</strong></p>
+		</header>
+	</div>
+</div>
 
-      ga('create', 'UA-39169311-1', 'github.com');
-      ga('send', 'pageview');
+<div class="wrapper">
 
-    </script>
+{% unless page.cover %} {% include page_divider.html %} {% endunless %}
 
+<section class="post-meta">
+	<div class="post-date">{{ page.date | date: "%B %-d, %Y" }}</div>
+	<div class="post-categories">
+	{% if page.categories %}in {% for cat in page.categories %}
+	  {% if site.jekyll-archives %}
+		<a href="{{ site.baseurl }}category/{{ cat }}">{{ cat | capitalize }}</a>{% if forloop.last == false %}, {% endif %}
+	  {% else %}
+	  <span>{{ cat | capitalize }}</span>{% if forloop.last == false %}, {% endif %}
+	  {% endif %}
+	{% endfor %}{% endif %}
+	</div>
+</section>
 
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <title>{{ page.title }}</title>
+<article class="post-content">
+  {{ content }}
+</article>
 
-    <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
-    <![endif]-->
-  </head>
+{% if site.jekyll-archives %}
+{% if page.tags.size > 0 %}
+<section class="tags">
+	<strong>Tags:</strong> {% for tag in page.tags %}<a href="{{ site.baseurl }}tag/{{ tag }}">{{ tag }}</a>{% if forloop.last == false %},&nbsp;{% endif %}{% endfor %}
+</section>
+{% endif %}
+{% endif %}
 
-  <body>    
-    <header>
-    	  {% include navbar.html %}
-    </header>   
+<section class="rss">
+	<p class="rss-subscribe text"><strong>Subscribe <a href="{{ "feed.xml" | prepend: site.baseurl }}">via RSS</a></strong></p>
+</section>
 
-     <div class="row">
-      <div class="col-md-9">
-      	<h3>{{ page.title }}</h3>	
+<section class="share">
+  <span>Share: </span>
+  {% for social in site.social %}
+  	{% if social.name == "Twitter" and social.share == true %}
+  		<a href="//twitter.com/share?text={{ page.title | cgi_escape }}&url={{ site.url | append: site.baseurl }}{{ page.id }}.html&via={{social.username}}"
+  			onclick="window.open(this.href, '{{ social.icon }}-share', 'width=550,height=255');return false;">
+  			<i class="fa fa-{{ social.icon | remove_first: '-square' }}-square fa-lg"></i>
+  		</a>
+  	{% endif %}
+  	{% if social.name == "Facebook" and social.share == true %}
+  		<a href="//www.facebook.com/sharer.php?t={{ page.title | cgi_escape }}&u={{ site.url | append: site.baseurl }}{{ page.id }}.html"
+  			onclick="window.open(this.href, '{{ social.icon }}-share', 'width=550,height=255');return false;">
+  			<i class="fa fa-{{ social.icon | remove_first: '-square' }}-square fa-lg"></i>
+  		</a>
+  	{% endif %}
+  	{% if social.name == "Google+" and social.share == true %}
+  		<a href="//plus.google.com/share?title={{ page.title | cgi_escape }}&url={{ site.url | append: site.baseurl }}{{ page.id }}.html"
+  			onclick="window.open(this.href, '{{ social.icon }}-share', 'width=550,height=255');return false;">
+  			<i class="fa fa-{{ social.icon | remove_first: '-square' }}-square fa-lg"></i>
+  		</a>
+  	{% endif %}
+  	{% if social.name == "LinkedIn" and social.share == true %}
+  		<a href="//www.linkedin.com/shareArticle?mini=true&url={{ site.url | append: site.baseurl }}{{ page.id }}.html"
+  			onclick="window.open(this.href, '{{ social.icon }}-share', 'width=550,height=255');return false;">
+  			<i class="fa fa-{{ social.icon | remove_first: '-square' }}-square fa-lg"></i>
+  		</a>
+  	{% endif %}
+  	{% if social.name == "Pinterest" and social.share == true %}
+  		<a href="//www.pinterest.com/pin/create/button/?description={{ page.title | cgi_escape }}&url={{ site.url | append: site.baseurl }}{{ page.id }}.html&media={{ site.url }}{% if page.cover %}{{ page.cover | prepend: site.baseurl  }}{% elsif site.cover %}{{ site.cover | prepend: site.baseurl }}{% else %}{{ site.logo | prepend: site.baseurl }}{% endif %}"
+  			onclick="window.open(this.href, '{{ social.icon }}-share', 'width=550,height=255');return false;">
+  			<i class="fa fa-{{ social.icon | remove_first: '-square' }}-square fa-lg"></i>
+  		</a>
+  	{% endif %}
+  {% endfor %}
+</section>
 
-      	{{ content }}
-      </div>
+{% if site.disqus_shortname %}
+{% unless page.disqus_disabled %}
+<section class="disqus">
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+    var disqus_shortname = '{{ site.disqus_shortname }}';
 
-      <div class="col-md-3">
-        {% include aboutme.html %} 
-      </div>
-    </div>
-   
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</section>
+{% endunless %}
+{% endif %}
 
-   
-    <script src="../js/bootstrap.min.js"> </script>
-	  <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
-
-  </body>
-</html>
+</div>
+</div>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gerardo Ortega</title>
+    <description>Elixir, Ruby, Erlang, Phoenix, Rails, React.
+</description>
+    <link>http://g3ortega.github.io//</link>
+    <atom:link href="http://g3ortega.github.io//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 14 Nov 2015 14:37:13 -0600</pubDate>
+    <lastBuildDate>Sat, 14 Nov 2015 14:37:13 -0600</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Welcome (Again)</title>
+        <description>&lt;p&gt;Well, It has been a long time since I wrote the last post in my blog (&lt;a href=&quot;http://blog.g3ortega.com&quot;&gt;the spanish version&lt;/a&gt;). I think over two years has passed away, and well, in two years many things happen.&lt;/p&gt;
+
+&lt;p&gt;I decided it’s time to start to write again. I love writing and is something that comes easily to me. So, What have changed in the last years? What are my plans for the future?.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;There is nothing more constant than change&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I think it’s important to keep our skills sharp. Several years ago, when I started  programming, by that time, with Java, I was amazed for the things I could achieve with just a computer, some logic and the knowledge of a programming language. In that time I didn’t consider some aspects related to the software development process like maintainability or scalability. I just wanted to create things. I just needed the tools to bring my ideas to life. So, I started to learn Java on my own (I just hated the related classes I received the first years in college). And with the right attitude I succeed. In parallel I begin to work in a project as intern in college with some classmates. Soon I realize about the complexity that can have a real world application, and about all, I realize that one of the main challenges in development is to handle the constant changes while you keep the productivity of the team, and the maintainability, extensibility and performance of your code.&lt;/p&gt;
+
+&lt;p&gt;I started to look for new approaches to software development and to investigate how, many big companies like Google, handle the change and kept the agility of their teams while they preserved the quality of their code bases. That search leads me to agile development practices and versatiles programming languages as python.&lt;/p&gt;
+
+&lt;p&gt;I begin to learn python, and at that time, I shared my new findings with a good friend, only to realize that he was on the same road. But he took it even further, and introduce me Ruby on Rails, and some good practices that accompany that amazing web framework. And then I begin to learn Rails. I was so motivated that I created a little application all the weeks for a couple of months.&lt;/p&gt;
+
+&lt;p&gt;I commence to use Ruby and Ruby on Rails for more serious projects, and I’m still using it. But we are in 2015, and as I said before, many things have changed. I would have liked someone talked me about Rails many years before. I love the entire ecosystem of ruby. I can focus in the solution of my problems instead of dealing with problems related to over configurations, verbosity, lack of conventions, bad practices, etc.&lt;/p&gt;
+
+&lt;p&gt;As time have changed, the world of development face different challenges, and I think we need to explore new alternatives to some technologies that we use nowadays. It’s not only ruby, but many other languages that have limits when it comes to solving challenges like concurrency, real time, fault tolerance, productivity, performance, etc. The problem has been that many technologies offer a good solution to some challenges, but lack of the features to face other ones.&lt;/p&gt;
+
+&lt;p&gt;So, we get to the point, the next years I want to focus in learning and applying new technologies that help me to face and solve some problems of the “new web”. This blog will be part of that journey. But no matter how much I can learn in the next years, It will not be enough. The progress in this area moves at light speed, so to speak. Maybe in this moment, somewhere, a new ones are inventing the next Big Thing.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The more I learn, the more I realize how much I don’t know.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Therefore I need a kind of path, a kind of plan for the next years. This plan have to describe what I need to focus on. The things I really want to learn and use. All aligned with my personal goals for the next years. I’m working on that, but I just want to share my vision for the next year.&lt;/p&gt;
+
+&lt;h2 id=&quot;section&quot;&gt;2016&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Web applications: Real time everywhere&lt;/p&gt;
+
+    &lt;p&gt;Real time stop being the fancy feature of interactive dashboards to become a requirement of the new web and mobile applications.&lt;/p&gt;
+
+    &lt;p&gt;To focus: Elixir/Phoenix, Rails/ActionCable&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;FrontEnd: Virtual DOM and Components are eating the world&lt;/p&gt;
+
+    &lt;p&gt;Big companies has started to write a reusable front-end through components. And since the release of ReactJs many other Js frameworks like ember.js has started to implement their own version of Virtual DOM, a DOM abstraction that brings to the table of JS frameworks a great performance and a simpler programming model.&lt;/p&gt;
+
+    &lt;p&gt;To focus: ReactJs&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Mobile: Look mom, is native and use JS! -Wooot!&lt;/p&gt;
+
+    &lt;p&gt;React Native was a game changer. Before it was launched you only could not achieve a native like behavior using Js/HTML frameworks over there. You have to choose between a good user experience or better productivity using HTML5 (and including all you team that in the worst case unless they know basic HTML). But, with React Native you just need to learn React and some native components to start doing your next mobile app.&lt;/p&gt;
+
+    &lt;p&gt;To focus: React Native, ReactJs&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Backend: Scalability first and no downtimes&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;SysAdmin: Containers will rule the world&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;DataScience: Spark, spark everywhere&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Wed, 18 Nov 2015 02:43:59 -0600</pubDate>
+        <link>http://g3ortega.github.io//self/2015/11/18/welcome-again.html</link>
+        <guid isPermaLink="true">http://g3ortega.github.io//self/2015/11/18/welcome-again.html</guid>
+        
+        <category>welcome</category>
+        
+        
+        <category>self</category>
+        
+      </item>
+    
+  </channel>
+</rss>
