@@ -8,7 +8,7 @@ tags:	 welcome
 cover:  "assets/phoenix.png"
 ---
 
-Well, It has been a long time since I wrote the last post in my blog ([the spanish version][old-blog]). I think over two years has passed away, and well, in two years many things happen.
+Well, It has been a long time since I wrote the last post in my blog ([the spanish version][old-blog]). I think over two years have passed, and well, in two years many things happen.
 
 I decided it’s time to start to write again. I love writing and is something that comes easily to me. So, What have changed in the last years? What are my plans for the future?.  
 
