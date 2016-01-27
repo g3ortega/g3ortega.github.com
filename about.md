@@ -4,8 +4,6 @@ title: About
 permalink: /about/
 ---
 
-<img src="{{ site.baseurl }}assets/gerardo_ortega.jpg" title="Gerardo Ortega" class="profile">
-
 Well, of course I'm Gerardo Ortega :)
 
 I graduated in Software Engineering. For several years, I have been developing web applications and lately doing some mobile using React Native.
