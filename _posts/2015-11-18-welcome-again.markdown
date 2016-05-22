@@ -6,6 +6,8 @@ author: Gerardo Ortega
 categories: Self
 tags:	 welcome
 cover:  "assets/phoenix.png"
+ref: hello_again
+lang: en
 ---
 
 Well, It has been a long time since I wrote the last post in my blog ([the spanish version][old-blog]). I think over two years have passed, and well, in two years many things happen.

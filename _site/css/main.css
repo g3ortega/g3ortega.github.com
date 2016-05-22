@@ -423,16 +423,26 @@ pre code.hljs {
       float: left;
       display: block;
       margin-right: 2.35765%;
-      width: 48.82117%;
+      width: 31.76157%;
       text-align: left;
       font-size: 0.9em; }
       .page-content .post-meta .post-date:last-child {
+        margin-right: 0; }
+    .page-content .post-meta .post-languages {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%;
+      margin-right: 0;
+      text-align: center;
+      font-size: 0.9em; }
+      .page-content .post-meta .post-languages:last-child {
         margin-right: 0; }
     .page-content .post-meta .post-categories {
       float: left;
       display: block;
       margin-right: 2.35765%;
-      width: 48.82117%;
+      width: 31.76157%;
       margin-right: 0;
       text-align: right;
       font-size: 0.9em; }
@@ -463,6 +473,19 @@ pre code.hljs {
     padding: 2em 1em 1em 1em; }
   .page-content .post .post-meta {
     padding-bottom: 1em; }
+    .page-content .post .post-meta .post-languages {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%; }
+      .page-content .post .post-meta .post-languages:last-child {
+        margin-right: 0; }
+      .page-content .post .post-meta .post-languages ul.lang-select {
+        padding: 0;
+        margin: 0; }
+        .page-content .post .post-meta .post-languages ul.lang-select li {
+          display: inline;
+          font-weight: bold; }
   .page-content .post .post-content {
     padding: 1em 0; }
   .page-content .post .tags {
