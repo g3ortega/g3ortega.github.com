@@ -2,3 +2,5 @@
 .DS_Store
 .c9
 *.swp
+.idea
+.vscode
