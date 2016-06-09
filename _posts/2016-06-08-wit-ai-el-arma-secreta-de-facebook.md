@@ -13,11 +13,11 @@ lang: es
 
 Facebook tiene claros sus objetivos y por eso el mismísimo Mark Zuckerberg presentó en el último F8 (el evento anual en el que presentan sus novedades) sus planes para un periodo de 10 años, de los cuales ya casi vamos por la mitad. Los primeros cinco años se enfocan en los servicios y productos que ya conocemos: Facebook, Messenger, Instagram, WhatsApp..., pero los siguientes 5 años incluyen tres interesantes categorías: conectividad, inteligencia artificial y realidad virtual.
 
-De las tres categorías que tendrán el mayor peso dentro de la estrategia de Facebook para los próximos cinco años, la que más me ha llamado la atención es Inteligencia Artificial, porque desde ya, a diferencia de las otras dos, les está generando ganancias y es una parte integral de los productos que actualmente tienen en el mercado. Así que lo único que les hace falta es lanzar muchos de los productos internos como un servicio más. Y claro, era de esperarse que una empresa como Facebook no se quedara cruzada de brazos mientras tanto, y ha comenzado a adquirir empresas y a contratar talento relacionado con esa área. Aunque muchos de éstos movimientos que el gigante de las redes sociales ha hecho han pasado desapercibidos. Y hoy quiero hablar puntualmente de uno: Wit.ai
+De las tres categorías que tendrán el mayor peso dentro de la estrategia de Facebook para los próximos cinco años, la que más me ha llamado la atención es Inteligencia Artificial, porque desde ya, a diferencia de las otras dos, les está generando ganancias y es una parte integral de los productos que actualmente tienen en el mercado. Así que lo único que les hace falta es lanzar muchos de los productos internos como un servicio más. Y claro, era de esperarse que una empresa como Facebook no se quedara cruzada de brazos mientras tanto, y ha comenzado a adquirir empresas y a contratar talento relacionado con esa área. Aunque muchos de éstos movimientos que el gigante de las redes sociales ha hecho han pasado desapercibidos. Y hoy quiero hablar puntualmente de uno: <a href="https://wit.ai/" title="Go to Wit.ai" target="blank">Wit.ai</a>
 
 ## ¿Qué es Wit.ai?
 
-![wit-ai-fb](/assets/wit_ai_fb.png "Wit.ai y Facebook")
+<a href="https://wit.ai/" title="Go to Wit.ai" target="_blank"><img src="/assets/wit_ai_fb.png" alt="wit-ai-fb" title="Wit.ai y Facebook"></a>
 
 Wit.ai es un servicio (adquirido por FB el año pasado) que pretende llevar el Procesamiento de Lenguage Natural (o NLP) a las masas (ok, sin exagerar, a la mayoría de desarrolladores que no conocen mucho de inteligencia artificial o simplemente no tienen tiempo para desarrollar su propia plataforma para NLP), permitiendo crear prácticas aplicaciones en cuestión de minutos (si, no estoy bromeando), por ejemplo:
 

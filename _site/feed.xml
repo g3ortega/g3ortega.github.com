@@ -5,19 +5,19 @@
     <description>Blog. I write about Technology, Trends, Programming, Data Science and personal opinions.</description>
     <link>http://g3ortega.com//</link>
     <atom:link href="http://g3ortega.com//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 09 Jun 2016 00:15:07 -0600</pubDate>
-    <lastBuildDate>Thu, 09 Jun 2016 00:15:07 -0600</lastBuildDate>
+    <pubDate>Thu, 09 Jun 2016 00:26:44 -0600</pubDate>
+    <lastBuildDate>Thu, 09 Jun 2016 00:26:44 -0600</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
         <title>Wit.ai, el arma secreta de Facebook</title>
         <description>&lt;p&gt;Facebook tiene claros sus objetivos y por eso el mismísimo Mark Zuckerberg presentó en el último F8 (el evento anual en el que presentan sus novedades) sus planes para un periodo de 10 años, de los cuales ya casi vamos por la mitad. Los primeros cinco años se enfocan en los servicios y productos que ya conocemos: Facebook, Messenger, Instagram, WhatsApp…, pero los siguientes 5 años incluyen tres interesantes categorías: conectividad, inteligencia artificial y realidad virtual.&lt;/p&gt;
 
-&lt;p&gt;De las tres categorías que tendrán el mayor peso dentro de la estrategia de Facebook para los próximos cinco años, la que más me ha llamado la atención es Inteligencia Artificial, porque desde ya, a diferencia de las otras dos, les está generando ganancias y es una parte integral de los productos que actualmente tienen en el mercado. Así que lo único que les hace falta es lanzar muchos de los productos internos como un servicio más. Y claro, era de esperarse que una empresa como Facebook no se quedara cruzada de brazos mientras tanto, y ha comenzado a adquirir empresas y a contratar talento relacionado con esa área. Aunque muchos de éstos movimientos que el gigante de las redes sociales ha hecho han pasado desapercibidos. Y hoy quiero hablar puntualmente de uno: Wit.ai&lt;/p&gt;
+&lt;p&gt;De las tres categorías que tendrán el mayor peso dentro de la estrategia de Facebook para los próximos cinco años, la que más me ha llamado la atención es Inteligencia Artificial, porque desde ya, a diferencia de las otras dos, les está generando ganancias y es una parte integral de los productos que actualmente tienen en el mercado. Así que lo único que les hace falta es lanzar muchos de los productos internos como un servicio más. Y claro, era de esperarse que una empresa como Facebook no se quedara cruzada de brazos mientras tanto, y ha comenzado a adquirir empresas y a contratar talento relacionado con esa área. Aunque muchos de éstos movimientos que el gigante de las redes sociales ha hecho han pasado desapercibidos. Y hoy quiero hablar puntualmente de uno: &lt;a href=&quot;https://wit.ai/&quot; title=&quot;Go to Wit.ai&quot; target=&quot;blank&quot;&gt;Wit.ai&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;qu-es-witai&quot;&gt;¿Qué es Wit.ai?&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/wit_ai_fb.png&quot; alt=&quot;wit-ai-fb&quot; title=&quot;Wit.ai y Facebook&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://wit.ai/&quot; title=&quot;Go to Wit.ai&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/assets/wit_ai_fb.png&quot; alt=&quot;wit-ai-fb&quot; title=&quot;Wit.ai y Facebook&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Wit.ai es un servicio (adquirido por FB el año pasado) que pretende llevar el Procesamiento de Lenguage Natural (o NLP) a las masas (ok, sin exagerar, a la mayoría de desarrolladores que no conocen mucho de inteligencia artificial o simplemente no tienen tiempo para desarrollar su propia plataforma para NLP), permitiendo crear prácticas aplicaciones en cuestión de minutos (si, no estoy bromeando), por ejemplo:&lt;/p&gt;
 
