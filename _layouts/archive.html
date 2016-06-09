@@ -10,10 +10,9 @@ layout: default
 
 	{% include page_divider.html %}
 
-	{% assign posts=site.posts | where:"lang", page.lang %}
 	<article class="post-content">
 		<ul class="posts-list">
-			{% for post in posts %}
+			{% for post in page.posts %}
 			<li><strong><a class="post-link" href="{{ post.url | remove_first: '/' | prepend: site.baseurl }}">{{ post.title }}</a></strong><span class="post-date"> - {{ post.date | date: "%B %-d, %Y" }}</span></li>
 			{% endfor %}
 		</ul>

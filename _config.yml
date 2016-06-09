@@ -25,13 +25,13 @@ paginate_path: "/page:num/"
 
 # Archive settings (see https://github.com/jekyll/jekyll-archives/)
 jekyll-archives:
-  enabled:
+  enabled: 
     - categories
     - tags
   layout: 'archive'
   permalinks:
-    category: '/category/:name/'
     tag: '/tag/:name/'
+    category: '/category/:name/'
 
 # Disqus comments
 disqus_shortname: g3ortega
