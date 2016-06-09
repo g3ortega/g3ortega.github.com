@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Welcome (Again)"
+description: "Plans for 2016"
 date:   2015-11-18 08:43:59
 author: Gerardo Ortega
 categories: Self

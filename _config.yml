@@ -2,6 +2,7 @@
 gems:
   - jekyll-archives # Sorry, not GitHub pages friendly!
   - jekyll-sitemap
+  - jekyll-seo-tag
 
 exclude:
   - "/vendor/"
@@ -11,8 +12,7 @@ title: Gerardo Ortega
 subtitle: "A personal journey into the matrix"
 email: g3ortega@gmail.com
 name: Gerardo Ortega
-description: >
-  Elixir, Ruby, Erlang, Phoenix, Rails, React.
+description: "Blog. I write about Technology, Trends, Programming, Data Science and personal opinions."
 baseurl: "/" # the subpath of your site, e.g. /blog/
 url: "http://g3ortega.com" # the base hostname & protocol for your site
 cover: "assets/header.jpg"
@@ -101,6 +101,9 @@ social:
     url:
     desc: Follow me on Tumblr
     share: false
+
+twitter:
+  username: g3ortega
 
 
 # Social sharing protocols
