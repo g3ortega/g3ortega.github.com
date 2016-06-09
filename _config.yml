@@ -55,6 +55,9 @@ descriptions:
 
   - cat: react
     desc: 'ReactJS and React Native'
+  
+  - cat: ai
+    desc: 'Artificial Intelligence'
 
 social:
   - name: Twitter
