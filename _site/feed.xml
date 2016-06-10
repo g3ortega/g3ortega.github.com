@@ -5,8 +5,8 @@
     <description>Blog. I write about Technology, Trends, Programming, Data Science and personal opinions.</description>
     <link>http://g3ortega.com//</link>
     <atom:link href="http://g3ortega.com//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 10 Jun 2016 01:07:22 -0600</pubDate>
-    <lastBuildDate>Fri, 10 Jun 2016 01:07:22 -0600</lastBuildDate>
+    <pubDate>Fri, 10 Jun 2016 10:08:10 -0600</pubDate>
+    <lastBuildDate>Fri, 10 Jun 2016 10:08:10 -0600</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -35,11 +35,11 @@
 &lt;p&gt;Con el tiempo iré añadiendo más recursos a éste post, por ahora me parece un buen inicio con los recursos que he publicado.&lt;/p&gt;
 </description>
         <pubDate>Fri, 10 Jun 2016 02:43:59 -0600</pubDate>
-        <link>http://g3ortega.com//machine-learning/2016/06/10/que-es-machine-learning-y-porque-este-es-el-mejor-tiempo-para-comenzar-a-aprender-del-tema.html</link>
-        <guid isPermaLink="true">http://g3ortega.com//machine-learning/2016/06/10/que-es-machine-learning-y-porque-este-es-el-mejor-tiempo-para-comenzar-a-aprender-del-tema.html</guid>
+        <link>http://g3ortega.com//machinelearning/2016/06/10/que-es-machine-learning-y-porque-este-es-el-mejor-tiempo-para-comenzar-a-aprender-del-tema.html</link>
+        <guid isPermaLink="true">http://g3ortega.com//machinelearning/2016/06/10/que-es-machine-learning-y-porque-este-es-el-mejor-tiempo-para-comenzar-a-aprender-del-tema.html</guid>
         
         
-        <category>machine-learning</category>
+        <category>machinelearning</category>
         
       </item>
     

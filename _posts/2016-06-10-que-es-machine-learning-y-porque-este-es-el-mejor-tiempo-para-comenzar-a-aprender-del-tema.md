@@ -1,12 +1,12 @@
 ---
 layout: post
-title: ¿Qué es Machine Learning y porqué éste es el mejor tiempo para comenzar a aprender del tema?
-description: Machine Learning o Aprendizaje de Máquinas. Uso, importancia y por donde iniciar a aprender sobre el tema.
+title: "¿Qué es Machine Learning y porqué éste es el mejor tiempo para comenzar a aprender del tema?"
+description: "Machine Learning o Aprendizaje de Máquinas. Uso, importancia y por donde iniciar a aprender sobre el tema."
 date: 2016-06-10 08:43:59
 author: Gerardo Ortega
-categories: machine-learning
+categories: machinelearning
 cover:  "assets/machine_learning.jpg"
-ref: machine_learning
+ref: machinelearning
 lang: es
 ---
 
