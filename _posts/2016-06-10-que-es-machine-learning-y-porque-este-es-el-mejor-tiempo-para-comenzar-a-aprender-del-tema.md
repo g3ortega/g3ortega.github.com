@@ -4,9 +4,9 @@ title: "¿Qué es Machine Learning y porqué éste es el mejor tiempo para comen
 description: "Machine Learning o Aprendizaje de Máquinas. Uso, importancia y por donde iniciar a aprender sobre el tema."
 date: 2016-06-10 08:43:59
 author: Gerardo Ortega
-categories: machinelearning
+categories: machine_learning
 cover:  "assets/machine_learning.jpg"
-ref: machinelearning
+ref: machine_learning
 lang: es
 ---
 

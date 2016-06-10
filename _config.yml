@@ -59,7 +59,7 @@ descriptions:
   - cat: ai
     desc: 'Artificial Intelligence'
 
-  - cat: machine learning
+  - cat: machine_learning
     desc: 'Machine Learning'
 
 social:
