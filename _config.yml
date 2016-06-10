@@ -59,6 +59,9 @@ descriptions:
   - cat: ai
     desc: 'Artificial Intelligence'
 
+  - cat: machine learning
+    desc: 'Machine Learning'
+
 social:
   - name: Twitter
     icon: twitter
