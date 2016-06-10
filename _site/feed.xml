@@ -5,8 +5,8 @@
     <description>Blog. I write about Technology, Trends, Programming, Data Science and personal opinions.</description>
     <link>http://g3ortega.com//</link>
     <atom:link href="http://g3ortega.com//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 10 Jun 2016 10:18:38 -0600</pubDate>
-    <lastBuildDate>Fri, 10 Jun 2016 10:18:38 -0600</lastBuildDate>
+    <pubDate>Fri, 10 Jun 2016 10:30:15 -0600</pubDate>
+    <lastBuildDate>Fri, 10 Jun 2016 10:30:15 -0600</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -23,12 +23,12 @@
 
 &lt;h2 id=&quot;cmo-y-dnde-aprendo-sobre-machine-learning&quot;&gt;¿Cómo y dónde aprendo sobre Machine Learning?&lt;/h2&gt;
 
-&lt;p&gt;Lo primero es realmente tener la motivación de aprender más sobre el tema. El presente post lo quiero dejar breve, pero eso no quedo contento con lo poco que he profundizado sobre las beneficios que conlleva aprender un poco de ML, sin embargo éste no será el último post sobre el tema. Así que puedes estar seguro que semana a semana encontrarás un post relacionado y sobretodo ejemplos, guías y totorales prácticos que te muestren el verdadero potencial de ML. Pero, por supuesto, te dejaré antes con una lista de los mejores recursos para aprender y profundizar sobre el tema, y lo mejor de todo es que son recursos completamente gratuitos, pero de enorme calidad.&lt;/p&gt;
+&lt;p&gt;Lo primero es realmente tener la motivación de aprender más sobre el tema. El presente post lo quiero dejar breve, pero no quedo contento con lo poco que he profundizado sobre las beneficios que conlleva aprender un poco de ML, sin embargo éste no será el último post sobre el tema. Así que puedes estar seguro que semana a semana encontrarás algo nuevo en el blog relacionado a ML y sobretodo ejemplos, guías y tutoriales prácticos que te muestren el verdadero potencial de ML. Pero, por supuesto, te dejaré antes con una lista de los que para mí mejores recursos para aprender y profundizar sobre el tema, y lo mejor de todo es que son recursos completamente gratuitos, pero de enorme calidad.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Mi primera recomendación y uno de los mejores cursos que puedes llevar sobre el tema es el curso de Andrew Ng de la Universidad de Stanford, disponible en Coursera. Puedes acceder &lt;a href=&quot;https://www.coursera.org/learn/machine-learning&quot;&gt;aquí&lt;/a&gt;. La ventaja del curso en cuestión es que tiene subtítulos disponibles en Español, pero siendo francos, sino tienes un buen nivel de lectura y comprensión del inglés y quieres avanzar en ésta área, se te hará más difícil.&lt;/li&gt;
   &lt;li&gt;Siguiendo con Andrew Ng, hay un playlist completo sobre el tema en YouTube, donde se le ha grabado durante sus clases en Stanford y contiene mucha de la base teórica &lt;a href=&quot;https://www.youtube.com/view_play_list?p=A89DCFA6ADACE599&quot;&gt;aqui&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Otro de mis cursos favoritos en línea y uno de los mejores para introducirte a éste mundo es &lt;a href=&quot;https://www.edx.org/course/analytics-edge-mitx-15-071x-2&quot;&gt;The Analytics Edge&lt;/a&gt; creado por el MIT. Lo recomiendo para iniciar.&lt;/li&gt;
+  &lt;li&gt;Otro de mis cursos favoritos en línea y uno de los mejores para introducirte a éste mundo es &lt;a href=&quot;https://www.edx.org/course/analytics-edge-mitx-15-071x-2&quot;&gt;The Analytics Edge&lt;/a&gt; creado por el MIT. Lo recomiendo para iniciar sino tienes una base previa.&lt;/li&gt;
   &lt;li&gt;A cómo irás viendo en la medida que avances, la estadística es algo requerible cuando se trabaja con ML, y en ese sentido éste libro de Stanford nunca viene mal &lt;a href=&quot;http://statweb.stanford.edu/~tibs/ElemStatLearn/&quot;&gt;The Elements of Statistical Learning: Data Mining, Inference, and Prediction.&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
