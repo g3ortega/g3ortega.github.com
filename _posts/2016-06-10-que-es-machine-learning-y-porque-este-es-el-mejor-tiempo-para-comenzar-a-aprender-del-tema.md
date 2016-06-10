@@ -14,7 +14,15 @@ lang: es
 
 Machine Learning (ML o Aprendizaje de Máquinas) es una de las tecnologías más impactantes que han (re)surgido en los últimos 10 años. Impulsada principalmente por el crecimiento exponencial de los datos producidos por las personas que hacen uso de muchas tecnologías relacionadas a internet y más recientemente por objetos que interactúan con nuestro entorno (el internet de las cosas) los cuales constantemente están recopilado y enviando datos a centros masivos de almacenamiento, que cabe destacar,han sido una parte fundamental en la expansión que ha tenido ML en años recientes. Después de todo, hoy en día disponemos de suficiente poder de cómputo a un precio accesible para extraer patrones de conjuntos masivos de datos (Big Data) y obtener valiosa información de los mismos.
 
-Simplificando las cosas podemos decir que ML es un término que hace referencia a un conjunto de algoritmos que aprenden usando datos pasados para crear predicciones, simulaciones o análisis. Éstos algoritmos una vez programados se representan a manera de árboles de decisiones, redes neuronales… o cualquier otra de las muchas técnicas de aprendizaje disponibles hoy en día.
+Simplificando las cosas podemos decir que ML es un término que hace referencia a un conjunto de algoritmos que aprenden usando datos pasados para crear predicciones, simulaciones o análisis. Éstos algoritmos una vez programados se representan a manera de árboles de decisiones, redes neuronales, etc. Ok, esa definición no fue muy académica que digamos, así que a continuación agrego otras dos más acertadas. 
+
+> Arthur Samuel (1954) Machine Learning: Área de estudio que les da a las computadoras la abilidad de aprender sin necesidad de ser explicitamente programadas.
+
+Si, esa definición no es muy nueva, pero en el ámbito de las ciencias de la computación ¿qué lo es?. Constantemente nos venden ideas como novedosas, cuando en realidad fueron inventadas o teorizadas hace mucho. Pero para una definición un tanto más moderna (y más técnica también), te dejo ésta a continuación:
+
+> Tom Mitchell (1998) Well-posed Learning Problem: a un programa de computadora se le indica aprender de la experiencia E con respecto a alguna tarea T y alguna medida de desempeño P, si su rendimiento sobre T, medido por P, mejora con la experiencia de E.
+
+Lo sé. Suena a acertijo, pero espera, antes que dejes éste post y digas que ésto de Machine Learning sólo es para geeks, nerds o gente loca con mucho tiempo libre. Te puedo garantizar que con un poco de conocimiento del tema te hará sentido y a continuación detallaré el porque y el uso de ML en el mundo real.
 
 ## Uso de Machine Learning
 
