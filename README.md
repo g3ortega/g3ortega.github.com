@@ -1,8 +1,6 @@
-
-## My blog in jekyll
+## Blog/Website using Jekyll
 
 ## License
 
-MIT. See [LICENSE.MD](https://github.com/bencentra/centrarium/blob/master/LICENSE.md).
-
-Thanks to ([Ben Centra](https://github.com/bencentra)) for the base theme.
+MIT. See [LICENSE.MD](https://github.com/g3ortega/g3ortega.github.com/blob/master/LICENSE.md).
+Thanks to ([Ben Centra](https://github.com/bencentra)) for base theme.
