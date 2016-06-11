@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="es">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Begin Jekyll SEO tag v2.5.3 -->
+<title>Crystal (Lenguaje de Programación), el porqué y el cómo - Gerardo Ortega</title>
+<meta property="og:title" content="Crystal (Lenguaje de Programación), el porqué y el cómo" />
+<meta name="description" content="Crystal un lenguaje moderno, rápido y con una sintáxis elegante creado en Argentina." />
+<meta property='og:description' content="Crystal un lenguaje moderno, rápido y con una sintáxis elegante creado en Argentina." />
+<link rel="canonical" href="http://g3ortega.com//programming_languages/2016/06/10/crystal-lenguaje-de-programacion-el-por-que-y-el-como.html" />
+<meta property='og:url' content='http://g3ortega.com//programming_languages/2016/06/10/crystal-lenguaje-de-programacion-el-por-que-y-el-como.html' />
+<meta property="og:site_name" content="Gerardo Ortega" />
+<script type="application/ld+json">
+    {
+      "@context" : "http://schema.org",
+      "@type" : "WebSite",
+      "name" : "Gerardo Ortega",
+      "url" : "http://g3ortega.com/"
+    }
+  </script>
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2016-06-10T03:43:59-06:00" />
+<link rel="prev" href="http://g3ortega.com//machine_learning/2016/06/10/que-es-machine-learning-y-porque-este-es-el-mejor-tiempo-para-comenzar-a-aprender-del-tema.html" title="¿Qué es Machine Learning y porqué éste es el mejor tiempo para comenzar a aprender del tema?" />
+<script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "NewsArticle",
+      "headline": "Crystal (Lenguaje de Programación), el porqué y el cómo",
+      "image": null,
+      "datePublished": "2016-06-10T03:43:59-06:00",
+      "description": "Crystal un lenguaje moderno, rápido y con una sintáxis elegante creado en Argentina."
+    }
+  </script>
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@g3ortega" />
+<meta name="twitter:title" content="Crystal (Lenguaje de Programación), el porqué y el cómo - Gerardo Ortega" />
+<meta name="twitter:description" content="Crystal un lenguaje moderno, rápido y con una sintáxis elegante creado en Argentina." />
+<meta name="twitter:creator" content="@Gerardo Ortega" />
+<script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Organization",
+      "url": "http://g3ortega.com/",
+      "logo": "http://g3ortega.com//assets/logo.png"
+    }
+  </script>
+<script type="application/ld+json">
+    {
+      "@context" : "http://schema.org",
+      "@type" : "person",
+      "name" : "Gerardo Ortega",
+      "url" : "http://g3ortega.com/",
+      "sameAs" : null
+    }
+  </script>
+<!-- End Jekyll SEO tag -->
+  
+  <!--<title>Crystal (Lenguaje de Programación), el porqué y el cómo</title>-->
+  <meta name="description" content="Crystal es uno de los nuevos lenguajes en la escena. Aunque no tan conocido como Rust, Elixir o Julia, tiene mucho que ofrecer. Inicio en 2012, y principalme...">
+  
+  <meta name="author" content="Gerardo Ortega">
+  <meta name="copyright" content="&copy; Gerardo Ortega 2016">
+  
+
+  
+  
+    <link rel="alternate" hreflang="es" href="/programming_languages/2016/06/10/crystal-lenguaje-de-programacion-el-por-que-y-el-como.html" />
+  
+  
+  
+
+
+  <!-- External libraries -->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.5/styles/monokai_sublime.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css">
+
+  <!-- Favicon and other icons (made with http://www.favicon-generator.org/) -->
+  <link rel="shortcut icon" href="/assets/icons/favicon.png" type="image/x-icon">
+	<link rel="icon" href="/assets/icons/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/icons/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/assets/icons/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/assets/icons/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/assets/icons/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/assets/icons/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/assets/icons/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/assets/icons/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/assets/icons/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/assets/icons/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
+	<link rel="manifest" href="/assets/icons/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/assets/icons/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<!-- Facebook OGP cards -->
+  <meta property="og:description" content="Crystal es uno de los nuevos lenguajes en la escena. Aunque no tan conocido como Rust, Elixir o Julia, tiene mucho que ofrecer. Inicio en 2012, y principalme..." />
+  <meta property="og:url" content="http://g3ortega.com" />
+  <meta property="og:site_name" content="Gerardo Ortega" />
+  <meta property="og:title" content="Crystal (Lenguaje de Programación), el porqué y el cómo" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="http://g3ortega.com/assets/crystal-lenguaje-programacion-logo.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="612" />
+  <meta property="og:image:height" content="605" />
+
+  <!-- Twitter: card tags -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Crystal (Lenguaje de Programación), el porqué y el cómo">
+  <meta name="twitter:description" content="Crystal es uno de los nuevos lenguajes en la escena. Aunque no tan conocido como Rust, Elixir o Julia, tiene mucho que ofrecer. Inicio en 2012, y principalme...">
+  <meta name="twitter:image" content="http://g3ortega.com/assets/crystal-lenguaje-programacion-logo.png">
+  <meta name="twitter:url" content="http://g3ortega.com">
+
+  
+
+	<!-- Site styles -->
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://g3ortega.com//programming_languages/2016/06/10/crystal-lenguaje-de-programacion-el-por-que-y-el-como.html">
+  <link rel="alternate" type="application/rss+xml" title="Gerardo Ortega" href="http://g3ortega.com//feed.xml" />
+</head>
+
+
+  <body>
+
+    <header class="navigation" role="banner">
+  <div class="navigation-wrapper">
+    <a href="/" class="logo">
+    	
+      <img src="/assets/logo.png" alt="Gerardo Ortega">
+      
+    </a>
+    <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">
+    	<i class="fa fa-bars"></i>
+    </a>
+    <nav role="navigation">
+      <ul id="js-navigation-menu" class="navigation-menu show">
+      	
+          
+          <li class="nav-link"><a href="/about/">About</a> </li>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+          <li class="nav-link"><a href="/posts/">Posts</a> </li>
+          
+        
+          <li class="nav-link"><a href="http://blog.g3ortega.com" target="_blank">Old Blog</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+    <div class="page-content">
+        <div class="post">
+
+<div class="post-header-container has-cover" style="background-image: url(/assets/crystal-lenguaje-programacion-logo.png);">
+	<div class="scrim has-cover">
+		<header class="post-header">
+		  <h1 class="title">Crystal (Lenguaje de Programación), el porqué y el cómo</h1>
+		  <p class="info">by <strong>Gerardo Ortega</strong></p>
+		</header>
+	</div>
+</div>
+
+<div class="wrapper">
+
+
+
+<section class="post-meta">
+	<div class="post-date">June 10, 2016</div>
+	<div class="post-languages">
+		<ul class="lang-select">
+		
+		
+			<li>
+				<a href="/programming_languages/2016/06/10/crystal-lenguaje-de-programacion-el-por-que-y-el-como.html" class="es">es</a>
+			</li>
+		
+
+		
+		
+		</ul>
+	</div>
+	<div class="post-categories">
+	in 
+	  
+		<a href="#">Programming languages</a>
+	  
+	
+	</div>
+
+</section>
+
+<article class="post-content">
+  <p>Crystal es uno de los nuevos lenguajes en la escena. Aunque no tan conocido como Rust, Elixir o Julia, tiene mucho que ofrecer. Inicio en 2012, y principalmente según describen sus creadores sus características son:</p>
+
+<ul>
+  <li>Sintaxis similar a Ruby</li>
+  <li>Estáticamente tipado</li>
+  <li>Compilado</li>
+  <li>Self-hosted (Crystal está escrito en… crystal)</li>
+</ul>
+
+<p>Ademas de eso, el propósito del lenguaje es simple:</p>
+
+<ul>
+  <li>Tener una sintaxis amigable con Ruby, pero con un performance tan bueno como C.</li>
+</ul>
+
+<p>Hay muchas más características disponibles en el sitio web oficial. Pero en particular lo que me ha llamado la atención a mí en particular, siendo un desarrollador que ama Ruby, es su similitud con el lenguaje. Tener una sintaxis tan buena como Ruby y un performance semejante al de C, es para mi el santo grial.</p>
+
+<h2 id="sintaxis-de-crystal">Sintaxis de Crystal</h2>
+
+<p>Quiero comenzar con la sintaxis que es la cara del lenguaje. Cuando inicie con Ruby, viniendo de Java lo que más me cautivo fue la simplicidad con la cual se hacían las cosas, era como escribir en pseudocódigo. Y con Crystal no es la excepción, si bien no es 100% igual a Ruby (más para bien que para mal), conserva su esencia. A continuación por ejemplo les dejo el código de un servidor HTTP:</p>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="nb">require</span> <span class="s2">&quot;http/server&quot;</span>
+
+<span class="n">server</span> <span class="o">=</span> <span class="no">HTTP</span><span class="o">::</span><span class="no">Server</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="mi">8080</span><span class="p">)</span> <span class="k">do</span> <span class="o">|</span><span class="n">request</span><span class="o">|</span>
+  <span class="no">HTTP</span><span class="o">::</span><span class="no">Response</span><span class="o">.</span><span class="n">ok</span> <span class="s2">&quot;text/plain&quot;</span><span class="p">,</span> <span class="s2">&quot;Hello world! The time is </span><span class="si">#{</span><span class="no">Time</span><span class="o">.</span><span class="n">now</span><span class="si">}</span><span class="s2">&quot;</span>
+<span class="k">end</span>
+
+<span class="nb">puts</span> <span class="s2">&quot;Listening on http://0.0.0.0:8080&quot;</span>
+<span class="n">server</span><span class="o">.</span><span class="n">listen</span></code></pre></div>
+
+<h2 id="ms-all-de-la-sintaxis">Más allá de la sintaxis</h2>
+
+<p>Crystal corre sobre la LLVM, una tecnología que sirve como framework de compilación y puede generar código de maquina con un performance similar (o en ocasiones superior) a C. LLVM también es usado por otros nuevos lenguajes como Rust y ofrece una enorme flexibilidad, soporte y muchas libretas complementarias. Ésto ha permitido a Crystal agregar features de las cuales Ruby carece, como concurrencia y paralelismo, éste último cabe destacar que está en desarrollo.</p>
+
+<p>Ahora bien, cabe destacar que Crystal como lenguaje no pone ninguna innovación sobre la mesa que otros lenguajes no tengan ya. En otras palabras, el diseño de muchos de los nuevos lenguajes que han surgido ha ido orientado a extender o crear mejores maneras de hacer algunas cosas, Crystal por el contrario, en una buena medida a tratado de integrar muchas de las mejores features de algunos lenguajes como Go o Erlang. Lo que Crystal si ofrece y que no debe ser pasado por alto, es una elegante sintaxis más un excelente performance sin tener que reaprender muchas cosas, lo cual lo hace único, productivo y agradable para trabajar con él.</p>
+
+<h2 id="aprendiendo-crystal">Aprendiendo Crystal</h2>
+
+<p>Acá una lista de recursos que pueden ayudarte a iniciar con el lenguaje, cabe destacar que siendo un lenguaje joven no hay mucho disponible, pero las cosas van mejorando con el tiempo:</p>
+
+<ul>
+  <li><a href="http://crystal-lang.org/docs/">La documentación oficial</a></li>
+  <li><a href="http://crystal-lang.org/api/">Documentación del API</a></li>
+  <li><a href="https://github.com/veelenga/awesome-crystal">Lista de librerias en Github para uso o bien para aprender del código</a></li>
+</ul>
+
+<h2 id="el-futuro-de-crystal">El futuro de Crystal</h2>
+
+<p>Ok, soy Ingeniero de Software, no adivino. Pero puedo hacer mis propias apuestas acerca del futuro de Crystal, sobretodo porque me ha cautivado y llena muchos de los vacíos que Ruby en la actualidad tiene, por mencionar algunos:</p>
+
+<ul>
+  <li>Concurrencia</li>
+  <li>Performance</li>
+  <li>Paralelismo (en proceso)</li>
+</ul>
+
+<p>Y eso, en mi caso, es de suma importancia. Después de todo los tiempos han cambiado, así como nuestras necesidades. Vivimos en el tiempo del Big Data, del Internet of Things, del VR, etc. Particularmente una de las áreas que más ha llamado mi atención es Inteligencia Artificial, y cada vez necesito herramientas con un excelente performance, pero tradicionalmente se tiene que escoger dos tecnologías, una para el modelado (Python o R por ejemplo) y otra para la implementación (C, C++ o incluso Java) por razones obvias. En cambio con un lenguaje como Crystal es la panacea, no es necesario duplicar esfuerzos.</p>
+
+<p>En éste sentido he probado también un lenguaje nuevo que está especialmente diseñado con performance y productividad en mente aplicado a computación científica: Julia. Sin embargo, no quiero un lenguaje de nicho, sino uno que me ayude a brindar soluciones en diferentes ámbitos (o algo así como Python con todas sus librerías, pero con el performance de C :p).</p>
+
+<p>Por eso tengo mis apuestas en Crystal, un lenguaje todavía en pañales, pero con mucho potencial de crecimiento, tiene todo lo necesario para eso. Ruby no fue todo el tiempo popular, sino hasta después de Rails, lo mismo puede pasar con cualquier lenguaje de programación. La clave está en la comunidad en torno al lenguaje, quienes se encargan de hacer que las cosas sucedan. De mi parte pienso contribuir en el área que me apasiona.</p>
+
+
+</article>
+
+
+
+
+
+<section class="rss">
+	<p class="rss-subscribe text"><strong>Subscribe <a href="/feed.xml">via RSS</a></strong></p>
+</section>
+
+<section class="share">
+  <span>Share: </span>
+  
+  	
+  		<a href="//twitter.com/share?text=Crystal+%28Lenguaje+de+Programaci%C3%B3n%29%2C+el+porqu%C3%A9+y+el+c%C3%B3mo&url=http://g3ortega.com//programming_languages/2016/06/10/crystal-lenguaje-de-programacion-el-por-que-y-el-como.html&via=g3ortega"
+  			onclick="window.open(this.href, 'twitter-share', 'width=550,height=255');return false;">
+  			<i class="fa fa-twitter-square fa-lg"></i>
+  		</a>
+  	
+  	
+  	
+  	
+  	
+  
+  	
+  	
+  		<a href="//www.facebook.com/sharer.php?t=Crystal+%28Lenguaje+de+Programaci%C3%B3n%29%2C+el+porqu%C3%A9+y+el+c%C3%B3mo&u=http://g3ortega.com//programming_languages/2016/06/10/crystal-lenguaje-de-programacion-el-por-que-y-el-como.html"
+  			onclick="window.open(this.href, 'facebook-share', 'width=550,height=255');return false;">
+  			<i class="fa fa-facebook-square fa-lg"></i>
+  		</a>
+  	
+  	
+  	
+  	
+  
+  	
+  	
+  	
+  	
+  	
+  
+  	
+  	
+  	
+  	
+  		<a href="//www.linkedin.com/shareArticle?mini=true&url=http://g3ortega.com//programming_languages/2016/06/10/crystal-lenguaje-de-programacion-el-por-que-y-el-como.html"
+  			onclick="window.open(this.href, 'linkedin-share', 'width=550,height=255');return false;">
+  			<i class="fa fa-linkedin-square fa-lg"></i>
+  		</a>
+  	
+  	
+  
+  	
+  	
+  	
+  		<a href="//plus.google.com/share?title=Crystal+%28Lenguaje+de+Programaci%C3%B3n%29%2C+el+porqu%C3%A9+y+el+c%C3%B3mo&url=http://g3ortega.com//programming_languages/2016/06/10/crystal-lenguaje-de-programacion-el-por-que-y-el-como.html"
+  			onclick="window.open(this.href, 'google-plus-share', 'width=550,height=255');return false;">
+  			<i class="fa fa-google-plus-square fa-lg"></i>
+  		</a>
+  	
+  	
+  	
+  
+  	
+  	
+  	
+  	
+  	
+  
+</section>
+
+
+
+<section class="disqus">
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+    var disqus_shortname = 'g3ortega';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</section>
+
+
+
+</div>
+</div>
+
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h3 class="footer-heading">Gerardo Ortega</h3>
+
+    <div class="site-navigation">
+    	
+    	<p><strong>Site Map</strong></p>
+      <ul class="pages">
+        
+        
+          <li class="nav-link"><a href="/about/">About</a>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+          <li class="nav-link"><a href="/posts/">Posts</a>
+        
+        
+      </ul>
+    </div>
+
+    <div class="site-contact">
+
+    	<p><strong>Contact</strong></p>
+      <ul class="social-media-list">
+      	<li>
+      		<a href="mailto:g3ortega@gmail.com">
+	      		<i class="fa fa-envelope-o"></i>
+	      		<span class="username">g3ortega@gmail.com</span>
+      		</a>
+      	</li>
+
+      	
+	      	
+	      	<li>
+	          <a href="https://twitter.com/g3ortega" title="Follow me on Twitter">
+	            <i class="fa fa-twitter"></i>
+	            <span class="username">g3ortega</span>
+	          </a>
+	        </li>
+	      	
+      	
+	      	
+      	
+	      	
+	      	<li>
+	          <a href="https://github.com/g3ortega" title="Fork me on GitHub">
+	            <i class="fa fa-github"></i>
+	            <span class="username">g3ortega</span>
+	          </a>
+	        </li>
+	      	
+      	
+	      	
+	      	<li>
+	          <a href="https://www.linkedin.com/in/g3ortega" title="Connect with me on LinkedIn">
+	            <i class="fa fa-linkedin"></i>
+	            <span class="username">Gerardo Ortega</span>
+	          </a>
+	        </li>
+	      	
+      	
+	      	
+      	
+	      	
+      	
+
+      </ul>
+    </div>
+
+    <div class="site-signature">
+    	<p class="rss-subscribe text"><strong>Subscribe <a href="/feed.xml">via RSS</a></strong></p>
+      <p class="text">Blog. I write about Technology, Trends, Programming, Data Science and personal opinions.</p>
+    </div>
+
+  </div>
+
+</footer>
+
+<!-- Scripts -->
+<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.5/highlight.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js"></script>
+<script>
+
+$(document).ready(function() {
+
+	// Syntax highlighting
+	hljs.initHighlightingOnLoad();
+
+	// Header
+  var menuToggle = $('#js-mobile-menu').unbind();
+  $('#js-navigation-menu').removeClass("show");
+  menuToggle.on('click', function(e) {
+    e.preventDefault();
+    $('#js-navigation-menu').slideToggle(function(){
+      if($('#js-navigation-menu').is(':hidden')) {
+        $('#js-navigation-menu').removeAttr('style');
+      }
+    });
+  });
+
+
+});
+
+</script>
+
+
+<!-- Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-39169311-1', 'auto');
+  ga('send', 'pageview', {
+  	'page': '/programming_languages/2016/06/10/crystal-lenguaje-de-programacion-el-por-que-y-el-como.html',
+  	'title': 'Crystal (Lenguaje de Programación), el porqué y el cómo'
+  });
+</script>
+
+<!-- Add this -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-574476b20d797c1b"></script>
+
+
+  </body>
+
+</html>
