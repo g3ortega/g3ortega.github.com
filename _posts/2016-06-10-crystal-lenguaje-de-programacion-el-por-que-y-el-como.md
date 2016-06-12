@@ -10,7 +10,7 @@ ref: crystal_programming_language
 lang: es
 ---
 
-Crystal es uno de los nuevos lenguajes en la escena. Aunque no tan conocido como Rust, Elixir o Julia, tiene mucho que ofrecer. Inicio en 2012, y principalmente según describen sus creadores sus características son:
+Crystal es uno de los nuevos lenguajes en la escena. Aunque no tan conocido como Rust, Elixir o Julia, tiene mucho que ofrecer. Inicio en 2012, y según describen sus creadores, sus características principales son:
 
 - Sintaxis similar a Ruby
 - Estáticamente tipado 

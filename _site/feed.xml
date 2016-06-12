@@ -5,13 +5,13 @@
     <description>Blog. I write about Technology, Trends, Programming, Data Science and personal opinions.</description>
     <link>http://g3ortega.com//</link>
     <atom:link href="http://g3ortega.com//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 10 Jun 2016 23:03:15 -0600</pubDate>
-    <lastBuildDate>Fri, 10 Jun 2016 23:03:15 -0600</lastBuildDate>
+    <pubDate>Fri, 10 Jun 2016 23:04:31 -0600</pubDate>
+    <lastBuildDate>Fri, 10 Jun 2016 23:04:31 -0600</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
         <title>Crystal (Lenguaje de Programación), el porqué y el cómo</title>
-        <description>&lt;p&gt;Crystal es uno de los nuevos lenguajes en la escena. Aunque no tan conocido como Rust, Elixir o Julia, tiene mucho que ofrecer. Inicio en 2012, y principalmente según describen sus creadores sus características son:&lt;/p&gt;
+        <description>&lt;p&gt;Crystal es uno de los nuevos lenguajes en la escena. Aunque no tan conocido como Rust, Elixir o Julia, tiene mucho que ofrecer. Inicio en 2012, y según describen sus creadores, sus características principales son:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Sintaxis similar a Ruby&lt;/li&gt;
