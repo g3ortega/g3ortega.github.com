@@ -5,8 +5,8 @@
     <description>Blog. I write about Technology, Trends, Programming, Data Science and personal opinions.</description>
     <link>http://g3ortega.com//</link>
     <atom:link href="http://g3ortega.com//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 10 Jun 2016 23:04:31 -0600</pubDate>
-    <lastBuildDate>Fri, 10 Jun 2016 23:04:31 -0600</lastBuildDate>
+    <pubDate>Sat, 11 Jun 2016 23:06:00 -0600</pubDate>
+    <lastBuildDate>Sat, 11 Jun 2016 23:06:00 -0600</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -26,11 +26,11 @@
   &lt;li&gt;Tener una sintaxis amigable con Ruby, pero con un performance tan bueno como C.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Hay muchas más características disponibles en el sitio web oficial. Pero en particular lo que me ha llamado la atención a mí en particular, siendo un desarrollador que ama Ruby, es su similitud con el lenguaje. Tener una sintaxis tan buena como Ruby y un performance semejante al de C, es para mi el santo grial.&lt;/p&gt;
+&lt;p&gt;Hay muchas más características disponibles en el sitio web oficial. Pero en particular lo que me ha llamado la atención a mí en particular, siendo un desarrollador que ama Ruby, es su similitud con el lenguaje. Tener una sintaxis tan buena como Ruby y un performance semejante al de C, es el santo grial en ésta área.&lt;/p&gt;
 
 &lt;h2 id=&quot;sintaxis-de-crystal&quot;&gt;Sintaxis de Crystal&lt;/h2&gt;
 
-&lt;p&gt;Quiero comenzar con la sintaxis que es la cara del lenguaje. Cuando inicie con Ruby, viniendo de Java lo que más me cautivo fue la simplicidad con la cual se hacían las cosas, era como escribir en pseudocódigo. Y con Crystal no es la excepción, si bien no es 100% igual a Ruby (más para bien que para mal), conserva su esencia. A continuación por ejemplo les dejo el código de un servidor HTTP:&lt;/p&gt;
+&lt;p&gt;Quiero comenzar con la sintaxis que es la cara del lenguaje. Cuando inicie con Ruby, viniendo de Java, lo que más me cautivo fue la simplicidad con la cual se hacían las cosas, era como escribir en pseudocódigo. Y con Crystal no es la excepción, si bien no es 100% igual a Ruby (más para bien que para mal), conserva su esencia. A continuación por ejemplo les dejo el código de un servidor HTTP:&lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;http/server&amp;quot;&lt;/span&gt;
 
@@ -43,9 +43,9 @@
 
 &lt;h2 id=&quot;ms-all-de-la-sintaxis&quot;&gt;Más allá de la sintaxis&lt;/h2&gt;
 
-&lt;p&gt;Crystal corre sobre la LLVM, una tecnología que sirve como framework de compilación y puede generar código de maquina con un performance similar (o en ocasiones superior) a C. LLVM también es usado por otros nuevos lenguajes como Rust y ofrece una enorme flexibilidad, soporte y muchas libretas complementarias. Ésto ha permitido a Crystal agregar features de las cuales Ruby carece, como concurrencia y paralelismo, éste último cabe destacar que está en desarrollo.&lt;/p&gt;
+&lt;p&gt;Crystal corre sobre la LLVM, una tecnología que sirve como framework de compilación y puede generar código de maquina con un performance similar (o en ocasiones superior) a C. LLVM también es usado por otros nuevos lenguajes como Rust o Swift y ofrece una enorme flexibilidad, soporte y muchas libretas complementarias. Ésto ha permitido a Crystal agregar features de las cuales Ruby carece, como concurrencia y paralelismo, éste último cabe destacar que está en desarrollo.&lt;/p&gt;
 
-&lt;p&gt;Ahora bien, cabe destacar que Crystal como lenguaje no pone ninguna innovación sobre la mesa que otros lenguajes no tengan ya. En otras palabras, el diseño de muchos de los nuevos lenguajes que han surgido ha ido orientado a extender o crear mejores maneras de hacer algunas cosas, Crystal por el contrario, en una buena medida a tratado de integrar muchas de las mejores features de algunos lenguajes como Go o Erlang. Lo que Crystal si ofrece y que no debe ser pasado por alto, es una elegante sintaxis más un excelente performance sin tener que reaprender muchas cosas, lo cual lo hace único, productivo y agradable para trabajar con él.&lt;/p&gt;
+&lt;p&gt;Ahora bien, aclaro que Crystal como lenguaje no pone ninguna innovación sobre la mesa que otros lenguajes no tengan ya. En otras palabras, el diseño de muchos de los nuevos lenguajes que han surgido recientemente, ha ido orientado a extender o crear mejores maneras de hacer algunas cosas. Crystal por el contrario, en una buena medida ha tratado de integrar muchos de los mejores features de algunos lenguajes como Go o Erlang. Lo que Crystal si ofrece y que no debe ser pasado por alto, es una elegante sintaxis, más un excelente performance, eso sin tener que reaprender muchas cosas, lo cual lo hace único, productivo y agradable para trabajar con él.&lt;/p&gt;
 
 &lt;h2 id=&quot;aprendiendo-crystal&quot;&gt;Aprendiendo Crystal&lt;/h2&gt;
 
@@ -59,7 +59,7 @@
 
 &lt;h2 id=&quot;el-futuro-de-crystal&quot;&gt;El futuro de Crystal&lt;/h2&gt;
 
-&lt;p&gt;Ok, soy Ingeniero de Software, no adivino. Pero puedo hacer mis propias apuestas acerca del futuro de Crystal, sobretodo porque me ha cautivado y llena muchos de los vacíos que Ruby en la actualidad tiene, por mencionar algunos:&lt;/p&gt;
+&lt;p&gt;Ok, soy Ingeniero de Software, no adivino. Pero puedo hacer mis propias apuestas acerca del futuro de Crystal, sobretodo considerando lo que me ha cautivado y aquello que llena muchos de los vacíos que Ruby en la actualidad tiene, por mencionar algunos:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Concurrencia&lt;/li&gt;
@@ -67,7 +67,7 @@
   &lt;li&gt;Paralelismo (en proceso)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Y eso, en mi caso, es de suma importancia. Después de todo los tiempos han cambiado, así como nuestras necesidades. Vivimos en el tiempo del Big Data, del Internet of Things, del VR, etc. Particularmente una de las áreas que más ha llamado mi atención es Inteligencia Artificial, y cada vez necesito herramientas con un excelente performance, pero tradicionalmente se tiene que escoger dos tecnologías, una para el modelado (Python o R por ejemplo) y otra para la implementación (C, C++ o incluso Java) por razones obvias. En cambio con un lenguaje como Crystal es la panacea, no es necesario duplicar esfuerzos.&lt;/p&gt;
+&lt;p&gt;Y eso, en mi caso, es de suma importancia. Después de todo, los tiempos han cambiado, así como nuestras necesidades. Vivimos en el tiempo del Big Data, del Internet of Things, del VR, etc. Particularmente una de las áreas que más ha llamado mi atención es Inteligencia Artificial, y cada vez necesito herramientas con un excelente performance, pero tradicionalmente se tiene que escoger dos tecnologías, una para el modelado (Python o R por ejemplo) y otra para la implementación (C, C++ o incluso Java) por razones obvias. En cambio con un lenguaje como Crystal es la panacea, no es necesario duplicar esfuerzos.&lt;/p&gt;
 
 &lt;p&gt;En éste sentido he probado también un lenguaje nuevo que está especialmente diseñado con performance y productividad en mente aplicado a computación científica: Julia. Sin embargo, no quiero un lenguaje de nicho, sino uno que me ayude a brindar soluciones en diferentes ámbitos (o algo así como Python con todas sus librerías, pero con el performance de C :p).&lt;/p&gt;
 
