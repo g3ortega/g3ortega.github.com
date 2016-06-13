@@ -5,8 +5,8 @@
     <description>Blog. I write about Technology, Trends, Programming, Data Science and personal opinions.</description>
     <link>http://g3ortega.com//</link>
     <atom:link href="http://g3ortega.com//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 11 Jun 2016 23:06:00 -0600</pubDate>
-    <lastBuildDate>Sat, 11 Jun 2016 23:06:00 -0600</lastBuildDate>
+    <pubDate>Sun, 12 Jun 2016 22:18:40 -0600</pubDate>
+    <lastBuildDate>Sun, 12 Jun 2016 22:18:40 -0600</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -148,6 +148,10 @@
 &lt;h3 id=&quot;sistemas-de-toma-de-decisiones&quot;&gt;Sistemas de toma de decisiones&lt;/h3&gt;
 
 &lt;p&gt;Si, muchas veces te encuentras casos en los que dada una entrada (un tweet, un comando de voz, un mensaje, etc.) debes tomar X o Y decisión para ejecutar una determinada acción. Dependiendo de la complejidad de lo que necesites Wit.ai puede ayudar también, permitiéndote analizar las entradas, extraer los datos que necesitas y tomar decisiones o tomar determinadas acciones.&lt;/p&gt;
+
+&lt;h3 id=&quot;reconocimiento-de-voz&quot;&gt;Reconocimiento de voz&lt;/h3&gt;
+
+&lt;p&gt;Wit.ai fue pensado para responder a la creciente demanda de interpretar y responder a comandos de voz. Ésto de cara a la tendencia creciente de tener interconectado todo (Internet of Things), resulta muy útil. Por ejemplo, usando Wit.ai puedes automatizar acciones en tu hogar, como el encendido o apagado de las luces, únicamente usando tu voz y programando la interacción con el sistema de ilumación.&lt;/p&gt;
 
 &lt;h3 id=&quot;automatizacin&quot;&gt;Automatización&lt;/h3&gt;
 
