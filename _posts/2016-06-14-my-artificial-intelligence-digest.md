@@ -2,12 +2,12 @@
 layout: post
 title: My Artificial Intelligence Digest
 description: A collection of valuable resources to learn Artificial Intelligence and Machine Learning
-date: 2016-06-10 08:43:59
+date: 2016-06-14 08:43:59
 author: Gerardo Ortega
-categories: machine_learning
+categories: ai
 cover:  "assets/machine_learning.jpg"
-ref: machine_learning
-lang: es
+ref: artificial_intelligence_resources
+lang: en
 ---
 
 ## Resources to Learn Artificial Intelligence 
