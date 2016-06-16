@@ -40,11 +40,21 @@ So, you're looking for useful resources to start with AI and Machine Learning, i
 
 <a href="https://www.udacity.com/course/machine-learning-for-trading--ud501" target="_blank">Machine Learning for Trading</a>
 
+### University of Washington
+
+<a href="https://www.coursera.org/learn/ml-foundations" target="_blank">Machine Learning Foundations: A Case Study Approach</a>
+
+<a href="https://www.coursera.org/course/machlearning" target="_blank">Machine Learning: Build Intelligent Applications</a>
+
 ## Deep Learning
 
 ### Google Deep Learning Class - Udacity
 
 <a href="https://www.udacity.com/course/deep-learning--ud730" target="_blank">Deep Learning by Google</a>
+
+### Neural Networks 
+
+<a href="https://www.coursera.org/course/neuralnets" target="_blank">Neural Networks | University of Toronto</a>
 
 ## Tooling for Artificial Intelligence and Machine Learning
 
