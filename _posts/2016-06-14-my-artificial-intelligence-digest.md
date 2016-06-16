@@ -56,10 +56,20 @@ So, you're looking for useful resources to start with AI and Machine Learning, i
 
 <a href="https://www.coursera.org/course/neuralnets" target="_blank">Neural Networks | University of Toronto</a>
 
-## Tooling for Artificial Intelligence and Machine Learning
+## Papers
 
-### Edx
+<a href="http://www.cs.cmu.edu/~tom/pubs/MachineLearning.pdf" target="_blank">The Discipline of Machine Learning | Tom M. Mitchell</a>
+
+<a href="http://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf" target="_blank">A Few Useful Things to Know about Machine Learning | Pedro Domingos</a>
+
+## Tooling and other resources
+
+### Apache Spark
 
 <a href="https://www.edx.org/xseries/data-science-engineering-apache-spark" target="_blank">Apache Spark Specialization</a>
 
+### Other MOOCs related
 
+<a href="https://www.coursera.org/course/mmds" target="_blank">Mining Massive Datasets</a>
+
+<a href="https://www.coursera.org/learn/recommender-systems" target="_blank">Introduction to Recommender Systems</a>
