@@ -1,13 +1,16 @@
 ---
 layout: post
 title: My Artificial Intelligence Digest - Free Learning Resources
-description: A collection of valuable and free resources to learn Artificial Intelligence and Machine Learning
-date: 2016-06-14 08:43:59
+description: >-
+  A collection of valuable and free resources to learn Artificial Intelligence
+  and Machine Learning
+date: {}
 author: Gerardo Ortega
 categories: ai
-cover:  "assets/machine_learning.jpg"
+cover: assets/machine_learning.jpg
 ref: artificial_intelligence_resources
 lang: en
+published: true
 ---
 
 ## Resources to Learn Artificial Intelligence 
@@ -45,6 +48,10 @@ So, you're looking for useful resources to start with AI and Machine Learning, i
 <a href="https://www.coursera.org/learn/ml-foundations" target="_blank">Machine Learning Foundations: A Case Study Approach</a>
 
 <a href="https://www.coursera.org/course/machlearning" target="_blank">Machine Learning: Build Intelligent Applications</a>
+
+### Carnegie Mellon University
+
+<a href="https://www.youtube.com/watch?v=m9OBcqAcr_w&list=PLZSO_6-bSqHQCIYxE3ycGLXHMjK3XV7Iz" target="_blank">Machine Learning Summer School</a>
 
 ## Deep Learning
 
