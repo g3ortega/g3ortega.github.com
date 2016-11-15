@@ -5,130 +5,20 @@
     <description>Blog. I write about Technology, Trends, Programming, Data Science and personal opinions.</description>
     <link>http://g3ortega.com//</link>
     <atom:link href="http://g3ortega.com//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 17 Jun 2016 22:26:42 -0600</pubDate>
-    <lastBuildDate>Fri, 17 Jun 2016 22:26:42 -0600</lastBuildDate>
+    <pubDate>Tue, 15 Nov 2016 10:36:23 -0600</pubDate>
+    <lastBuildDate>Tue, 15 Nov 2016 10:36:23 -0600</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
-        <title>5 libros para aprender Machine Learning gratis</title>
-        <description>&lt;p&gt;Acá les dejo una colección de libros para aprender más sobre Machine Learning totalmente gratis, aunque eso no quita la enorme calidad de los mismos:&lt;/p&gt;
-
-&lt;h3 id=&quot;introduction-to-machine-learning&quot;&gt;INTRODUCTION TO MACHINE LEARNING&lt;/h3&gt;
-
-&lt;p&gt;Amnon Shashua&lt;/p&gt;
-
-&lt;p&gt;Introduction to Machine Learning is 109 pages of class notes from a machine learning course which was taught at the Hebrew University of Jerusalem. The notes cover 9 topics — Bayesian Decision Theory, Maximum Likelihood/Maximum Entropy Duality,  EM Algorithm: ML over Mixture of Distributions, Support Vector Machines and Kernel Functions, Spectral Analysis I: PCA, LDA, CCA, Spectral Analysis II: Clustering, The Formal (PAC) Learning Model, The VC Dimension and The Double-Sampling Theorem.&lt;/p&gt;
-
-&lt;h3 id=&quot;a-course-in-machine-learning-pdf&quot;&gt;A COURSE IN MACHINE LEARNING (PDF)&lt;/h3&gt;
-
-&lt;p&gt;Hal Daumé III&lt;/p&gt;
-
-&lt;p&gt;A Course In Machine Learning is designed to provide a gentle and pedagogically organized introduction to the field and  provide a view of machine learning that focuses on ideas and models, not on math.&lt;/p&gt;
-
-&lt;p&gt;According to the book:&lt;/p&gt;
-
-&lt;p&gt;The audience of this book is anyone who knows differential calculus and discrete math, and can program reasonably well. (A little bit of linear algebra and probability will not hurt.) An undergraduate in their fourth or fifth semester should be fully capable of understanding this material. However, it should also be suitable for first year graduate students, perhaps at a slightly faster pace.&lt;/p&gt;
-
-&lt;h3 id=&quot;a-first-encounter-with-machine-learning-pdf&quot;&gt;A FIRST ENCOUNTER WITH MACHINE LEARNING (PDF)&lt;/h3&gt;
-
-&lt;p&gt;Max Welling&lt;/p&gt;
-
-&lt;p&gt;A First Encounter With Machine Learning is a precursor to more technical and advanced textbooks. It was written to fill the need for a simple, intuitive textbook to introduce those just starting in the field to the concepts of machine learning.&lt;/p&gt;
-
-&lt;h3 id=&quot;an-introduction-to-statistical-learning&quot;&gt;AN INTRODUCTION TO STATISTICAL LEARNING&lt;/h3&gt;
-
-&lt;p&gt;Gareth James, Daniela Witten, Trevor Hastie and Robert Tibshirani&lt;/p&gt;
-
-&lt;p&gt;This book provides an introduction to statistical learning methods. It is aimed for upper level undergraduate students, masters students and Ph.D. students in the non-mathematical sciences. The book also contains a number of R labs with detailed explanations on how to implement the various methods in real life settings, and should be a valuable resource for a practicing data scientist.&lt;/p&gt;
-
-&lt;h3 id=&quot;deep-learning&quot;&gt;DEEP LEARNING&lt;/h3&gt;
-
-&lt;p&gt;Ian Goodfellow, Yoshua Bengio and Aaron Courville&lt;/p&gt;
-
-&lt;p&gt;Deep Learning is a textbook intended to help students and practitioners enter the field of machine learning in general and deep learning in particular.&lt;/p&gt;
-
-&lt;p&gt;It is divided into 3 parts — Part I: Applied Math and Machine Learning Basics, Part II: Modern Practical Deep Networks, Part III: Deep Learning Research&lt;/p&gt;
+        <title>Como instalar Java con apt-get en Ubuntu 16.04</title>
+        <description>
 </description>
-        <pubDate>Fri, 17 Jun 2016 02:43:59 -0600</pubDate>
-        <link>http://g3ortega.com//machine_learning/2016/06/17/5-libros-para-aprender-machine-learning-gratis.html</link>
-        <guid isPermaLink="true">http://g3ortega.com//machine_learning/2016/06/17/5-libros-para-aprender-machine-learning-gratis.html</guid>
+        <pubDate>Sun, 19 Jun 2016 02:43:59 -0600</pubDate>
+        <link>http://g3ortega.com//guides/2016/06/19/como-instalar-java-con-apt-get-en-ubuntu-16-04.html</link>
+        <guid isPermaLink="true">http://g3ortega.com//guides/2016/06/19/como-instalar-java-con-apt-get-en-ubuntu-16-04.html</guid>
         
         
-        <category>machine_learning</category>
-        
-      </item>
-    
-      <item>
-        <title>My Artificial Intelligence Digest - Free Learning Resources</title>
-        <description>&lt;h2 id=&quot;resources-to-learn-artificial-intelligence&quot;&gt;Resources to Learn Artificial Intelligence&lt;/h2&gt;
-
-&lt;p&gt;So, you’re looking for useful resources to start with AI and Machine Learning, if that’s the case I have compiled a list of resources to learn about this topics. And I will keep it updated.&lt;/p&gt;
-
-&lt;h2 id=&quot;artificial-intelligence-learning-resources&quot;&gt;Artificial Intelligence Learning Resources&lt;/h2&gt;
-
-&lt;h3 id=&quot;mit&quot;&gt;MIT&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/playlist?list=PLUl4u3cNGP63gFHB6xb-kVBiQHYe_4hSi&quot; target=&quot;_blank&quot;&gt;MIT 6.034 Artificial Intelligence, Fall 2010&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;uc-berkeley&quot;&gt;UC Berkeley&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://ai.berkeley.edu/lecture_videos.html&quot; target=&quot;_blank&quot;&gt;Class web page&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/channel/UCB4_W1V-KfwpTLxH9jG1_iA/videos&quot; target=&quot;_blank&quot;&gt;Video Lectures&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;machine-learning-learning-resources&quot;&gt;Machine Learning Learning Resources&lt;/h2&gt;
-
-&lt;h3 id=&quot;stanford&quot;&gt;Stanford&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/view_play_list?p=A89DCFA6ADACE599&quot; target=&quot;_blank&quot;&gt;Machine Learning Class&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://lagunita.stanford.edu/courses/HumanitiesSciences/StatLearning/Winter2016/about&quot; target=&quot;_blank&quot;&gt;Statistical Learning&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;udacity&quot;&gt;Udacity&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.udacity.com/course/intro-to-machine-learning--ud120&quot; target=&quot;_blank&quot;&gt;Intro to Machine Learning&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.udacity.com/course/machine-learning-for-trading--ud501&quot; target=&quot;_blank&quot;&gt;Machine Learning for Trading&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;university-of-washington&quot;&gt;University of Washington&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.coursera.org/learn/ml-foundations&quot; target=&quot;_blank&quot;&gt;Machine Learning Foundations: A Case Study Approach&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.coursera.org/course/machlearning&quot; target=&quot;_blank&quot;&gt;Machine Learning: Build Intelligent Applications&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;deep-learning&quot;&gt;Deep Learning&lt;/h2&gt;
-
-&lt;h3 id=&quot;google-deep-learning-class---udacity&quot;&gt;Google Deep Learning Class - Udacity&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.udacity.com/course/deep-learning--ud730&quot; target=&quot;_blank&quot;&gt;Deep Learning by Google&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;neural-networks&quot;&gt;Neural Networks&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.coursera.org/course/neuralnets&quot; target=&quot;_blank&quot;&gt;Neural Networks | University of Toronto&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;papers&quot;&gt;Papers&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.cs.cmu.edu/~tom/pubs/MachineLearning.pdf&quot; target=&quot;_blank&quot;&gt;The Discipline of Machine Learning | Tom M. Mitchell&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf&quot; target=&quot;_blank&quot;&gt;A Few Useful Things to Know about Machine Learning | Pedro Domingos&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;tooling-and-other-resources&quot;&gt;Tooling and other resources&lt;/h2&gt;
-
-&lt;h3 id=&quot;apache-spark&quot;&gt;Apache Spark&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.edx.org/xseries/data-science-engineering-apache-spark&quot; target=&quot;_blank&quot;&gt;Apache Spark Specialization&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;other-moocs-related&quot;&gt;Other MOOCs related&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.coursera.org/course/mmds&quot; target=&quot;_blank&quot;&gt;Mining Massive Datasets&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.coursera.org/learn/recommender-systems&quot; target=&quot;_blank&quot;&gt;Introduction to Recommender Systems&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Tue, 14 Jun 2016 02:43:59 -0600</pubDate>
-        <link>http://g3ortega.com//ai/2016/06/14/my-artificial-intelligence-digest.html</link>
-        <guid isPermaLink="true">http://g3ortega.com//ai/2016/06/14/my-artificial-intelligence-digest.html</guid>
-        
-        
-        <category>ai</category>
+        <category>guides</category>
         
       </item>
     
