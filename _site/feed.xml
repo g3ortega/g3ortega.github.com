@@ -5,20 +5,50 @@
     <description>Blog. I write about Technology, Trends, Programming, Data Science and personal opinions.</description>
     <link>http://g3ortega.com//</link>
     <atom:link href="http://g3ortega.com//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 15 Nov 2016 10:36:23 -0600</pubDate>
-    <lastBuildDate>Tue, 15 Nov 2016 10:36:23 -0600</lastBuildDate>
+    <pubDate>Tue, 15 Nov 2016 10:57:18 -0600</pubDate>
+    <lastBuildDate>Tue, 15 Nov 2016 10:57:18 -0600</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
-        <title>Como instalar Java con apt-get en Ubuntu 16.04</title>
-        <description>
+        <title>Machine Learning: de la práctica a producción [REVIEW]</title>
+        <description>&lt;h3 id=&quot;basura-entra-basura-sale&quot;&gt;Basura entra, basura sale&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;¿Tengo una fuente de datos confiable? ¿Dónde obtengo mis datos?
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&quot;transformando-los-datos-en-entradas&quot;&gt;Transformando los datos en entradas&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;¿Qué pasos de pre-procesamiento son requeribles? ¿Cómo normalizo mis datos antes de usar mis algoritmos?
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&quot;ahora-iniciamos&quot;&gt;Ahora, iniciamos?&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;¿Qué lenguaje o framework uso? Python, R, Java, C++? Caffe, Torch, Theano, TensorFlow, DL4J?
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&quot;entrenando-los-modelos&quot;&gt;Entrenando los modelos&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;¿Cómo puedo entrenar a mis modelos? ¿Debo comprar GPUs en efectivo o usar instancias de hardware personalizadas en la nube con EC2? ¿Puedo paralelizar el procesamiento para aumentar la velocidad?
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&quot;ningn-sistema-es-una-isla&quot;&gt;Ningún sistema es una isla&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;¿Necesito hace predicciones por lotes o en tiempo real? Modelos implícitos o interfaces? RPC o REST?
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&quot;supervisin-del-rendimiento&quot;&gt;Supervisión del rendimiento&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;¿Cómo puedo dar seguimiento a mis predicciones? ¿Cómo puedo registrar los resultados en una base de datos? 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&amp;lt;&lt;img src=&quot;/assets/machine_learning_desarrollo_a_produccion.png&quot; alt=&quot;Machine Learning de desarrollo a producción&quot; /&gt;&lt;/p&gt;
 </description>
-        <pubDate>Sun, 19 Jun 2016 02:43:59 -0600</pubDate>
-        <link>http://g3ortega.com//guides/2016/06/19/como-instalar-java-con-apt-get-en-ubuntu-16-04.html</link>
-        <guid isPermaLink="true">http://g3ortega.com//guides/2016/06/19/como-instalar-java-con-apt-get-en-ubuntu-16-04.html</guid>
+        <pubDate>Tue, 15 Nov 2016 02:43:59 -0600</pubDate>
+        <link>http://g3ortega.com//review/2016/11/15/machine-learning-de-la-practica-a-produccion-review.html</link>
+        <guid isPermaLink="true">http://g3ortega.com//review/2016/11/15/machine-learning-de-la-practica-a-produccion-review.html</guid>
         
         
-        <category>guides</category>
+        <category>review</category>
         
       </item>
     
