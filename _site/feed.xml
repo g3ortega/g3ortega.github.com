@@ -5,13 +5,15 @@
     <description>Blog. I write about Technology, Trends, Programming, Data Science and personal opinions.</description>
     <link>http://g3ortega.com//</link>
     <atom:link href="http://g3ortega.com//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 15 Nov 2016 11:02:13 -0600</pubDate>
-    <lastBuildDate>Tue, 15 Nov 2016 11:02:13 -0600</lastBuildDate>
+    <pubDate>Tue, 15 Nov 2016 11:10:55 -0600</pubDate>
+    <lastBuildDate>Tue, 15 Nov 2016 11:10:55 -0600</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
         <title>Machine Learning: de la práctica a producción [REVIEW]</title>
-        <description>&lt;h3 id=&quot;basura-entra-basura-sale&quot;&gt;Basura entra, basura sale&lt;/h3&gt;
+        <description>&lt;p&gt;Ramanan Balakrishnan escribió un excelente &lt;a href=&quot;https://engineering.semantics3.com/2016/11/13/machine-learning-practice-to-production/&quot;&gt;post&lt;/a&gt; explicando el proceso que conlleva el flujo de trabajo de trabajo para productos orientados a inteligencia Artificial, en particular hacia Aprendizaje Automatizado o Machine Learning, ahí se plantea algunas interrogantes que vale la pena retomar cuando decidimos emprender algún proyecto orientado a AI con miras a que dicho producto sea lanzado en entorno real de producción.&lt;/p&gt;
+
+&lt;h3 id=&quot;basura-entra-basura-sale&quot;&gt;Basura entra, basura sale&lt;/h3&gt;
 
 &lt;pre&gt;&lt;code&gt;¿Tengo una fuente de datos confiable? ¿Dónde obtengo mis datos?
 &lt;/code&gt;&lt;/pre&gt;
@@ -41,7 +43,9 @@
 &lt;pre&gt;&lt;code&gt;¿Cómo puedo dar seguimiento a mis predicciones? ¿Cómo puedo registrar los resultados en una base de datos? 
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&amp;lt;&lt;img src=&quot;/assets/machine_learning_desarrollo_a_produccion.png&quot; alt=&quot;Machine Learning de desarrollo a producción&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Acá la imagen que resume el proceso a seguir.&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/machine_learning_desarrollo_a_produccion.png&quot; alt=&quot;Machine Learning de desarrollo a producción&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 15 Nov 2016 02:43:59 -0600</pubDate>
         <link>http://g3ortega.com//review/2016/11/15/machine-learning-de-la-practica-a-produccion-review.html</link>
