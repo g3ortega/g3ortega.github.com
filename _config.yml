@@ -8,6 +8,19 @@ collections:
   uploads:
     title: Uploads
     output: true
+
+
+defaults:		
+  scope:		
+    path: ""		
+    type: "posts"		
+  values: 		
+    description:		
+    author: "Gerardo Ortega"		
+    cover:		
+    ref:		
+    lang: "es"
+    
 gems:
 - jekyll-archives
 - jekyll-sitemap
