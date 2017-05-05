@@ -1,12 +1,17 @@
 ---
-layout: post
 title: Wit.ai, el arma secreta de Facebook
-description: Introducción a Wit.ai de Facebook para crear Bots de Messenger y otras aplicaciones prácticas de NLP e inteligencia artificial.
-date:   2016-06-08 08:43:59
+date: 2016-06-08 08:43:59 Z
+categories:
+- ai
+tags:
+- facebook_bots,
+- AI,
+- NLP
+layout: post
+description: Introducción a Wit.ai de Facebook para crear Bots de Messenger y otras
+  aplicaciones prácticas de NLP e inteligencia artificial.
 author: Gerardo Ortega
-categories: ai
-tags: facebook_bots, AI, NLP
-cover:  "assets/facebook-ten-years-roadmap.jpeg"
+cover: assets/facebook-ten-years-roadmap.jpeg
 ref: witai_facebook
 lang: es
 ---

@@ -1,16 +1,15 @@
 ---
-layout: post
 title: My Artificial Intelligence Digest - Free Learning Resources
-description: >-
-  A collection of valuable and free resources to learn Artificial Intelligence
+date: 2016-06-14 08:43:59 Z
+categories:
+- ai
+layout: post
+description: A collection of valuable and free resources to learn Artificial Intelligence
   and Machine Learning
-date: 2016-06-14 08:43:59
 author: Gerardo Ortega
-categories: ai
 cover: assets/machine_learning.jpg
 ref: artificial_intelligence_resources
 lang: en
-published: true
 ---
 
 ## Resources to Learn Artificial Intelligence 

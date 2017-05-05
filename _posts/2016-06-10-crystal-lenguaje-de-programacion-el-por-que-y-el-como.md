@@ -1,11 +1,13 @@
 ---
-layout: post
 title: Crystal (Lenguaje de Programación), el porqué y el cómo
-description: "Crystal un lenguaje moderno, rápido y con una sintáxis elegante creado en Argentina."
-date: 2016-06-10 09:43:59
+date: 2016-06-10 09:43:59 Z
+categories:
+- programming_languages
+layout: post
+description: Crystal un lenguaje moderno, rápido y con una sintáxis elegante creado
+  en Argentina.
 author: Gerardo Ortega
-categories: programming_languages
-cover:  "assets/crystal-lenguaje-programacion-logo.png"
+cover: assets/crystal-lenguaje-programacion-logo.png
 ref: crystal_programming_language
 lang: es
 ---

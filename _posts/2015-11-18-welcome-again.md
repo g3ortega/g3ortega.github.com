@@ -1,12 +1,14 @@
 ---
+title: Welcome (Again)
+date: 2015-11-18 08:43:59 Z
+categories:
+- Self
+tags:
+- welcome
 layout: post
-title:  "Welcome (Again)"
-description: "Plans for 2016"
-date:   2015-11-18 08:43:59
+description: Plans for 2016
 author: Gerardo Ortega
-categories: Self
-tags:	 welcome
-cover:  "assets/phoenix.png"
+cover: assets/phoenix.png
 ref: hello_again
 lang: en
 ---

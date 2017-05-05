@@ -1,10 +1,11 @@
 ---
+title: 'Machine Learning: de la práctica a producción [REVIEW]'
+date: 2016-11-15 08:43:59 Z
+categories:
+- review
 layout: post
-title: "Machine Learning: de la práctica a producción [REVIEW]"
-date: 2016-11-15 08:43:59
 author: Gerardo Ortega
-categories: review
-cover:  "assets/machine_learning.jpg"
+cover: assets/machine_learning.jpg
 lang: es
 ---
 

@@ -1,7 +1,7 @@
 ---
-layout: page
 title: About
-permalink: /about/
+permalink: "/about/"
+layout: page
 ---
 
 I graduated in Software Engineering. For several years, I have developed web applications and lately doing some mobile using React Native.
