@@ -248,17 +248,21 @@
 </section>
 
 <article class="post-content">
-  <p>Just a week ago was announced the most recent version of Ruby on Rails, one of my favorite web frameworks, which I have used in many projects for over three years. There are plenty of amazing features and changes, but my favorite is the integration with Yarn, a great dependency management tool for javascript, which is fast, secure and reliable. I’m preparing a series of post to explain many of those new features and changes introduced in Rails 5.1. For now, In this post I’m going to address the new way to deal with Javascript, and of course I going to write a little about assets management in general. So let’s get started.</p>
+  <p>Just a week ago was announced the most recent version of Ruby on Rails, one of my favorite web frameworks, which I have used in many projects for over three years. There are plenty of amazing features and changes, but my favorite is the integration with Yarn, a great dependency management tool for javascript, which is fast, secure and reliable. I’m preparing a series of post to explain many of those new features and changes introduced in Rails 5.1.</p>
+
+<p>For now, In this post I’m going to address the new way to deal with Javascript, and of course I going to write a little about assets management in general. So let’s get started.</p>
 
 <h2 id="rails-51-the-proof-of-the-maturity-of-the-ecosystem">Rails 5.1, the proof of the maturity of the ecosystem</h2>
 
-<p>Rails 5.1 solves many of the “pending issues” of the recent years. About all, issues related to the assets management that since version 4.0 were handled by Sprockets, a gem that allowed us centralize all the process of grouping, use and compile all our assets using practical conventions. Although Sprockets did a fantastic job for most of developers, it raised some issues for others, about all when you needed to work with complex third party libraries in javascript, usually with many additional dependencies. For those cases, the maintenance of third party libraries was also a problem to such degree you usually needed to install extra gems that encapsulated all the process of integration and made easy the upgrade to newer versions of the libraries.</p>
+<p>Rails 5.1 solves many of the “pending issues” of the recent years. About all, issues related to the assets management that since version 4.0 were handled by Sprockets, a gem that allowed us centralize all the process of grouping, use and compile all our assets using practical conventions.</p>
 
-<p>On the other hand, many years ago a growing set of tools emerged from the javascript community to solve many of the problems the developers had to face every time they started a new javascript project, giving practical solutions to the question: How to handle packages and their dependencies in an fast and efficient manner? And that’s how many tools (like NPM, Bower, Grunt, etc.) came out. And sometimes the process of manage assets dependencies in Rails felt repetitive considering the remarkable advances in this area in the js ecosystem.</p>
+<p>Although Sprockets did a fantastic job for most of developers, it raised some issues for others, about all when you needed to work with complex third party libraries in javascript, usually with many additional dependencies. For those cases, the maintenance of third party libraries was also a problem to such degree you usually needed to install extra gems that encapsulated all the process of integration and made easy the upgrade to newer versions of the libraries.</p>
 
-<p>It was not a surprise that when Chris McCord released Phoenix Framework two years ago, and he decided to include Brunch as asset build tool, adopting NPM as package manager. But, the Rails community showing they willingness to adopt new ways to do things if needed decided with the release of Rails 5.1 to include Yarn as dependency management and optionally webpack to handle module bundles. That’s a big step in the right direction towards where the web development is heading.</p>
+<p>On the other hand, many years ago a growing set of tools emerged from the javascript community to solve many of the problems the developers had to face every time they started a new javascript project, giving practical solutions to the question: How to handle packages and their dependencies in a fast and efficient manner? And that’s how many tools (like NPM, Bower, Grunt, etc.) came out. And sometimes the process of manage assets dependencies in Rails felt repetitive considering the remarkable advances in the js ecosystem for this area.</p>
 
-<p>In this post we will cover how the integration with Yarn and optionally Webpack works, and some related changes.</p>
+<p>It was not a surprise that when Chris McCord released Phoenix Framework two years ago, and he decided to include Brunch as asset build tool, adopting NPM as package manager. But, the Rails community showing their willingness to adopt new ways to do things if needed, decided with the release of Rails 5.1 to include Yarn as package and dependency manager for JS assets and optionally Webpack to handle module bundles and compilation. That’s a big step in the right direction towards where the web development is heading.</p>
+
+<p>In this post we will cover how the integration with Yarn a works.</p>
 
 <h2 id="introducing-yarn">Introducing Yarn</h2>
 

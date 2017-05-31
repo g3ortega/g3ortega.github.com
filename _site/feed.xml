@@ -5,23 +5,27 @@
     <description>Blog. I write about Technology, Trends, Programming, Data Science and personal opinions.</description>
     <link>http://g3ortega.com//</link>
     <atom:link href="http://g3ortega.com//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 31 May 2017 18:55:00 +0000</pubDate>
-    <lastBuildDate>Wed, 31 May 2017 18:55:00 +0000</lastBuildDate>
+    <pubDate>Wed, 31 May 2017 19:24:17 +0000</pubDate>
+    <lastBuildDate>Wed, 31 May 2017 19:24:17 +0000</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
         <title>Rails 5.1 and forward - Part 1: Yarn on Rails</title>
-        <description>&lt;p&gt;Just a week ago was announced the most recent version of Ruby on Rails, one of my favorite web frameworks, which I have used in many projects for over three years. There are plenty of amazing features and changes, but my favorite is the integration with Yarn, a great dependency management tool for javascript, which is fast, secure and reliable. I’m preparing a series of post to explain many of those new features and changes introduced in Rails 5.1. For now, In this post I’m going to address the new way to deal with Javascript, and of course I going to write a little about assets management in general. So let’s get started.&lt;/p&gt;
+        <description>&lt;p&gt;Just a week ago was announced the most recent version of Ruby on Rails, one of my favorite web frameworks, which I have used in many projects for over three years. There are plenty of amazing features and changes, but my favorite is the integration with Yarn, a great dependency management tool for javascript, which is fast, secure and reliable. I’m preparing a series of post to explain many of those new features and changes introduced in Rails 5.1.&lt;/p&gt;
+
+&lt;p&gt;For now, In this post I’m going to address the new way to deal with Javascript, and of course I going to write a little about assets management in general. So let’s get started.&lt;/p&gt;
 
 &lt;h2 id=&quot;rails-51-the-proof-of-the-maturity-of-the-ecosystem&quot;&gt;Rails 5.1, the proof of the maturity of the ecosystem&lt;/h2&gt;
 
-&lt;p&gt;Rails 5.1 solves many of the “pending issues” of the recent years. About all, issues related to the assets management that since version 4.0 were handled by Sprockets, a gem that allowed us centralize all the process of grouping, use and compile all our assets using practical conventions. Although Sprockets did a fantastic job for most of developers, it raised some issues for others, about all when you needed to work with complex third party libraries in javascript, usually with many additional dependencies. For those cases, the maintenance of third party libraries was also a problem to such degree you usually needed to install extra gems that encapsulated all the process of integration and made easy the upgrade to newer versions of the libraries.&lt;/p&gt;
+&lt;p&gt;Rails 5.1 solves many of the “pending issues” of the recent years. About all, issues related to the assets management that since version 4.0 were handled by Sprockets, a gem that allowed us centralize all the process of grouping, use and compile all our assets using practical conventions.&lt;/p&gt;
 
-&lt;p&gt;On the other hand, many years ago a growing set of tools emerged from the javascript community to solve many of the problems the developers had to face every time they started a new javascript project, giving practical solutions to the question: How to handle packages and their dependencies in an fast and efficient manner? And that’s how many tools (like NPM, Bower, Grunt, etc.) came out. And sometimes the process of manage assets dependencies in Rails felt repetitive considering the remarkable advances in this area in the js ecosystem.&lt;/p&gt;
+&lt;p&gt;Although Sprockets did a fantastic job for most of developers, it raised some issues for others, about all when you needed to work with complex third party libraries in javascript, usually with many additional dependencies. For those cases, the maintenance of third party libraries was also a problem to such degree you usually needed to install extra gems that encapsulated all the process of integration and made easy the upgrade to newer versions of the libraries.&lt;/p&gt;
 
-&lt;p&gt;It was not a surprise that when Chris McCord released Phoenix Framework two years ago, and he decided to include Brunch as asset build tool, adopting NPM as package manager. But, the Rails community showing they willingness to adopt new ways to do things if needed decided with the release of Rails 5.1 to include Yarn as dependency management and optionally webpack to handle module bundles. That’s a big step in the right direction towards where the web development is heading.&lt;/p&gt;
+&lt;p&gt;On the other hand, many years ago a growing set of tools emerged from the javascript community to solve many of the problems the developers had to face every time they started a new javascript project, giving practical solutions to the question: How to handle packages and their dependencies in a fast and efficient manner? And that’s how many tools (like NPM, Bower, Grunt, etc.) came out. And sometimes the process of manage assets dependencies in Rails felt repetitive considering the remarkable advances in the js ecosystem for this area.&lt;/p&gt;
 
-&lt;p&gt;In this post we will cover how the integration with Yarn and optionally Webpack works, and some related changes.&lt;/p&gt;
+&lt;p&gt;It was not a surprise that when Chris McCord released Phoenix Framework two years ago, and he decided to include Brunch as asset build tool, adopting NPM as package manager. But, the Rails community showing their willingness to adopt new ways to do things if needed, decided with the release of Rails 5.1 to include Yarn as package and dependency manager for JS assets and optionally Webpack to handle module bundles and compilation. That’s a big step in the right direction towards where the web development is heading.&lt;/p&gt;
+
+&lt;p&gt;In this post we will cover how the integration with Yarn a works.&lt;/p&gt;
 
 &lt;h2 id=&quot;introducing-yarn&quot;&gt;Introducing Yarn&lt;/h2&gt;
 
