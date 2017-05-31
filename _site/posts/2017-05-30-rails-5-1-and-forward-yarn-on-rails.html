@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Begin Jekyll SEO tag v2.5.3 -->
+<title>Rails 5.1 and forward - Part 1: Yarn on Rails - Gerardo Ortega</title>
+<meta property="og:title" content="Rails 5.1 and forward - Part 1: Yarn on Rails" />
+<meta name="description" content="A collection of valuable and free resources to learn Artificial Intelligence and Machine Learning" />
+<meta property='og:description' content="A collection of valuable and free resources to learn Artificial Intelligence and Machine Learning" />
+<link rel="canonical" href="http://g3ortega.com//posts/2017-05-30-rails-5-1-and-forward-yarn-on-rails.html" />
+<meta property='og:url' content='http://g3ortega.com//posts/2017-05-30-rails-5-1-and-forward-yarn-on-rails.html' />
+<meta property="og:site_name" content="Gerardo Ortega" />
+<script type="application/ld+json">
+    {
+      "@context" : "http://schema.org",
+      "@type" : "WebSite",
+      "name" : "Gerardo Ortega",
+      "url" : "http://g3ortega.com/"
+    }
+  </script>
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2017-05-30T08:43:59+00:00" />
+<script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "NewsArticle",
+      "headline": "Rails 5.1 and forward - Part 1: Yarn on Rails",
+      "image": null,
+      "datePublished": "2017-05-30T08:43:59+00:00",
+      "description": "A collection of valuable and free resources to learn Artificial Intelligence and Machine Learning"
+    }
+  </script>
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@g3ortega" />
+<meta name="twitter:title" content="Rails 5.1 and forward - Part 1: Yarn on Rails - Gerardo Ortega" />
+<meta name="twitter:description" content="A collection of valuable and free resources to learn Artificial Intelligence and Machine Learning" />
+<meta name="twitter:creator" content="@Gerardo Ortega" />
+<script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Organization",
+      "url": "http://g3ortega.com/",
+      "logo": "http://g3ortega.com//assets/logo.png"
+    }
+  </script>
+<script type="application/ld+json">
+    {
+      "@context" : "http://schema.org",
+      "@type" : "person",
+      "name" : "Gerardo Ortega",
+      "url" : "http://g3ortega.com/",
+      "sameAs" : null
+    }
+  </script>
+<!-- End Jekyll SEO tag -->
+  
+  <!--<title>Rails 5.1 and forward - Part 1: Yarn on Rails</title>-->
+  <meta name="description" content="Blog. I write about Technology, Trends, Programming, Data Science and personal opinions.">
+  
+  <meta name="author" content="Gerardo Ortega">
+  <meta name="copyright" content="&copy; Gerardo Ortega 2017">
+  
+
+  
+  
+    <link rel="alternate" hreflang="en" href="/rails/2017/05/30/rails-5-1-and-forward-yarn-on-rails.html" />
+  
+    <link rel="alternate" hreflang="es" href="/review/2016/11/15/machine-learning-de-la-practica-a-produccion-review.html" />
+  
+  
+  
+    <link rel="alternate" hreflang="" href="/about/" />
+  
+    <link rel="alternate" hreflang="" href="/feed.xml" />
+  
+    <link rel="alternate" hreflang="" href="/index.html" />
+  
+    <link rel="alternate" hreflang="" href="/css/main.css" />
+  
+    <link rel="alternate" hreflang="" href="/posts/" />
+  
+    <link rel="alternate" hreflang="" href="/page2/index.html" />
+  
+
+
+  <!-- External libraries -->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.5/styles/monokai_sublime.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css">
+
+  <!-- Favicon and other icons (made with http://www.favicon-generator.org/) -->
+  <link rel="shortcut icon" href="/assets/icons/favicon.png" type="image/x-icon">
+	<link rel="icon" href="/assets/icons/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/icons/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/assets/icons/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/assets/icons/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/assets/icons/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/assets/icons/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/assets/icons/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/assets/icons/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/assets/icons/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/assets/icons/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
+	<link rel="manifest" href="/assets/icons/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/assets/icons/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<!-- Facebook OGP cards -->
+  <meta property="og:description" content="Blog. I write about Technology, Trends, Programming, Data Science and personal opinions." />
+  <meta property="og:url" content="http://g3ortega.com" />
+  <meta property="og:site_name" content="Gerardo Ortega" />
+  <meta property="og:title" content="Rails 5.1 and forward - Part 1: Yarn on Rails" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="http://g3ortega.com/assets/ruby-on-rails-5.1.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="612" />
+  <meta property="og:image:height" content="605" />
+
+  <!-- Twitter: card tags -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Rails 5.1 and forward - Part 1: Yarn on Rails">
+  <meta name="twitter:description" content="Blog. I write about Technology, Trends, Programming, Data Science and personal opinions.">
+  <meta name="twitter:image" content="http://g3ortega.com/assets/ruby-on-rails-5.1.png">
+  <meta name="twitter:url" content="http://g3ortega.com">
+
+  
+
+	<!-- Site styles -->
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://g3ortega.com//posts/2017-05-30-rails-5-1-and-forward-yarn-on-rails.html">
+  <link rel="alternate" type="application/rss+xml" title="Gerardo Ortega" href="http://g3ortega.com//feed.xml" />
+</head>
+
+
+  <body>
+
+    <header class="navigation" role="banner">
+  <div class="navigation-wrapper">
+    <a href="/" class="logo">
+    	
+      <img src="/assets/logo.png" alt="Gerardo Ortega">
+      
+    </a>
+    <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">
+    	<i class="fa fa-bars"></i>
+    </a>
+    <nav role="navigation">
+      <ul id="js-navigation-menu" class="navigation-menu show">
+      	
+          
+          <li class="nav-link"><a href="/about/">About</a> </li>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+          <li class="nav-link"><a href="/posts/">Posts</a> </li>
+          
+        
+          
+        
+          <li class="nav-link"><a href="http://blog.g3ortega.com" target="_blank">Old Blog</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+    <div class="page-content">
+        <div class="post">
+
+<div class="post-header-container has-cover" style="background-image: url(/assets/ruby-on-rails-5.1.png);">
+	<div class="scrim has-cover">
+		<header class="post-header">
+		  <h1 class="title">Rails 5.1 and forward - Part 1: Yarn on Rails</h1>
+		  <p class="info">by <strong>Gerardo Ortega</strong></p>
+		</header>
+	</div>
+</div>
+
+<div class="wrapper">
+
+
+
+<section class="post-meta">
+	<div class="post-date">May 30, 2017</div>
+	<div class="post-languages">
+		<ul class="lang-select">
+		
+		
+			<li>
+				<a href="/rails/2017/05/30/rails-5-1-and-forward-yarn-on-rails.html" class="en">en</a>
+			</li>
+		
+			<li>
+				<a href="/review/2016/11/15/machine-learning-de-la-practica-a-produccion-review.html" class="es">es</a>
+			</li>
+		
+
+		
+		
+			<li>
+				<a href="/about/" class=""></a>
+			</li>
+		
+			<li>
+				<a href="/feed.xml" class=""></a>
+			</li>
+		
+			<li>
+				<a href="/index.html" class=""></a>
+			</li>
+		
+			<li>
+				<a href="/css/main.css" class=""></a>
+			</li>
+		
+			<li>
+				<a href="/posts/" class=""></a>
+			</li>
+		
+			<li>
+				<a href="/page2/index.html" class=""></a>
+			</li>
+		
+		</ul>
+	</div>
+	<div class="post-categories">
+	in 
+	  
+		<a href="#">Rails</a>
+	  
+	
+	</div>
+
+</section>
+
+<article class="post-content">
+  <p>Just a week ago was announced the most recent version of Ruby on Rails, one of my favorite web frameworks, which I have used in many projects for over three years. There are plenty of amazing features and changes, but my favorite is the integration with Yarn, a great dependency management tool for javascript, which is fast, secure and reliable. I’m preparing a series of post to explain many of those new features and changes introduced in Rails 5.1. For now, In this post I’m going to address the new way to deal with Javascript, and of course I going to write a little about assets management in general. So let’s get started.</p>
+
+<h2 id="rails-51-the-proof-of-the-maturity-of-the-ecosystem">Rails 5.1, the proof of the maturity of the ecosystem</h2>
+
+<p>Rails 5.1 solves many of the “pending issues” of the recent years. About all, issues related to the assets management that since version 4.0 were handled by Sprockets, a gem that allowed us centralize all the process of grouping, use and compile all our assets using practical conventions. Although Sprockets did a fantastic job for most of developers, it raised some issues for others, about all when you needed to work with complex third party libraries in javascript, usually with many additional dependencies. For those cases, the maintenance of third party libraries was also a problem to such degree you usually needed to install extra gems that encapsulated all the process of integration and made easy the upgrade to newer versions of the libraries.</p>
+
+<p>On the other hand, many years ago a growing set of tools emerged from the javascript community to solve many of the problems the developers had to face every time they started a new javascript project, giving practical solutions to the question: How to handle packages and their dependencies in an fast and efficient manner? And that’s how many tools (like NPM, Bower, Grunt, etc.) came out. And sometimes the process of manage assets dependencies in Rails felt repetitive considering the remarkable advances in this area in the js ecosystem.</p>
+
+<p>It was not a surprise that when Chris McCord released Phoenix Framework two years ago, and he decided to include Brunch as asset build tool, adopting NPM as package manager. But, the Rails community showing they willingness to adopt new ways to do things if needed decided with the release of Rails 5.1 to include Yarn as dependency management and optionally webpack to handle module bundles. That’s a big step in the right direction towards where the web development is heading.</p>
+
+<p>In this post we will cover how the integration with Yarn and optionally Webpack works, and some related changes.</p>
+
+<h2 id="introducing-yarn">Introducing Yarn</h2>
+
+<p>Yarn is a package manager created by Facebook, and announced last year. According to Facebook, they were using NPM but as the size of their codebase and the number of engineers working on their projects grew, they ran into problems with consistency, security and performance.</p>
+
+<p>And the best of all is that Yarn development is supported by other companies like Google and Tilde.</p>
+
+<h3 id="intaling-yarn">Intaling Yarn</h3>
+
+<h4 id="macos">macOS</h4>
+
+<ul>
+  <li>Using Homebrew</li>
+</ul>
+
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">brew install yarn</code></pre></div>
+
+<ul>
+  <li>Using MacPorts</li>
+</ul>
+
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">sudo port install yarn</code></pre></div>
+
+<h4 id="windows">Windows</h4>
+
+<p>The easiest way is to use the installer, you can find it <a href="https://yarnpkg.com/latest.msi">here</a>.</p>
+
+<p>You can also use Chocolatey</p>
+
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">choco install yarn</code></pre></div>
+
+<p>And Scoop as well</p>
+
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">scoop install yarn</code></pre></div>
+
+<h4 id="ubuntu">Ubuntu</h4>
+
+<p>First you need to configure the repository</p>
+
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg <span class="p">|</span> sudo apt-key add -
+<span class="nb">echo</span> <span class="s2">&quot;deb https://dl.yarnpkg.com/debian/ stable main&quot;</span> <span class="p">|</span> sudo tee /etc/apt/sources.list.d/yarn.list</code></pre></div>
+
+<p>And finally simply:</p>
+
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">sudo apt-get update <span class="o">&amp;&amp;</span> sudo apt-get install yarn</code></pre></div>
+
+<p>To check all went well, just check the version of yarn installed:</p>
+
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">yarn --version</code></pre></div>
+
+<h3 id="using-yarn">Using yarn</h3>
+
+<p>Now, and previous to introduce Yarn applied to the RoR context, we are going to start using Yarn independently.</p>
+
+<p>So, let’s start a new project using Yarn:</p>
+
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">mkdir yarn_test
+<span class="nb">cd </span>yarn_test
+
+yarn init</code></pre></div>
+
+<p>Yarn goig to ask you for basic information about the project, like the name of the project, version, description, author, repo url, and so on.</p>
+
+<p>When the initialization have finished you will see a new file named package.json, which contains the data you provided before.</p>
+
+<p>And now we are going to proceed to add new dependencies. You have different ways to add a dependency: just using its name, or specifying its version or tag. In this case I’m just going to add a react.js package without specify the version, to get the latest.</p>
+
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">yarn add react</code></pre></div>
+
+<p>And that’s it. If you check the package.js file you will find the latest version of reactjs.</p>
+
+<p>Optionally you can different categories of dependencies, and upgrade them or remove them. To install all dependencies of a project you just need to execute</p>
+
+<p><code>
+yarn
+</code>
+or</p>
+
+<p><code>
+yarn install
+</code></p>
+
+<p>You can check all the tree of depencies in a new file that is created after you install the first package, called yarn.lock</p>
+
+<p>And, since I do not want to leave this example incomplete, let’s create a react hello world app, the easy way.</p>
+
+<p>First of all lets install the package create-react-app, but globally to use it from the terminal.</p>
+
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">yarn global add create-react-app</code></pre></div>
+
+<p>And now, we can check create-react-app is working asking for his version:</p>
+
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">create-react-app --version</code></pre></div>
+
+<p>If everything is Ok, let’s proceed to create our first react.js application:</p>
+
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">create-react-app hello-world</code></pre></div>
+
+<p>Then, you are going to see an output similar to the following:</p>
+
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">Success! Created hello_world at /Users/gerardo/opensource/yarntest/hello_world
+Inside that directory, you can run several commands:
+
+  yarn start
+    Starts the development server.
+
+  yarn run build
+    Bundles the app into static files <span class="k">for</span> production.
+
+  yarn <span class="nb">test</span>
+<span class="nb">    </span>Starts the <span class="nb">test </span>runner.
+
+  yarn run eject
+    Removes this tool and copies build dependencies, configuration files
+    and scripts into the app directory. If you <span class="k">do</span> this, you can’t go back!
+
+We suggest that you begin by typing:
+
+  <span class="nb">cd </span>hello_world
+  yarn start
+
+Happy hacking!</code></pre></div>
+
+<p>Amazing! So, let’s try our recently created app:</p>
+
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">cd </span>hello_world
+yarn start 
+
+/////
+Compiled successfully!
+
+The app is running at:
+
+  http://localhost:3000/
+
+Note that the development build is not optimized.
+To create a production build, use yarn run build.</code></pre></div>
+
+<p>So, if you go to http://localhost:3000/ you will see your app up and running.</p>
+
+<p>Now, let’s take a look of the files generated:</p>
+
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">ls -l
+
+-rw-r--r--    <span class="m">1</span> gerardo  staff   <span class="m">80668</span> May <span class="m">31</span> 10:10 README.md
+drwxr-xr-x  <span class="m">774</span> gerardo  staff   <span class="m">26316</span> May <span class="m">31</span> 10:18 node_modules
+-rw-r--r--    <span class="m">1</span> gerardo  staff     <span class="m">374</span> May <span class="m">31</span> 10:10 package.json
+drwxr-xr-x    <span class="m">4</span> gerardo  staff     <span class="m">136</span> May <span class="m">31</span> 10:10 public
+drwxr-xr-x    <span class="m">8</span> gerardo  staff     <span class="m">272</span> May <span class="m">31</span> 10:10 src
+-rw-r--r--    <span class="m">1</span> gerardo  staff  <span class="m">188529</span> May <span class="m">31</span> 10:10 yarn.lock
+
+cat package.json
+
+<span class="o">{</span>
+  <span class="s2">&quot;name&quot;</span>: <span class="s2">&quot;hello_world&quot;</span>,
+  <span class="s2">&quot;version&quot;</span>: <span class="s2">&quot;0.1.0&quot;</span>,
+  <span class="s2">&quot;private&quot;</span>: <span class="nb">true</span>,
+  <span class="s2">&quot;dependencies&quot;</span>: <span class="o">{</span>
+    <span class="s2">&quot;react&quot;</span>: <span class="s2">&quot;^15.5.4&quot;</span>,
+    <span class="s2">&quot;react-dom&quot;</span>: <span class="s2">&quot;^15.5.4&quot;</span>
+  <span class="o">}</span>,
+  <span class="s2">&quot;devDependencies&quot;</span>: <span class="o">{</span>
+    <span class="s2">&quot;react-scripts&quot;</span>: <span class="s2">&quot;0.9.x&quot;</span>
+  <span class="o">}</span>,
+  <span class="s2">&quot;scripts&quot;</span>: <span class="o">{</span>
+    <span class="s2">&quot;start&quot;</span>: <span class="s2">&quot;react-scripts start&quot;</span>,
+    <span class="s2">&quot;build&quot;</span>: <span class="s2">&quot;react-scripts build&quot;</span>,
+    <span class="s2">&quot;test&quot;</span>: <span class="s2">&quot;react-scripts test --env=jsdom&quot;</span>,
+    <span class="s2">&quot;eject&quot;</span>: <span class="s2">&quot;react-scripts eject&quot;</span>
+  <span class="o">}</span>
+<span class="o">}</span></code></pre></div>
+
+<p>If you have tried previouly other package and dependency managers before, you will appreciate how clean and easy was to get to this point. I will not go deeper into reactjs, maybe in a future post I’m going to address that, but that was a taste of Yarn, and I’m really glad they decided to integrate it into the Rails workflow, you can see the details in this <a href="https://github.com/rails/rails/pull/26836">pull request</a>.</p>
+
+<h3 id="yarn-on-rails">Yarn on Rails</h3>
+
+<p>Now let’s try to use Yarn inside a new Rails 5.1 application.</p>
+
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">rails new yarn_test
+
+<span class="nb">cd </span>yarn_test</code></pre></div>
+
+<p>In addition to the normal files you see when a new rails project is generated, you will find a package.json file, and if you take a look to the assets initializer file, you will find  the following line:</p>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="c1"># Add additional assets to the asset load path.</span>
+<span class="c1"># Rails.application.config.assets.paths &lt;&lt; Emoji.images_path</span>
+<span class="c1"># Add Yarn node_modules folder to the asset load path.</span>
+<span class="no">Rails</span><span class="o">.</span><span class="n">application</span><span class="o">.</span><span class="n">config</span><span class="o">.</span><span class="n">assets</span><span class="o">.</span><span class="n">paths</span> <span class="o">&lt;&lt;</span> <span class="no">Rails</span><span class="o">.</span><span class="n">root</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="s1">&#39;node_modules&#39;</span><span class="p">)</span></code></pre></div>
+
+<p>So, Rails automatically includes the directory node_modules to the assets pipeline, you just need to reference the new package you want to add, for example, let’s say we want to use the moment.js library. We need first of all install the library using Yarn:</p>
+
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">yarn install moment</code></pre></div>
+
+<p>We can see that package.json was updated</p>
+
+<div class="highlight"><pre><code class="language-json" data-lang="json"><span class="p">{</span>
+  <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;yarn_test&quot;</span><span class="p">,</span>
+  <span class="nt">&quot;private&quot;</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+  <span class="nt">&quot;dependencies&quot;</span><span class="p">:</span> <span class="p">{</span>
+    <span class="nt">&quot;moment&quot;</span><span class="p">:</span> <span class="s2">&quot;^2.18.1&quot;</span>
+  <span class="p">}</span>
+<span class="p">}</span></code></pre></div>
+
+<p>And finally we need to include the new package to application.js:</p>
+
+<div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="c1">//= require moment/moment</span></code></pre></div>
+
+<p>That’s all for this first part, in the second part of this series I going to address Webpack and how to use it to compile and manage javascript bundles.</p>
+
+</article>
+
+
+
+
+
+<section class="rss">
+	<p class="rss-subscribe text"><strong>Subscribe <a href="/feed.xml">via RSS</a></strong></p>
+</section>
+
+<section class="share">
+  <span>Share: </span>
+  
+  	
+  		<a href="//twitter.com/share?text=Rails+5.1+and+forward+-+Part+1%3A+Yarn+on+Rails&url=http://g3ortega.com/.html&via=g3ortega"
+  			onclick="window.open(this.href, 'twitter-share', 'width=550,height=255');return false;">
+  			<i class="fa fa-twitter-square fa-lg"></i>
+  		</a>
+  	
+  	
+  	
+  	
+  	
+  
+  	
+  	
+  		<a href="//www.facebook.com/sharer.php?t=Rails+5.1+and+forward+-+Part+1%3A+Yarn+on+Rails&u=http://g3ortega.com/.html"
+  			onclick="window.open(this.href, 'facebook-share', 'width=550,height=255');return false;">
+  			<i class="fa fa-facebook-square fa-lg"></i>
+  		</a>
+  	
+  	
+  	
+  	
+  
+  	
+  	
+  	
+  	
+  	
+  
+  	
+  	
+  	
+  	
+  		<a href="//www.linkedin.com/shareArticle?mini=true&url=http://g3ortega.com/.html"
+  			onclick="window.open(this.href, 'linkedin-share', 'width=550,height=255');return false;">
+  			<i class="fa fa-linkedin-square fa-lg"></i>
+  		</a>
+  	
+  	
+  
+  	
+  	
+  	
+  		<a href="//plus.google.com/share?title=Rails+5.1+and+forward+-+Part+1%3A+Yarn+on+Rails&url=http://g3ortega.com/.html"
+  			onclick="window.open(this.href, 'google-plus-share', 'width=550,height=255');return false;">
+  			<i class="fa fa-google-plus-square fa-lg"></i>
+  		</a>
+  	
+  	
+  	
+  
+  	
+  	
+  	
+  	
+  	
+  
+</section>
+
+
+
+<section class="disqus">
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+    var disqus_shortname = 'g3ortega';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</section>
+
+
+
+</div>
+</div>
+
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h3 class="footer-heading">Gerardo Ortega</h3>
+
+    <div class="site-navigation">
+    	
+    	<p><strong>Site Map</strong></p>
+      <ul class="pages">
+        
+        
+          <li class="nav-link"><a href="/about/">About</a>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+          <li class="nav-link"><a href="/posts/">Posts</a>
+        
+        
+        
+        
+      </ul>
+    </div>
+
+    <div class="site-contact">
+
+    	<p><strong>Contact</strong></p>
+      <ul class="social-media-list">
+      	<li>
+      		<a href="mailto:g3ortega@gmail.com">
+	      		<i class="fa fa-envelope-o"></i>
+	      		<span class="username">g3ortega@gmail.com</span>
+      		</a>
+      	</li>
+
+      	
+	      	
+	      	<li>
+	          <a href="https://twitter.com/g3ortega" title="Follow me on Twitter">
+	            <i class="fa fa-twitter"></i>
+	            <span class="username">g3ortega</span>
+	          </a>
+	        </li>
+	      	
+      	
+	      	
+      	
+	      	
+	      	<li>
+	          <a href="https://github.com/g3ortega" title="Fork me on GitHub">
+	            <i class="fa fa-github"></i>
+	            <span class="username">g3ortega</span>
+	          </a>
+	        </li>
+	      	
+      	
+	      	
+	      	<li>
+	          <a href="https://www.linkedin.com/in/g3ortega" title="Connect with me on LinkedIn">
+	            <i class="fa fa-linkedin"></i>
+	            <span class="username">Gerardo Ortega</span>
+	          </a>
+	        </li>
+	      	
+      	
+	      	
+      	
+	      	
+      	
+
+      </ul>
+    </div>
+
+    <div class="site-signature">
+    	<p class="rss-subscribe text"><strong>Subscribe <a href="/feed.xml">via RSS</a></strong></p>
+      <p class="text">Blog. I write about Technology, Trends, Programming, Data Science and personal opinions.</p>
+    </div>
+
+  </div>
+
+</footer>
+
+<!-- Scripts -->
+<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.5/highlight.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js"></script>
+<script>
+
+$(document).ready(function() {
+
+	// Syntax highlighting
+	hljs.initHighlightingOnLoad();
+
+	// Header
+  var menuToggle = $('#js-mobile-menu').unbind();
+  $('#js-navigation-menu').removeClass("show");
+  menuToggle.on('click', function(e) {
+    e.preventDefault();
+    $('#js-navigation-menu').slideToggle(function(){
+      if($('#js-navigation-menu').is(':hidden')) {
+        $('#js-navigation-menu').removeAttr('style');
+      }
+    });
+  });
+
+
+});
+
+</script>
+
+
+<!-- Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-39169311-1', 'auto');
+  ga('send', 'pageview', {
+  	'page': '/posts/2017-05-30-rails-5-1-and-forward-yarn-on-rails.html',
+  	'title': 'Rails 5.1 and forward - Part 1: Yarn on Rails'
+  });
+</script>
+
+<!-- Add this -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-574476b20d797c1b"></script>
+
+
+  </body>
+
+</html>

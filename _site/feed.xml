@@ -5,9 +5,240 @@
     <description>Blog. I write about Technology, Trends, Programming, Data Science and personal opinions.</description>
     <link>http://g3ortega.com//</link>
     <atom:link href="http://g3ortega.com//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 15 Nov 2016 11:10:55 -0600</pubDate>
-    <lastBuildDate>Tue, 15 Nov 2016 11:10:55 -0600</lastBuildDate>
+    <pubDate>Wed, 31 May 2017 18:55:00 +0000</pubDate>
+    <lastBuildDate>Wed, 31 May 2017 18:55:00 +0000</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Rails 5.1 and forward - Part 1: Yarn on Rails</title>
+        <description>&lt;p&gt;Just a week ago was announced the most recent version of Ruby on Rails, one of my favorite web frameworks, which I have used in many projects for over three years. There are plenty of amazing features and changes, but my favorite is the integration with Yarn, a great dependency management tool for javascript, which is fast, secure and reliable. I’m preparing a series of post to explain many of those new features and changes introduced in Rails 5.1. For now, In this post I’m going to address the new way to deal with Javascript, and of course I going to write a little about assets management in general. So let’s get started.&lt;/p&gt;
+
+&lt;h2 id=&quot;rails-51-the-proof-of-the-maturity-of-the-ecosystem&quot;&gt;Rails 5.1, the proof of the maturity of the ecosystem&lt;/h2&gt;
+
+&lt;p&gt;Rails 5.1 solves many of the “pending issues” of the recent years. About all, issues related to the assets management that since version 4.0 were handled by Sprockets, a gem that allowed us centralize all the process of grouping, use and compile all our assets using practical conventions. Although Sprockets did a fantastic job for most of developers, it raised some issues for others, about all when you needed to work with complex third party libraries in javascript, usually with many additional dependencies. For those cases, the maintenance of third party libraries was also a problem to such degree you usually needed to install extra gems that encapsulated all the process of integration and made easy the upgrade to newer versions of the libraries.&lt;/p&gt;
+
+&lt;p&gt;On the other hand, many years ago a growing set of tools emerged from the javascript community to solve many of the problems the developers had to face every time they started a new javascript project, giving practical solutions to the question: How to handle packages and their dependencies in an fast and efficient manner? And that’s how many tools (like NPM, Bower, Grunt, etc.) came out. And sometimes the process of manage assets dependencies in Rails felt repetitive considering the remarkable advances in this area in the js ecosystem.&lt;/p&gt;
+
+&lt;p&gt;It was not a surprise that when Chris McCord released Phoenix Framework two years ago, and he decided to include Brunch as asset build tool, adopting NPM as package manager. But, the Rails community showing they willingness to adopt new ways to do things if needed decided with the release of Rails 5.1 to include Yarn as dependency management and optionally webpack to handle module bundles. That’s a big step in the right direction towards where the web development is heading.&lt;/p&gt;
+
+&lt;p&gt;In this post we will cover how the integration with Yarn and optionally Webpack works, and some related changes.&lt;/p&gt;
+
+&lt;h2 id=&quot;introducing-yarn&quot;&gt;Introducing Yarn&lt;/h2&gt;
+
+&lt;p&gt;Yarn is a package manager created by Facebook, and announced last year. According to Facebook, they were using NPM but as the size of their codebase and the number of engineers working on their projects grew, they ran into problems with consistency, security and performance.&lt;/p&gt;
+
+&lt;p&gt;And the best of all is that Yarn development is supported by other companies like Google and Tilde.&lt;/p&gt;
+
+&lt;h3 id=&quot;intaling-yarn&quot;&gt;Intaling Yarn&lt;/h3&gt;
+
+&lt;h4 id=&quot;macos&quot;&gt;macOS&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Using Homebrew&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;brew install yarn&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Using MacPorts&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;sudo port install yarn&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;windows&quot;&gt;Windows&lt;/h4&gt;
+
+&lt;p&gt;The easiest way is to use the installer, you can find it &lt;a href=&quot;https://yarnpkg.com/latest.msi&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;You can also use Chocolatey&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;choco install yarn&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;And Scoop as well&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;scoop install yarn&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;ubuntu&quot;&gt;Ubuntu&lt;/h4&gt;
+
+&lt;p&gt;First you need to configure the repository&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg &lt;span class=&quot;p&quot;&gt;|&lt;/span&gt; sudo apt-key add -
+&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;deb https://dl.yarnpkg.com/debian/ stable main&amp;quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;|&lt;/span&gt; sudo tee /etc/apt/sources.list.d/yarn.list&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;And finally simply:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;sudo apt-get update &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; sudo apt-get install yarn&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;To check all went well, just check the version of yarn installed:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;yarn --version&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;using-yarn&quot;&gt;Using yarn&lt;/h3&gt;
+
+&lt;p&gt;Now, and previous to introduce Yarn applied to the RoR context, we are going to start using Yarn independently.&lt;/p&gt;
+
+&lt;p&gt;So, let’s start a new project using Yarn:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;mkdir yarn_test
+&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;yarn_test
+
+yarn init&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Yarn goig to ask you for basic information about the project, like the name of the project, version, description, author, repo url, and so on.&lt;/p&gt;
+
+&lt;p&gt;When the initialization have finished you will see a new file named package.json, which contains the data you provided before.&lt;/p&gt;
+
+&lt;p&gt;And now we are going to proceed to add new dependencies. You have different ways to add a dependency: just using its name, or specifying its version or tag. In this case I’m just going to add a react.js package without specify the version, to get the latest.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;yarn add react&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;And that’s it. If you check the package.js file you will find the latest version of reactjs.&lt;/p&gt;
+
+&lt;p&gt;Optionally you can different categories of dependencies, and upgrade them or remove them. To install all dependencies of a project you just need to execute&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+yarn
+&lt;/code&gt;
+or&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+yarn install
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;You can check all the tree of depencies in a new file that is created after you install the first package, called yarn.lock&lt;/p&gt;
+
+&lt;p&gt;And, since I do not want to leave this example incomplete, let’s create a react hello world app, the easy way.&lt;/p&gt;
+
+&lt;p&gt;First of all lets install the package create-react-app, but globally to use it from the terminal.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;yarn global add create-react-app&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;And now, we can check create-react-app is working asking for his version:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;create-react-app --version&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;If everything is Ok, let’s proceed to create our first react.js application:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;create-react-app hello-world&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Then, you are going to see an output similar to the following:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;Success! Created hello_world at /Users/gerardo/opensource/yarntest/hello_world
+Inside that directory, you can run several commands:
+
+  yarn start
+    Starts the development server.
+
+  yarn run build
+    Bundles the app into static files &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; production.
+
+  yarn &lt;span class=&quot;nb&quot;&gt;test&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;    &lt;/span&gt;Starts the &lt;span class=&quot;nb&quot;&gt;test &lt;/span&gt;runner.
+
+  yarn run eject
+    Removes this tool and copies build dependencies, configuration files
+    and scripts into the app directory. If you &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; this, you can’t go back!
+
+We suggest that you begin by typing:
+
+  &lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;hello_world
+  yarn start
+
+Happy hacking!&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Amazing! So, let’s try our recently created app:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;hello_world
+yarn start 
+
+/////
+Compiled successfully!
+
+The app is running at:
+
+  http://localhost:3000/
+
+Note that the development build is not optimized.
+To create a production build, use yarn run build.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;So, if you go to http://localhost:3000/ you will see your app up and running.&lt;/p&gt;
+
+&lt;p&gt;Now, let’s take a look of the files generated:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;ls -l
+
+-rw-r--r--    &lt;span class=&quot;m&quot;&gt;1&lt;/span&gt; gerardo  staff   &lt;span class=&quot;m&quot;&gt;80668&lt;/span&gt; May &lt;span class=&quot;m&quot;&gt;31&lt;/span&gt; 10:10 README.md
+drwxr-xr-x  &lt;span class=&quot;m&quot;&gt;774&lt;/span&gt; gerardo  staff   &lt;span class=&quot;m&quot;&gt;26316&lt;/span&gt; May &lt;span class=&quot;m&quot;&gt;31&lt;/span&gt; 10:18 node_modules
+-rw-r--r--    &lt;span class=&quot;m&quot;&gt;1&lt;/span&gt; gerardo  staff     &lt;span class=&quot;m&quot;&gt;374&lt;/span&gt; May &lt;span class=&quot;m&quot;&gt;31&lt;/span&gt; 10:10 package.json
+drwxr-xr-x    &lt;span class=&quot;m&quot;&gt;4&lt;/span&gt; gerardo  staff     &lt;span class=&quot;m&quot;&gt;136&lt;/span&gt; May &lt;span class=&quot;m&quot;&gt;31&lt;/span&gt; 10:10 public
+drwxr-xr-x    &lt;span class=&quot;m&quot;&gt;8&lt;/span&gt; gerardo  staff     &lt;span class=&quot;m&quot;&gt;272&lt;/span&gt; May &lt;span class=&quot;m&quot;&gt;31&lt;/span&gt; 10:10 src
+-rw-r--r--    &lt;span class=&quot;m&quot;&gt;1&lt;/span&gt; gerardo  staff  &lt;span class=&quot;m&quot;&gt;188529&lt;/span&gt; May &lt;span class=&quot;m&quot;&gt;31&lt;/span&gt; 10:10 yarn.lock
+
+cat package.json
+
+&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;s2&quot;&gt;&amp;quot;name&amp;quot;&lt;/span&gt;: &lt;span class=&quot;s2&quot;&gt;&amp;quot;hello_world&amp;quot;&lt;/span&gt;,
+  &lt;span class=&quot;s2&quot;&gt;&amp;quot;version&amp;quot;&lt;/span&gt;: &lt;span class=&quot;s2&quot;&gt;&amp;quot;0.1.0&amp;quot;&lt;/span&gt;,
+  &lt;span class=&quot;s2&quot;&gt;&amp;quot;private&amp;quot;&lt;/span&gt;: &lt;span class=&quot;nb&quot;&gt;true&lt;/span&gt;,
+  &lt;span class=&quot;s2&quot;&gt;&amp;quot;dependencies&amp;quot;&lt;/span&gt;: &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;s2&quot;&gt;&amp;quot;react&amp;quot;&lt;/span&gt;: &lt;span class=&quot;s2&quot;&gt;&amp;quot;^15.5.4&amp;quot;&lt;/span&gt;,
+    &lt;span class=&quot;s2&quot;&gt;&amp;quot;react-dom&amp;quot;&lt;/span&gt;: &lt;span class=&quot;s2&quot;&gt;&amp;quot;^15.5.4&amp;quot;&lt;/span&gt;
+  &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;,
+  &lt;span class=&quot;s2&quot;&gt;&amp;quot;devDependencies&amp;quot;&lt;/span&gt;: &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;s2&quot;&gt;&amp;quot;react-scripts&amp;quot;&lt;/span&gt;: &lt;span class=&quot;s2&quot;&gt;&amp;quot;0.9.x&amp;quot;&lt;/span&gt;
+  &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;,
+  &lt;span class=&quot;s2&quot;&gt;&amp;quot;scripts&amp;quot;&lt;/span&gt;: &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;s2&quot;&gt;&amp;quot;start&amp;quot;&lt;/span&gt;: &lt;span class=&quot;s2&quot;&gt;&amp;quot;react-scripts start&amp;quot;&lt;/span&gt;,
+    &lt;span class=&quot;s2&quot;&gt;&amp;quot;build&amp;quot;&lt;/span&gt;: &lt;span class=&quot;s2&quot;&gt;&amp;quot;react-scripts build&amp;quot;&lt;/span&gt;,
+    &lt;span class=&quot;s2&quot;&gt;&amp;quot;test&amp;quot;&lt;/span&gt;: &lt;span class=&quot;s2&quot;&gt;&amp;quot;react-scripts test --env=jsdom&amp;quot;&lt;/span&gt;,
+    &lt;span class=&quot;s2&quot;&gt;&amp;quot;eject&amp;quot;&lt;/span&gt;: &lt;span class=&quot;s2&quot;&gt;&amp;quot;react-scripts eject&amp;quot;&lt;/span&gt;
+  &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;If you have tried previouly other package and dependency managers before, you will appreciate how clean and easy was to get to this point. I will not go deeper into reactjs, maybe in a future post I’m going to address that, but that was a taste of Yarn, and I’m really glad they decided to integrate it into the Rails workflow, you can see the details in this &lt;a href=&quot;https://github.com/rails/rails/pull/26836&quot;&gt;pull request&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;yarn-on-rails&quot;&gt;Yarn on Rails&lt;/h3&gt;
+
+&lt;p&gt;Now let’s try to use Yarn inside a new Rails 5.1 application.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;rails new yarn_test
+
+&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;yarn_test&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;In addition to the normal files you see when a new rails project is generated, you will find a package.json file, and if you take a look to the assets initializer file, you will find  the following line:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;c1&quot;&gt;# Add additional assets to the asset load path.&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# Rails.application.config.assets.paths &amp;lt;&amp;lt; Emoji.images_path&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# Add Yarn node_modules folder to the asset load path.&lt;/span&gt;
+&lt;span class=&quot;no&quot;&gt;Rails&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;application&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;assets&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;paths&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Rails&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;root&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;join&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;node_modules&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;So, Rails automatically includes the directory node_modules to the assets pipeline, you just need to reference the new package you want to add, for example, let’s say we want to use the moment.js library. We need first of all install the library using Yarn:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;yarn install moment&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;We can see that package.json was updated&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-json&quot; data-lang=&quot;json&quot;&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;quot;name&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;yarn_test&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;quot;private&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;quot;dependencies&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;quot;moment&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;^2.18.1&amp;quot;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;And finally we need to include the new package to application.js:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;c1&quot;&gt;//= require moment/moment&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;That’s all for this first part, in the second part of this series I going to address Webpack and how to use it to compile and manage javascript bundles.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 30 May 2017 08:43:59 +0000</pubDate>
+        <link>http://g3ortega.com//rails/2017/05/30/rails-5-1-and-forward-yarn-on-rails.html</link>
+        <guid isPermaLink="true">http://g3ortega.com//rails/2017/05/30/rails-5-1-and-forward-yarn-on-rails.html</guid>
+        
+        
+        <category>rails</category>
+        
+      </item>
     
       <item>
         <title>Machine Learning: de la práctica a producción [REVIEW]</title>
@@ -47,7 +278,7 @@
 
 &lt;p&gt;&lt;img src=&quot;/assets/machine_learning_desarrollo_a_produccion.png&quot; alt=&quot;Machine Learning de desarrollo a producción&quot; /&gt;&lt;/p&gt;
 </description>
-        <pubDate>Tue, 15 Nov 2016 02:43:59 -0600</pubDate>
+        <pubDate>Tue, 15 Nov 2016 08:43:59 +0000</pubDate>
         <link>http://g3ortega.com//review/2016/11/15/machine-learning-de-la-practica-a-produccion-review.html</link>
         <guid isPermaLink="true">http://g3ortega.com//review/2016/11/15/machine-learning-de-la-practica-a-produccion-review.html</guid>
         
@@ -125,7 +356,7 @@
 
 &lt;p&gt;&lt;a href=&quot;https://www.coursera.org/learn/recommender-systems&quot; target=&quot;_blank&quot;&gt;Introduction to Recommender Systems&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Tue, 14 Jun 2016 02:43:59 -0600</pubDate>
+        <pubDate>Tue, 14 Jun 2016 08:43:59 +0000</pubDate>
         <link>http://g3ortega.com//ai/2016/06/14/my-artificial-intelligence-digest.html</link>
         <guid isPermaLink="true">http://g3ortega.com//ai/2016/06/14/my-artificial-intelligence-digest.html</guid>
         
@@ -199,7 +430,7 @@
 &lt;p&gt;Por eso tengo mis apuestas en Crystal, un lenguaje todavía en pañales, pero con mucho potencial de crecimiento, tiene todo lo necesario para eso. Ruby no fue todo el tiempo popular, sino hasta después de Rails, lo mismo puede pasar con cualquier lenguaje de programación. La clave está en la comunidad en torno al lenguaje, quienes se encargan de hacer que las cosas sucedan. De mi parte pienso contribuir en el área que me apasiona.&lt;/p&gt;
 
 </description>
-        <pubDate>Fri, 10 Jun 2016 03:43:59 -0600</pubDate>
+        <pubDate>Fri, 10 Jun 2016 09:43:59 +0000</pubDate>
         <link>http://g3ortega.com//programming_languages/2016/06/10/crystal-lenguaje-de-programacion-el-por-que-y-el-como.html</link>
         <guid isPermaLink="true">http://g3ortega.com//programming_languages/2016/06/10/crystal-lenguaje-de-programacion-el-por-que-y-el-como.html</guid>
         
@@ -246,7 +477,7 @@
 
 &lt;p&gt;Con el tiempo iré añadiendo más recursos a éste post, por ahora me parece un buen inicio con los recursos que he publicado.&lt;/p&gt;
 </description>
-        <pubDate>Fri, 10 Jun 2016 02:43:59 -0600</pubDate>
+        <pubDate>Fri, 10 Jun 2016 08:43:59 +0000</pubDate>
         <link>http://g3ortega.com//machine_learning/2016/06/10/que-es-machine-learning-y-porque-este-es-el-mejor-tiempo-para-comenzar-a-aprender-del-tema.html</link>
         <guid isPermaLink="true">http://g3ortega.com//machine_learning/2016/06/10/que-es-machine-learning-y-porque-este-es-el-mejor-tiempo-para-comenzar-a-aprender-del-tema.html</guid>
         
@@ -287,7 +518,7 @@
 
 &lt;p&gt;Ésto ha sido solo una probadita, la próxima semana estaré publicando un tutorial y un ejemplo de creación de un bot para Facebook Messenger usando Wit.ai.&lt;/p&gt;
 </description>
-        <pubDate>Wed, 08 Jun 2016 02:43:59 -0600</pubDate>
+        <pubDate>Wed, 08 Jun 2016 08:43:59 +0000</pubDate>
         <link>http://g3ortega.com//ai/2016/06/08/wit-ai-el-arma-secreta-de-facebook.html</link>
         <guid isPermaLink="true">http://g3ortega.com//ai/2016/06/08/wit-ai-el-arma-secreta-de-facebook.html</guid>
         
@@ -374,7 +605,7 @@
 &lt;/ul&gt;
 
 </description>
-        <pubDate>Wed, 18 Nov 2015 02:43:59 -0600</pubDate>
+        <pubDate>Wed, 18 Nov 2015 08:43:59 +0000</pubDate>
         <link>http://g3ortega.com//self/2015/11/18/welcome-again.html</link>
         <guid isPermaLink="true">http://g3ortega.com//self/2015/11/18/welcome-again.html</guid>
         
