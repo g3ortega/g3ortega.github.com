@@ -33,7 +33,7 @@ email: g3ortega@gmail.com
 name: Gerardo Ortega
 description: Blog. I write about Technology, Trends, Programming, Data Science and
   personal opinions.
-baseurl: "/"
+base_url: "/"
 url: https://g3ortega.com
 cover: assets/header.jpg
 logo: assets/logo.png
