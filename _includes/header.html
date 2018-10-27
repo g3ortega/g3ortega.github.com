@@ -2,7 +2,7 @@
   <div class="navigation-wrapper">
     <a href="{{ site.base_url }}" class="logo">
     	{% if site.logo %}
-      <img src="{{ site.logo | prepend: site.baseurl }}" alt="{{ site.title }}">
+      <img src="{{ site.logo | prepend: site.base_url }}" alt="{{ site.title }}">
       {% else %}
       <span>{{ site.title }}</span>
       {% endif %}
@@ -14,7 +14,7 @@
       <ul id="js-navigation-menu" class="navigation-menu show">
       	{% for page in site.pages %}
           {% if page.title and page.main_nav != false and page.type != 'category' and page.type != 'tag' %}
-          <li class="nav-link"><a href="{{ page.url | remove_first: '/' | prepend: site.baseurl }}">{{ page.title }}</a> </li>
+          <li class="nav-link"><a href="{{ page.url | remove_first: '/' | prepend: site.base_url }}">{{ page.title }}</a> </li>
           {% endif %}
         {% endfor %}
           <li class="nav-link"><a href="http://blog.g3ortega.com" target="_blank">Old Blog</a></li>

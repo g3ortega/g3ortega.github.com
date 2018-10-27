@@ -3,10 +3,10 @@
   <channel>
     <title>Gerardo Ortega</title>
     <description>Blog. I write about Technology, Trends, Programming, Data Science and personal opinions.</description>
-    <link>http://localhost:4000//</link>
-    <atom:link href="http://localhost:4000//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 27 Oct 2018 04:08:55 +0000</pubDate>
-    <lastBuildDate>Sat, 27 Oct 2018 04:08:55 +0000</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 27 Oct 2018 04:15:18 +0000</pubDate>
+    <lastBuildDate>Sat, 27 Oct 2018 04:15:18 +0000</lastBuildDate>
     <generator>Jekyll v3.8.4</generator>
     
       <item>
@@ -234,8 +234,8 @@ drwxr-xr-x    8 gerardo  staff     272 May 31 10:10 src
 &lt;p&gt;That’s all for this first part, in the second part of this series I going to address Webpack and how to use it to compile and manage javascript bundles.&lt;/p&gt;
 </description>
         <pubDate>Tue, 30 May 2017 08:43:59 +0000</pubDate>
-        <link>http://localhost:4000//rails/2017/05/30/rails-5-1-and-forward-yarn-on-rails.html</link>
-        <guid isPermaLink="true">http://localhost:4000//rails/2017/05/30/rails-5-1-and-forward-yarn-on-rails.html</guid>
+        <link>http://localhost:4000/rails/2017/05/30/rails-5-1-and-forward-yarn-on-rails.html</link>
+        <guid isPermaLink="true">http://localhost:4000/rails/2017/05/30/rails-5-1-and-forward-yarn-on-rails.html</guid>
         
         
         <category>rails</category>
@@ -281,8 +281,8 @@ drwxr-xr-x    8 gerardo  staff     272 May 31 10:10 src
 &lt;p&gt;&lt;img src=&quot;/assets/machine_learning_desarrollo_a_produccion.png&quot; alt=&quot;Machine Learning de desarrollo a producción&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 15 Nov 2016 08:43:59 +0000</pubDate>
-        <link>http://localhost:4000//review/2016/11/15/machine-learning-de-la-practica-a-produccion-review.html</link>
-        <guid isPermaLink="true">http://localhost:4000//review/2016/11/15/machine-learning-de-la-practica-a-produccion-review.html</guid>
+        <link>http://localhost:4000/review/2016/11/15/machine-learning-de-la-practica-a-produccion-review.html</link>
+        <guid isPermaLink="true">http://localhost:4000/review/2016/11/15/machine-learning-de-la-practica-a-produccion-review.html</guid>
         
         
         <category>review</category>
@@ -359,8 +359,8 @@ drwxr-xr-x    8 gerardo  staff     272 May 31 10:10 src
 &lt;p&gt;&lt;a href=&quot;https://www.coursera.org/learn/recommender-systems&quot; target=&quot;_blank&quot;&gt;Introduction to Recommender Systems&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 14 Jun 2016 08:43:59 +0000</pubDate>
-        <link>http://localhost:4000//ai/2016/06/14/my-artificial-intelligence-digest.html</link>
-        <guid isPermaLink="true">http://localhost:4000//ai/2016/06/14/my-artificial-intelligence-digest.html</guid>
+        <link>http://localhost:4000/ai/2016/06/14/my-artificial-intelligence-digest.html</link>
+        <guid isPermaLink="true">http://localhost:4000/ai/2016/06/14/my-artificial-intelligence-digest.html</guid>
         
         
         <category>ai</category>
@@ -433,8 +433,8 @@ drwxr-xr-x    8 gerardo  staff     272 May 31 10:10 src
 
 </description>
         <pubDate>Fri, 10 Jun 2016 09:43:59 +0000</pubDate>
-        <link>http://localhost:4000//programming_languages/2016/06/10/crystal-lenguaje-de-programacion-el-por-que-y-el-como.html</link>
-        <guid isPermaLink="true">http://localhost:4000//programming_languages/2016/06/10/crystal-lenguaje-de-programacion-el-por-que-y-el-como.html</guid>
+        <link>http://localhost:4000/programming_languages/2016/06/10/crystal-lenguaje-de-programacion-el-por-que-y-el-como.html</link>
+        <guid isPermaLink="true">http://localhost:4000/programming_languages/2016/06/10/crystal-lenguaje-de-programacion-el-por-que-y-el-como.html</guid>
         
         
         <category>programming_languages</category>
@@ -480,8 +480,8 @@ drwxr-xr-x    8 gerardo  staff     272 May 31 10:10 src
 &lt;p&gt;Con el tiempo iré añadiendo más recursos a éste post, por ahora me parece un buen inicio con los recursos que he publicado.&lt;/p&gt;
 </description>
         <pubDate>Fri, 10 Jun 2016 08:43:59 +0000</pubDate>
-        <link>http://localhost:4000//machine_learning/2016/06/10/que-es-machine-learning-y-porque-este-es-el-mejor-tiempo-para-comenzar-a-aprender-del-tema.html</link>
-        <guid isPermaLink="true">http://localhost:4000//machine_learning/2016/06/10/que-es-machine-learning-y-porque-este-es-el-mejor-tiempo-para-comenzar-a-aprender-del-tema.html</guid>
+        <link>http://localhost:4000/machine_learning/2016/06/10/que-es-machine-learning-y-porque-este-es-el-mejor-tiempo-para-comenzar-a-aprender-del-tema.html</link>
+        <guid isPermaLink="true">http://localhost:4000/machine_learning/2016/06/10/que-es-machine-learning-y-porque-este-es-el-mejor-tiempo-para-comenzar-a-aprender-del-tema.html</guid>
         
         
         <category>machine_learning</category>
@@ -521,8 +521,8 @@ drwxr-xr-x    8 gerardo  staff     272 May 31 10:10 src
 &lt;p&gt;Ésto ha sido solo una probadita, la próxima semana estaré publicando un tutorial y un ejemplo de creación de un bot para Facebook Messenger usando Wit.ai.&lt;/p&gt;
 </description>
         <pubDate>Wed, 08 Jun 2016 08:43:59 +0000</pubDate>
-        <link>http://localhost:4000//ai/2016/06/08/wit-ai-el-arma-secreta-de-facebook.html</link>
-        <guid isPermaLink="true">http://localhost:4000//ai/2016/06/08/wit-ai-el-arma-secreta-de-facebook.html</guid>
+        <link>http://localhost:4000/ai/2016/06/08/wit-ai-el-arma-secreta-de-facebook.html</link>
+        <guid isPermaLink="true">http://localhost:4000/ai/2016/06/08/wit-ai-el-arma-secreta-de-facebook.html</guid>
         
         <category>facebook_bots,</category>
         
@@ -608,8 +608,8 @@ drwxr-xr-x    8 gerardo  staff     272 May 31 10:10 src
 
 </description>
         <pubDate>Wed, 18 Nov 2015 08:43:59 +0000</pubDate>
-        <link>http://localhost:4000//self/2015/11/18/welcome-again.html</link>
-        <guid isPermaLink="true">http://localhost:4000//self/2015/11/18/welcome-again.html</guid>
+        <link>http://localhost:4000/self/2015/11/18/welcome-again.html</link>
+        <guid isPermaLink="true">http://localhost:4000/self/2015/11/18/welcome-again.html</guid>
         
         <category>welcome</category>
         
