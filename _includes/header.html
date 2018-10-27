@@ -13,7 +13,7 @@
     <nav role="navigation">
       <ul id="js-navigation-menu" class="navigation-menu show">
       	{% for page in site.pages %}
-          {% if page.title and page.main_nav != false %}
+          {% if page.title and page.main_nav != false and page.type != 'category' and page.type != 'tag' %}
           <li class="nav-link"><a href="{{ page.url | remove_first: '/' | prepend: site.baseurl }}">{{ page.title }}</a> </li>
           {% endif %}
         {% endfor %}

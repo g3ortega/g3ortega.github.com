@@ -9,7 +9,6 @@ collections:
     title: Uploads
     output: true
 
-
 defaults:		
   scope:		
     path: ""		
@@ -21,10 +20,12 @@ defaults:
     ref:		
     lang: "es"
     
-gems:
+plugins:
 - jekyll-archives
 - jekyll-sitemap
 - jekyll-seo-tag
+- jekyll-paginate
+
 exclude:
 - "/vendor/"
 subtitle: A personal journey into the matrix
@@ -40,13 +41,11 @@ markdown: kramdown
 paginate: 5
 paginate_path: "/page:num/"
 jekyll-archives:
-  enabled:
-  - categories
-  - tags
-  layout: archive
+  enabled: [categories, tags]
+  layout: 'archive'
   permalinks:
-    tag: "/tag/:name/"
-    category: "/category/:name/"
+    tag: '/tag/:name/'
+    category: '/category/:name/'
 disqus_shortname: g3ortega
 ga_tracking_id: UA-39169311-1
 descriptions:
@@ -73,7 +72,7 @@ social:
   share: true
 - name: Facebook
   icon: facebook
-  username: gerardortega7
+  username: g3ortega
   url: 
   desc: Friend me on Facebook
   share: true
