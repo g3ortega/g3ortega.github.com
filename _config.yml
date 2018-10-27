@@ -34,7 +34,7 @@ name: Gerardo Ortega
 description: Blog. I write about Technology, Trends, Programming, Data Science and
   personal opinions.
 baseurl: "/"
-url: http://g3ortega.com
+url: https://g3ortega.com
 cover: assets/header.jpg
 logo: assets/logo.png
 markdown: kramdown
