@@ -216,7 +216,7 @@ hr {
 img,
 picture {
   margin: 0;
-  max-width: 50%; }
+  max-width: 100%; }
 
 blockquote {
   border-top: 1px solid #ccc;
