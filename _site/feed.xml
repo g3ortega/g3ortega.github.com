@@ -5,8 +5,8 @@
     <description>Blog. I write about Technology, Trends, Programming, Data Science and personal opinions.</description>
     <link>http://localhost:4000//</link>
     <atom:link href="http://localhost:4000//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 29 Oct 2018 04:06:31 +0000</pubDate>
-    <lastBuildDate>Mon, 29 Oct 2018 04:06:31 +0000</lastBuildDate>
+    <pubDate>Mon, 29 Oct 2018 04:34:22 +0000</pubDate>
+    <lastBuildDate>Mon, 29 Oct 2018 04:34:22 +0000</lastBuildDate>
     <generator>Jekyll v3.8.4</generator>
     
       <item>
@@ -293,7 +293,7 @@ drwxr-xr-x    8 gerardo  staff     272 May 31 10:10 src
         <title>My Artificial Intelligence Digest - Free Learning Resources</title>
         <description>&lt;h2 id=&quot;resources-to-learn-artificial-intelligence&quot;&gt;Resources to Learn Artificial Intelligence&lt;/h2&gt;
 
-&lt;p&gt;So, you’re looking for useful resources to start with AI and Machine Learning, if that’s the case I have compiled a list of resources to learn about this topics. And I will keep it updated.&lt;/p&gt;
+&lt;p&gt;So, if you’re looking for useful resources to start with AI and Machine Learning, I have compiled a list of resources to learn about these topics. And I will keep it updated.&lt;/p&gt;
 
 &lt;h2 id=&quot;artificial-intelligence-learning-resources&quot;&gt;Artificial Intelligence Learning Resources&lt;/h2&gt;
 
@@ -369,7 +369,7 @@ drwxr-xr-x    8 gerardo  staff     272 May 31 10:10 src
     
       <item>
         <title>Crystal (Lenguaje de Programación), el porqué y el cómo</title>
-        <description>&lt;p&gt;Crystal es uno de los nuevos lenguajes en la escena. Aunque no tan conocido como Rust, Elixir o Julia, tiene mucho que ofrecer. Inicio en 2012, y según describen sus creadores, sus características principales son:&lt;/p&gt;
+        <description>&lt;p&gt;Crystal es uno de los nuevos lenguajes en la escena. Aunque no tan conocido como Rust, Elixir o Julia, tiene mucho que ofrecer. Iniciò en 2012, y según describen sus creadores, sus características principales son:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Sintaxis similar a Ruby&lt;/li&gt;
@@ -384,11 +384,11 @@ drwxr-xr-x    8 gerardo  staff     272 May 31 10:10 src
   &lt;li&gt;Tener una sintaxis amigable con Ruby, pero con un performance tan bueno como C.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Hay muchas más características disponibles en el sitio web oficial. Pero en particular lo que me ha llamado la atención a mí en particular, siendo un desarrollador que ama Ruby, es su similitud con el lenguaje. Tener una sintaxis tan buena como Ruby y un performance semejante al de C, es el santo grial en ésta área.&lt;/p&gt;
+&lt;p&gt;Hay muchas más características disponibles en el sitio web oficial. Pero en particular lo que me ha llamado la atención a mí en particular, siendo un desarrollador que ama Ruby, es su similitud con el lenguaje. Tener una sintaxis tan buena como Ruby y un performance semejante al de C, es el santo grial para los desarrolladores.&lt;/p&gt;
 
 &lt;h2 id=&quot;sintaxis-de-crystal&quot;&gt;Sintaxis de Crystal&lt;/h2&gt;
 
-&lt;p&gt;Quiero comenzar con la sintaxis que es la cara del lenguaje. Cuando inicie con Ruby, viniendo de Java, lo que más me cautivo fue la simplicidad con la cual se hacían las cosas, era como escribir en pseudocódigo. Y con Crystal no es la excepción, si bien no es 100% igual a Ruby (más para bien que para mal), conserva su esencia. A continuación por ejemplo les dejo el código de un servidor HTTP:&lt;/p&gt;
+&lt;p&gt;Quiero comenzar con la sintaxis, que es la cara del lenguaje. Cuando iniciè con Ruby, viniendo de Java, lo que más me cautivo fue la simplicidad con la cual se hacían las cosas, era como escribir en pseudocódigo. Y con Crystal no es la excepción, si bien no es 100% igual a Ruby (más para bien que para mal), conserva su esencia. A continuación por ejemplo les dejo el código de un servidor HTTP:&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;http/server&quot;&lt;/span&gt;
 
@@ -401,7 +401,7 @@ drwxr-xr-x    8 gerardo  staff     272 May 31 10:10 src
 
 &lt;h2 id=&quot;más-allá-de-la-sintaxis&quot;&gt;Más allá de la sintaxis&lt;/h2&gt;
 
-&lt;p&gt;Crystal corre sobre la LLVM, una tecnología que sirve como framework de compilación y puede generar código de maquina con un performance similar (o en ocasiones superior) a C. LLVM también es usado por otros nuevos lenguajes como Rust o Swift y ofrece una enorme flexibilidad, soporte y muchas libretas complementarias. Ésto ha permitido a Crystal agregar features de las cuales Ruby carece, como concurrencia y paralelismo, éste último cabe destacar que está en desarrollo.&lt;/p&gt;
+&lt;p&gt;Crystal corre sobre la LLVM, una tecnología que sirve como framework de compilación y puede generar código de maquina con un performance similar (o en ocasiones superior) a C. LLVM también es usado por otros nuevos lenguajes como Rust o Swift y ofrece una enorme flexibilidad, soporte y muchas librerias complementarias. Ésto ha permitido a Crystal agregar features de las cuales Ruby carece, como concurrencia y paralelismo, éste último cabe destacar que está en desarrollo.&lt;/p&gt;
 
 &lt;p&gt;Ahora bien, aclaro que Crystal como lenguaje no pone ninguna innovación sobre la mesa que otros lenguajes no tengan ya. En otras palabras, el diseño de muchos de los nuevos lenguajes que han surgido recientemente, ha ido orientado a extender o crear mejores maneras de hacer algunas cosas. Crystal por el contrario, en una buena medida ha tratado de integrar muchos de los mejores features de algunos lenguajes como Go o Erlang. Lo que Crystal si ofrece y que no debe ser pasado por alto, es una elegante sintaxis, más un excelente performance, eso sin tener que reaprender muchas cosas, lo cual lo hace único, productivo y agradable para trabajar con él.&lt;/p&gt;
 
@@ -429,7 +429,7 @@ drwxr-xr-x    8 gerardo  staff     272 May 31 10:10 src
 
 &lt;p&gt;En éste sentido he probado también un lenguaje nuevo que está especialmente diseñado con performance y productividad en mente aplicado a computación científica: Julia. Sin embargo, no quiero un lenguaje de nicho, sino uno que me ayude a brindar soluciones en diferentes ámbitos (o algo así como Python con todas sus librerías, pero con el performance de C :p).&lt;/p&gt;
 
-&lt;p&gt;Por eso tengo mis apuestas en Crystal, un lenguaje todavía en pañales, pero con mucho potencial de crecimiento, tiene todo lo necesario para eso. Ruby no fue todo el tiempo popular, sino hasta después de Rails, lo mismo puede pasar con cualquier lenguaje de programación. La clave está en la comunidad en torno al lenguaje, quienes se encargan de hacer que las cosas sucedan. De mi parte pienso contribuir en el área que me apasiona.&lt;/p&gt;
+&lt;p&gt;Por eso tengo mis apuestas en Crystal, un lenguaje todavía en pañales, pero con mucho potencial de crecimiento, tiene todo lo necesario para eso. Ruby no fue todo el tiempo popular, sino hasta después de Rails, lo mismo puede pasar con cualquier lenguaje de programación. La clave está en la comunidad en torno al lenguaje, quienes se encargan de hacer que las cosas sucedan. De mi parte pienso contribuir en el área que me apasiona -Data Science-.&lt;/p&gt;
 
 </description>
         <pubDate>Fri, 10 Jun 2016 09:43:59 +0000</pubDate>
@@ -490,9 +490,9 @@ drwxr-xr-x    8 gerardo  staff     272 May 31 10:10 src
     
       <item>
         <title>Wit.ai, el arma secreta de Facebook</title>
-        <description>&lt;p&gt;Facebook tiene claros sus objetivos y por eso el mismísimo Mark Zuckerberg presentó en el último F8 (el evento anual en el que presentan sus novedades) sus planes para un periodo de 10 años, de los cuales ya casi vamos por la mitad. Los primeros cinco años se enfocan en los servicios y productos que ya conocemos: Facebook, Messenger, Instagram, WhatsApp…, pero los siguientes 5 años incluyen tres interesantes categorías: conectividad, inteligencia artificial y realidad virtual.&lt;/p&gt;
+        <description>&lt;p&gt;Facebook tiene claro sus objetivos y por eso el mismísimo Mark Zuckerberg presentó en el último F8 (el evento anual en el que presentan sus novedades) sus planes para un periodo de 10 años, de los cuales ya casi vamos por la mitad. Los primeros cinco años se enfocan en los servicios y productos que ya conocemos: Facebook, Messenger, Instagram, WhatsApp…, pero los siguientes 5 años incluyen tres interesantes categorías: Conectividad, Inteligencia Artificial y Realidad Virtual.&lt;/p&gt;
 
-&lt;p&gt;De las tres categorías que tendrán el mayor peso dentro de la estrategia de Facebook para los próximos cinco años, la que más me ha llamado la atención es Inteligencia Artificial, porque desde ya, a diferencia de las otras dos, les está generando ganancias y es una parte integral de los productos que actualmente tienen en el mercado. Así que lo único que les hace falta es lanzar muchos de los productos internos como un servicio más. Y claro, era de esperarse que una empresa como Facebook no se quedara cruzada de brazos mientras tanto, y ha comenzado a adquirir empresas y a contratar talento relacionado con esa área. Aunque muchos de éstos movimientos que el gigante de las redes sociales ha hecho han pasado desapercibidos. Y hoy quiero hablar puntualmente de uno: &lt;a href=&quot;https://wit.ai/&quot; title=&quot;Go to Wit.ai&quot; target=&quot;blank&quot;&gt;Wit.ai&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;De las tres categorías que tendrán el mayor peso dentro de la estrategia de Facebook para los próximos cinco años, la que más me ha llamado la atención es Inteligencia Artificial, porque desde ya, a diferencia de las otras dos, les está generando ganancias y es una parte integral de los productos que actualmente tienen en el mercado. Así que lo único que les hace falta es lanzar muchos de los productos internos como un servicio más. Y claro, era de esperarse que una empresa como Facebook no se quedara cruzada de brazos, y ha comenzado a adquirir empresas y a contratar talento relacionado con esa área. Aunque muchos de éstos movimientos que el gigante de las redes sociales ha hecho han pasado desapercibidos. Y hoy quiero hablar puntualmente de uno: &lt;a href=&quot;https://wit.ai/&quot; title=&quot;Go to Wit.ai&quot; target=&quot;blank&quot;&gt;Wit.ai&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;qué-es-witai&quot;&gt;¿Qué es Wit.ai?&lt;/h2&gt;
 
@@ -506,7 +506,7 @@ drwxr-xr-x    8 gerardo  staff     272 May 31 10:10 src
 
 &lt;h3 id=&quot;sistemas-de-toma-de-decisiones&quot;&gt;Sistemas de toma de decisiones&lt;/h3&gt;
 
-&lt;p&gt;Si, muchas veces te encuentras casos en los que dada una entrada (un tweet, un comando de voz, un mensaje, etc.) debes tomar X o Y decisión para ejecutar una determinada acción. Dependiendo de la complejidad de lo que necesites Wit.ai puede ayudar también, permitiéndote analizar las entradas, extraer los datos que necesitas y tomar decisiones o tomar determinadas acciones.&lt;/p&gt;
+&lt;p&gt;Si, muchas veces te encuentras casos en los que dada una entrada (un tweet, un comando de voz, un mensaje, etc.) debes tomar X o Y decisión para ejecutar una determinada acción. Dependiendo de la complejidad de lo que necesites Wit.ai puede ayudar también, permitiéndote analizar las entradas, extraer los datos que necesitas y tomar decisiones ejecutando acciones predeterminadas.&lt;/p&gt;
 
 &lt;h3 id=&quot;reconocimiento-de-voz&quot;&gt;Reconocimiento de voz&lt;/h3&gt;
 
@@ -514,9 +514,9 @@ drwxr-xr-x    8 gerardo  staff     272 May 31 10:10 src
 
 &lt;h3 id=&quot;automatización&quot;&gt;Automatización&lt;/h3&gt;
 
-&lt;p&gt;Éste es otro tema muy de moda, después de todo vivimos en la época del internet de las cosas: todo está conectado, hay sensores por todos lados y genialidades como Arduino nos hacen todavía las cosas más sencillas, sin embargo, los elementos con los que interactuamos no son necesariamente “inteligentes”, pero Wit.ai puede tomar ciertos datos, interpretarlos y tomar decisiones en base a eso.&lt;/p&gt;
+&lt;p&gt;Éste es otro tema muy de moda, después de todo vivimos en la época del “Internet de las cosas”: todo está conectado, hay sensores por todos lados y genialidades como Arduino nos hacen las cosas más sencillas, sin embargo, los elementos con los que interactuamos no son necesariamente “inteligentes”, pero Wit.ai puede tomar ciertos datos, interpretarlos y tomar decisiones en base a eso.&lt;/p&gt;
 
-&lt;p&gt;Esas son algunas de las aplicaciones que tiene éste servicio. Lo sé, pareciera un anuncio pagado, pero hay que llamar a lo bueno por su nombre. Y ahora, veamos más allá, en realidad el punto que quiero resaltar acá es que cada vez la Inteligencia Artificial irá acaparando nuevas áreas, y que las organizaciones o individuos que no saquen provecho de éstas tecnologías se quedarán un paso atrás de la competencia. En unos años prescindir de AI será el equivalente a no tener un sitio web hoy en día.&lt;/p&gt;
+&lt;p&gt;Esas son algunas de las aplicaciones que tiene éste servicio. Lo sé, pareciera un anuncio pagado, pero hay que llamar a lo bueno por su nombre. Y ahora, veamos más allá, en realidad el punto que quiero resaltar acá es que cada vez Inteligencia Artificial irá acaparando nuevas áreas, y que las organizaciones que no saquen provecho de éstas tecnologías se quedarán un paso atrás de la competencia. En unos años prescindir de AI será el equivalente a no tener un sitio web hoy en día.&lt;/p&gt;
 
 &lt;p&gt;Ésto ha sido solo una probadita, la próxima semana estaré publicando un tutorial y un ejemplo de creación de un bot para Facebook Messenger usando Wit.ai.&lt;/p&gt;
 </description>
@@ -537,25 +537,25 @@ drwxr-xr-x    8 gerardo  staff     272 May 31 10:10 src
     
       <item>
         <title>Welcome (Again)</title>
-        <description>&lt;p&gt;Well, It has been a long time since I wrote the last post in my blog (&lt;a href=&quot;http://blog.g3ortega.com&quot;&gt;the spanish version&lt;/a&gt;). I think over two years have passed, and well, in two years many things happen.&lt;/p&gt;
+        <description>&lt;p&gt;Well, It has been a long time since I wrote the last post in my blog (&lt;a href=&quot;http://blog.g3ortega.com&quot;&gt;the spanish version&lt;/a&gt;). I think over two years have passed, and in two years many things have happened.&lt;/p&gt;
 
-&lt;p&gt;I decided it’s time to start to write again. I love writing and is something that comes easily to me. So, What have changed in the last years? What are my plans for the future?.&lt;/p&gt;
+&lt;p&gt;I decided it’s time to start writing again. I love writing and is something that comes easily to me. So, What have changed in the last years? What are my plans for the future?.&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;There is nothing more constant than change&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;I think it’s important to keep our skills sharp. Several years ago, when I started  programming, by that time, with Java, I was amazed for the things I could achieve with just a computer, some logic and the knowledge of a programming language. In that time I didn’t consider some aspects related to the software development process like maintainability or scalability. I just wanted to create things. I just needed the tools to bring my ideas to life. So, I started to learn Java on my own (I hated the related classes I received the first years in college). And with the right attitude I succeed. In parallel I begin to work in a project as intern in college with some classmates. Soon I realize about the complexity that can have a real world application, and about all, I realize that one of the main challenges in development is to handle the constant changes while you keep the productivity of the team, and the maintainability, extensibility and performance of your code.&lt;/p&gt;
+&lt;p&gt;I think it’s important to keep our skills sharp. Several years ago, when I started  programming, by that time, with Java, I was amazed for the things I could achieve with just a computer, some logic and the knowledge of a programming language. In that time I didn’t consider some aspects related to the software development process like maintainability or scalability. I just wanted to create things. I just needed the tools to bring my ideas to life. So, I started to learn Java on my own (I hated the related classes I received the first years in college). Soon I realized about the complexity that can have a real world application, and about all, I realized that one of the main challenges in development it’s to handle the constant changes while you keep the productivity of the team -and the maintainability, extensibility and performance of your code-.&lt;/p&gt;
 
-&lt;p&gt;I started to look for new approaches to software development and to investigate how many big companies like Google, handle the change and kept the agility of their teams while they preserved the quality of their code bases. That search leads me to agile development practices and versatiles programming languages like python.&lt;/p&gt;
+&lt;p&gt;I started to look for new approaches for software development and to investigate how many big companies, handle the constant change and keep the agility of their teams while they preserved the quality of their code bases. That search leads me to agile development practices and versatiles programming languages like python.&lt;/p&gt;
 
-&lt;p&gt;I begin to learn python, and at that time, I shared my new findings with a good friend, only to realize that he was on the same road. But he took it even further, and introduce me Ruby on Rails, and some good practices that accompany that amazing web framework. And then I begin to learn Rails. I was so motivated that I created a little application all the weeks for a couple of months.&lt;/p&gt;
+&lt;p&gt;I begin to learn python, and at that time, I shared my new findings with a good friend, only to realize that he was on the same road. But he took it even further, and introduce me Ruby on Rails, and some good practices that accompany that amazing web framework. And then I begin to learn Rails. I was so motivated that I created a little application all the weekends for a couple of months.&lt;/p&gt;
 
-&lt;p&gt;I commenced to use Ruby and Ruby on Rails for more serious projects, and I’m still using it. But we are in 2015, and as I said before, many things have changed. I would have liked someone talked me about Rails many years before. I love the entire ecosystem of ruby. I can focus in the solution of my problems instead of dealing with problems related to over configurations, verbosity, lack of conventions, bad practices, etc.&lt;/p&gt;
+&lt;p&gt;I started to use Ruby and Ruby on Rails for more serious projects, and I’m still using it. But we are in 2015, and as I said before, many things have changed. I would have liked someone talked me about Rails many years before. I love the entire ecosystem of ruby. I can focus in the solution of my problems instead of dealing with problems related to over configurations, verbosity, lack of conventions, bad practices, etc.&lt;/p&gt;
 
-&lt;p&gt;As time have changed, the world of development face different challenges, and I think we need to explore new alternatives to some technologies that we use nowadays. It’s not only ruby, but many other languages that have limits when it comes to solving challenges like concurrency, real time, fault tolerance, productivity, performance, big data, etc. The problem has been that many technologies offer a good solution to some challenges, but lack of the features to face other ones.&lt;/p&gt;
+&lt;p&gt;As time have changed, the world of software development face different challenges, and I think we need to explore new alternatives to some technologies we’re using nowadays. It’s not only ruby, but many other languages that have limits when it comes solving challenges like concurrency, real time, fault tolerance, productivity, performance, big data, etc. The problem has been that many technologies offer a good solution to some challenges, but lack of the features to face other ones.&lt;/p&gt;
 
-&lt;p&gt;So, we get to the point, the next years I want to focus in learning and applying new technologies that help me to face and solve some problems of the “new web”. This blog will be part of that journey. But no matter how much I can learn in the next years, It will not be enough. The progress in this area moves at light speed, so to speak. Maybe in this moment, somewhere, a new ones are inventing The Next Big Thing.&lt;/p&gt;
+&lt;p&gt;So, as we get to this point, the next years I want to focus in learning and applying new technologies that help me to face and solve some problems of the “new web”. This blog will be part of that journey. But no matter how much I can learn in the next years, It won’t be enough. The progress in this area moves at light speed, so to speak. Maybe in this moment, somewhere, somebody is working on ‘The Next Big Thing’.&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;The more I learn, the more I realize how much I don’t know.&lt;/p&gt;
@@ -576,21 +576,21 @@ drwxr-xr-x    8 gerardo  staff     272 May 31 10:10 src
   &lt;li&gt;
     &lt;p&gt;FrontEnd: Virtual DOM and Components are eating the world&lt;/p&gt;
 
-    &lt;p&gt;Big companies has started to write a reusable front-end through components. And since the release of ReactJs many other Js frameworks like ember.js has started to implement their own version of Virtual DOM, a DOM abstraction that brings to the table of JS frameworks a great performance and a simpler programming model.&lt;/p&gt;
+    &lt;p&gt;Big companies has started to write reusable front-end through components. And since the release of ReactJs many other JS frameworks like Ember.js has started to implement their own version of Virtual DOM, a DOM abstraction that brings to the table of JS frameworks a great performance and a simpler programming model.&lt;/p&gt;
 
     &lt;p&gt;To focus: ReactJs&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Mobile: Look mom, is native and use JS! -Wooot!&lt;/p&gt;
 
-    &lt;p&gt;React Native was a game changer. Before it was launched you only could not achieve a native like behavior using Js/HTML frameworks over there. You have to choose between a good user experience or better productivity using HTML5 (and including all you team that in the worst case unless they know basic HTML). But, with React Native you just need to learn React and some native components to start doing your next mobile app.&lt;/p&gt;
+    &lt;p&gt;React Native was a game changer. Before it was launched you simply couldn’t achieve a native-like behavior using JS/HTML frameworks over there. You have to choose between a good user experience or better productivity using HTML5 (and including all you team that in the worst case unless they know basic HTML). But, with React Native you just need to learn React and some native components to start doing your next mobile app.&lt;/p&gt;
 
     &lt;p&gt;To focus: React Native, ReactJs&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Backend: Scalability first and no downtimes.&lt;/p&gt;
 
-    &lt;p&gt;Scalability is on demand. Now we have no only clients on simple browsers, but we have to handle mobile devises, hybrid desktop apps, the internet of things, etc etc. So, the traditional way to build apps is over, we need to take to the table apps with scalability and reliability in mind.&lt;/p&gt;
+    &lt;p&gt;Scalability is on demand. Now we have no only clients on browsers, but we have to handle mobile devises, hybrid desktop apps, the internet of things, etc etc. So, the traditional way to build apps is over, we need to take to the table apps with scalability and reliability in mind.&lt;/p&gt;
 
     &lt;p&gt;To focus: Elixir&lt;/p&gt;
   &lt;/li&gt;

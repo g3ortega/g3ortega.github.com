@@ -14,7 +14,7 @@ lang: en
 
 ## Resources to Learn Artificial Intelligence 
 
-So, you're looking for useful resources to start with AI and Machine Learning, if that's the case I have compiled a list of resources to learn about this topics. And I will keep it updated.
+So, if you're looking for useful resources to start with AI and Machine Learning, I have compiled a list of resources to learn about these topics. And I will keep it updated.
 
 ## Artificial Intelligence Learning Resources
 

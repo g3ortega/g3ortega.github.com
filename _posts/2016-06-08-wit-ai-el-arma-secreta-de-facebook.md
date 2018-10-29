@@ -16,9 +16,9 @@ ref: witai_facebook
 lang: es
 ---
 
-Facebook tiene claros sus objetivos y por eso el mismísimo Mark Zuckerberg presentó en el último F8 (el evento anual en el que presentan sus novedades) sus planes para un periodo de 10 años, de los cuales ya casi vamos por la mitad. Los primeros cinco años se enfocan en los servicios y productos que ya conocemos: Facebook, Messenger, Instagram, WhatsApp..., pero los siguientes 5 años incluyen tres interesantes categorías: conectividad, inteligencia artificial y realidad virtual.
+Facebook tiene claro sus objetivos y por eso el mismísimo Mark Zuckerberg presentó en el último F8 (el evento anual en el que presentan sus novedades) sus planes para un periodo de 10 años, de los cuales ya casi vamos por la mitad. Los primeros cinco años se enfocan en los servicios y productos que ya conocemos: Facebook, Messenger, Instagram, WhatsApp..., pero los siguientes 5 años incluyen tres interesantes categorías: Conectividad, Inteligencia Artificial y Realidad Virtual.
 
-De las tres categorías que tendrán el mayor peso dentro de la estrategia de Facebook para los próximos cinco años, la que más me ha llamado la atención es Inteligencia Artificial, porque desde ya, a diferencia de las otras dos, les está generando ganancias y es una parte integral de los productos que actualmente tienen en el mercado. Así que lo único que les hace falta es lanzar muchos de los productos internos como un servicio más. Y claro, era de esperarse que una empresa como Facebook no se quedara cruzada de brazos mientras tanto, y ha comenzado a adquirir empresas y a contratar talento relacionado con esa área. Aunque muchos de éstos movimientos que el gigante de las redes sociales ha hecho han pasado desapercibidos. Y hoy quiero hablar puntualmente de uno: <a href="https://wit.ai/" title="Go to Wit.ai" target="blank">Wit.ai</a>
+De las tres categorías que tendrán el mayor peso dentro de la estrategia de Facebook para los próximos cinco años, la que más me ha llamado la atención es Inteligencia Artificial, porque desde ya, a diferencia de las otras dos, les está generando ganancias y es una parte integral de los productos que actualmente tienen en el mercado. Así que lo único que les hace falta es lanzar muchos de los productos internos como un servicio más. Y claro, era de esperarse que una empresa como Facebook no se quedara cruzada de brazos, y ha comenzado a adquirir empresas y a contratar talento relacionado con esa área. Aunque muchos de éstos movimientos que el gigante de las redes sociales ha hecho han pasado desapercibidos. Y hoy quiero hablar puntualmente de uno: <a href="https://wit.ai/" title="Go to Wit.ai" target="blank">Wit.ai</a>
 
 ## ¿Qué es Wit.ai?
 
@@ -32,7 +32,7 @@ Ahora está de moda crear bots para diferentes plataformas (Slack, FB Messenger,
 
 ### Sistemas de toma de decisiones 
 
-Si, muchas veces te encuentras casos en los que dada una entrada (un tweet, un comando de voz, un mensaje, etc.) debes tomar X o Y decisión para ejecutar una determinada acción. Dependiendo de la complejidad de lo que necesites Wit.ai puede ayudar también, permitiéndote analizar las entradas, extraer los datos que necesitas y tomar decisiones o tomar determinadas acciones.
+Si, muchas veces te encuentras casos en los que dada una entrada (un tweet, un comando de voz, un mensaje, etc.) debes tomar X o Y decisión para ejecutar una determinada acción. Dependiendo de la complejidad de lo que necesites Wit.ai puede ayudar también, permitiéndote analizar las entradas, extraer los datos que necesitas y tomar decisiones ejecutando acciones predeterminadas.
 
 ### Reconocimiento de voz
 
@@ -40,8 +40,8 @@ Wit.ai fue pensado para responder a la creciente demanda de interpretar y respon
 
 ### Automatización 
 
-Éste es otro tema muy de moda, después de todo vivimos en la época del internet de las cosas: todo está conectado, hay sensores por todos lados y genialidades como Arduino nos hacen todavía las cosas más sencillas, sin embargo, los elementos con los que interactuamos no son necesariamente "inteligentes", pero Wit.ai puede tomar ciertos datos, interpretarlos y tomar decisiones en base a eso.
+Éste es otro tema muy de moda, después de todo vivimos en la época del "Internet de las cosas": todo está conectado, hay sensores por todos lados y genialidades como Arduino nos hacen las cosas más sencillas, sin embargo, los elementos con los que interactuamos no son necesariamente "inteligentes", pero Wit.ai puede tomar ciertos datos, interpretarlos y tomar decisiones en base a eso.
 
-Esas son algunas de las aplicaciones que tiene éste servicio. Lo sé, pareciera un anuncio pagado, pero hay que llamar a lo bueno por su nombre. Y ahora, veamos más allá, en realidad el punto que quiero resaltar acá es que cada vez la Inteligencia Artificial irá acaparando nuevas áreas, y que las organizaciones o individuos que no saquen provecho de éstas tecnologías se quedarán un paso atrás de la competencia. En unos años prescindir de AI será el equivalente a no tener un sitio web hoy en día.
+Esas son algunas de las aplicaciones que tiene éste servicio. Lo sé, pareciera un anuncio pagado, pero hay que llamar a lo bueno por su nombre. Y ahora, veamos más allá, en realidad el punto que quiero resaltar acá es que cada vez Inteligencia Artificial irá acaparando nuevas áreas, y que las organizaciones que no saquen provecho de éstas tecnologías se quedarán un paso atrás de la competencia. En unos años prescindir de AI será el equivalente a no tener un sitio web hoy en día.
 
 Ésto ha sido solo una probadita, la próxima semana estaré publicando un tutorial y un ejemplo de creación de un bot para Facebook Messenger usando Wit.ai.
