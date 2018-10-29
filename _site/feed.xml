@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gerardo Ortega</title>
-    <description>Blog. I write about Technology, Trends, Programming, Data Science and personal opinions.</description>
+    <description>Personal blog of Gerardo Ortega. Topics: Software Engineering, Data Science, Photography and Art. Blog personal de Gerardo Ortega.</description>
     <link>http://localhost:4000//</link>
     <atom:link href="http://localhost:4000//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 29 Oct 2018 04:52:08 +0000</pubDate>
-    <lastBuildDate>Mon, 29 Oct 2018 04:52:08 +0000</lastBuildDate>
+    <pubDate>Mon, 29 Oct 2018 05:27:22 +0000</pubDate>
+    <lastBuildDate>Mon, 29 Oct 2018 05:27:22 +0000</lastBuildDate>
     <generator>Jekyll v3.8.4</generator>
     
       <item>

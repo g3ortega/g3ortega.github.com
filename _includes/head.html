@@ -7,10 +7,8 @@
   
   <!--<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>-->
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-  {% if site.name %}
   <meta name="author" content="Gerardo Ortega">
-  <meta name="copyright" content="&copy; {{ site.name }} {{ site.time | date: '%Y' }}">
-  {% endif %}
+  <meta name="copyright" content="&copy; Gerardo Ortega - Blog {{ site.time | date: '%Y' }}">
 
   {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
   {% for post in posts %}
