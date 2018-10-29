@@ -4,12 +4,14 @@ permalink: "/about/"
 layout: page
 ---
 
-I graduated in Software Engineering. For several years, I have developed web applications and lately doing some mobile using React Native.
+## Gerardo Ortega.
 
-I have experience with Ruby/Rails, JavaScript and Java. I have started to learn Elixir/Erlang, and to focus in ReactJS and React Native for clients in browsers and mobile devices.
+Software engineer. Data Science enthusiast. Amateur trader in eToro and Robinhood. Photographer wannabe, and poetry lover.
 
-I also have some experience wth DevOps: AWS (S2, S3, Route53, RDS, SNS, SES, ElastiCache...), server configurations, deploying workflow, integration of services. And finally, I love to play with data.
+Currently helping to build and expand the best travelers platform on the planet -aka [RoadGoat](https://www.roadgoat.com)- and the best platform to play tennis -aka [playbycourt](https://playbycourt.com)-.
 
-I see coding as craft. I am constantly pursuing self-improvement, I love trying and learning new things.
+In my free time I like hiking, enjoy nature and reading good books.
 
-This is a place to share some experiences, knowledge and opinions.
+I've been working for startups for more than 5 years -[NuHome](https://www.nuhome.com.ni), [Recluta](https://recluta.com) Recluta, [EthicsGlobal](https://ethicsglobal.com), etc-, and I also have some upcoming projects.
+
+I love open source and sometimes I contribute to some awesome projects -check my Github profile-.
