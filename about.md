@@ -1,10 +1,8 @@
 ---
-title: About
+title: About - Gerardo Ortega
 permalink: "/about/"
 layout: page
 ---
-
-## Gerardo Ortega
 
 ![Gerardo Ortega](https://g3ortega.com/assets/gerardo-ortega.jpg "Gerardo Ortega photo")
 
