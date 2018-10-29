@@ -5,8 +5,8 @@
     <description>Blog. I write about Technology, Trends, Programming, Data Science and personal opinions.</description>
     <link>http://localhost:4000//</link>
     <atom:link href="http://localhost:4000//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 29 Oct 2018 04:04:19 +0000</pubDate>
-    <lastBuildDate>Mon, 29 Oct 2018 04:04:19 +0000</lastBuildDate>
+    <pubDate>Mon, 29 Oct 2018 04:06:31 +0000</pubDate>
+    <lastBuildDate>Mon, 29 Oct 2018 04:06:31 +0000</lastBuildDate>
     <generator>Jekyll v3.8.4</generator>
     
       <item>

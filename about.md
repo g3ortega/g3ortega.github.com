@@ -14,6 +14,6 @@ Currently helping to build and expand the best travelers platform on the planet 
 
 In my free time I like hiking, enjoy nature and reading good books.
 
-I've been working for startups for more than 5 years -[NuHome](https://www.nuhome.com.ni), [Recluta](https://recluta.com) Recluta, [EthicsGlobal](https://ethicsglobal.com), etc-, and I also have some upcoming projects.
+I've been working for startups for more than 5 years -[NuHome](https://www.nuhome.com.ni), [Recluta](https://recluta.com), [EthicsGlobal](https://ethicsglobal.com), etc-, and I also have some upcoming projects.
 
 I love open source and sometimes I contribute to some awesome projects -check my Github profile-.
