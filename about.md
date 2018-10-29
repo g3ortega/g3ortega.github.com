@@ -4,11 +4,11 @@ permalink: "/about/"
 layout: page
 ---
 
-## Gerardo Ortega.
+## Gerardo Ortega
 
 ![Gerardo Ortega](https://g3ortega.com/assets/gerardo-ortega.jpg "Gerardo Ortega photo")
 
-Software engineer. Data Science enthusiast. Amateur trader in eToro and Robinhood. Photographer wannabe, and poetry lover.
+I'm a Software engineer. Data Science enthusiast. Amateur trader in [eToro](http://partners.etoro.com/B210_A62402_TClick_Squora.aspx) and Robinhood. Photographer wannabe, and poetry lover.
 
 Currently helping to build and expand the best travelers platform on the planet -aka [RoadGoat](https://www.roadgoat.com)- and the best platform to play tennis -aka [playbycourt](https://playbycourt.com)-.
 
