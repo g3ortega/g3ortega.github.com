@@ -8,7 +8,7 @@ layout: page
 
 I'm a Software engineer. Data Science enthusiast. Amateur trader.
 
-Currently helping to build and expand the best travelers platform -aka [RoadGoat](https://www.roadgoat.com)- and the best platform to play tennis -aka [playbycourt](https://playbycourt.com)-.
+Currently helping to build and expand the best travelers platform -aka [RoadGoat](https://www.roadgoat.com)- and the best platform for tennis playing -aka [playbycourt](https://playbycourt.com)-.
 
 In my free time I like hiking, enjoy nature and reading books.
 
