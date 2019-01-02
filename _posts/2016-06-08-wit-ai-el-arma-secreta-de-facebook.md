@@ -11,7 +11,7 @@ layout: post
 description: Introducción a Wit.ai de Facebook para crear Bots de Messenger y otras
   aplicaciones prácticas de NLP e inteligencia artificial.
 author: Gerardo Ortega
-cover: assets/facebook-ten-years-roadmap.jpeg
+cover: /assets/facebook-ten-years-roadmap.jpeg
 ref: witai_facebook
 lang: es
 ---

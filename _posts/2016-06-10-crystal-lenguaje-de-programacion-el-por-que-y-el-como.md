@@ -7,7 +7,7 @@ layout: post
 description: Crystal un lenguaje moderno, rápido y con una sintáxis elegante creado
   en Argentina.
 author: Gerardo Ortega
-cover: assets/crystal-lenguaje-programacion-logo.png
+cover: /assets/crystal-lenguaje-programacion-logo.png
 ref: crystal_programming_language
 lang: es
 ---

@@ -7,7 +7,7 @@ layout: post
 description: A collection of valuable and free resources to learn Artificial Intelligence
   and Machine Learning
 author: Gerardo Ortega
-cover: assets/machine_learning.jpg
+cover: /assets/machine_learning.jpg
 ref: artificial_intelligence_resources
 lang: en
 ---

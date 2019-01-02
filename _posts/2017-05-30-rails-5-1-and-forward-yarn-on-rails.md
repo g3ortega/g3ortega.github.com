@@ -6,7 +6,7 @@ categories:
 - rails
 layout: post
 author: Gerardo Ortega
-cover: assets/ruby-on-rails-5.1.png
+cover: /assets/ruby-on-rails-5.1.png
 lang: en
 ---
 

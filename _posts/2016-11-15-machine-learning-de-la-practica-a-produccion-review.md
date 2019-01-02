@@ -5,7 +5,7 @@ categories:
 - review
 layout: post
 author: Gerardo Ortega
-cover: assets/machine_learning.jpg
+cover: /assets/machine_learning.jpg
 lang: es
 ---
 

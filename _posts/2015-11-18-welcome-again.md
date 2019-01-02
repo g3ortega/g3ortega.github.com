@@ -8,7 +8,7 @@ tags:
 layout: post
 description: Plans for 2016
 author: Gerardo Ortega
-cover: assets/phoenix.png
+cover: /assets/phoenix.png
 ref: hello_again
 lang: en
 ---

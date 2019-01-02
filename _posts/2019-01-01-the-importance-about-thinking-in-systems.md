@@ -1,7 +1,7 @@
 ---
 title: The importance about thinking in systems
 date: 2019-01-01 06:00:00 +0000
-categories: review
+categories: personal
 tags: []
 layout: post
 description: I want to start this year by creating and optimizing systems that I can

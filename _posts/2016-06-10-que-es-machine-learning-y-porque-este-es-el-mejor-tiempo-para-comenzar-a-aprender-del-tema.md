@@ -8,7 +8,7 @@ layout: post
 description: Machine Learning o Aprendizaje de Máquinas. Uso, importancia y por donde
   iniciar a aprender sobre el tema.
 author: Gerardo Ortega
-cover: assets/machine_learning.jpg
+cover: /assets/machine_learning.jpg
 ref: machine_learning
 lang: es
 ---
