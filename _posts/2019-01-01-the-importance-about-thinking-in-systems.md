@@ -24,16 +24,13 @@ Systems are everywhere; our body is a system, we live a social system, our econo
 
 I want to start this year by creating and optimizing systems that I can apply in many areas of my life. I’ve been thinking about some characteristics that good systems have, here’s a list of what I consider are the most important things:
 
-_·  Good systems are easy to track. One of the main aspects of systems is that they need to be monitored to identify what is working or not._
-
-_· They are constantly receiving feedback from outside. An essential characteristic of good systems is that they need to receive input from the outside world to improve. For example, while drive it’s possible that you do the same error many times. You’re receiving external feedback, and you’ll need to adjust your driving system to avoid some costly future mistakes._
-
-_·  They are easy to optimize and adjust to get better results_
+* _Good systems are easy to track. One of the main aspects of systems is that they need to be monitored to identify what is working or not._
+* _They are constantly receiving feedback from outside. An essential characteristic of good systems is that they need to receive input from the outside world to improve. For example, while drive it’s possible that you do the same error many times. You’re receiving external feedback, and you’ll need to adjust your driving system to avoid some costly future mistakes._
+* _They are easy to optimize and adjust to get better results_
 
 So, for this year I’m preparing some systems to avoid some self-willing traps. Preparation is more valuable than self-control. These are some good starting points to design good systems for this year:
 
-_· Create systems to avoid certain things not aligned with your goals and values. In that regard, deliberately designed ways to protect yourself against temptations are better than simply trying to avoid them, remember that self-control is hard._
-
-_·  Preparing yourself beforehand for hard situations is a great way to maintain the calm and keep a cool head when you would need the most. Design systems to plan ahead of the circumstances and you are going to get out of your mind some stressful scenarios. So, work on systems to keep an emergency fund, to avoid spending unnecessary money, etc._
-
-_·   Learning is one of the most fertile fields to apply systems. You need to keep learning, but in our busy worlds, it’s challenging to find enough will to learn and try new things. Creating systems of learning would help you a lot to achieve that, you can start with mini-habits: reading at least one page of a book on X topic per day, take at least 30 minutes of X class, etc. Remember that you’ll need to keep it simple, your reserves of self-discipline are limited, and it’s better using them in harder or unplanned situations._
+* **_Create systems to avoid certain things not aligned with your goals and values_**_. In that regard, deliberately designed ways to protect yourself against temptations are better than simply trying to avoid them, remember that self-control is hard._
+* **_Preparing yourself beforehand for hard situations is a great way to maintain the calm and keep a cool head when you would need the most._** _Design systems to plan ahead of the circumstances and you are going to get out of your mind some stressful scenarios. So, work on systems to keep an emergency fund, to avoid spending unnecessary money, etc._
+* **_Learning is one of the most fertile fields to apply systems._** _You need to keep learning, but in our busy worlds, it’s challenging to find enough will to learn and try new things. Creating systems of learning would help you a lot to achieve that, you can start with mini-habits: reading at least one page of a book on X topic per day, take at least 30 minutes of X class, etc. Remember that you’ll need to keep it simple, your reserves of self-discipline are limited, and it’s better using them in harder or unplanned situations._
+* Etc
