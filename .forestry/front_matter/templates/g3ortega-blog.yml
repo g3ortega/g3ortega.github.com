@@ -18,14 +18,22 @@ fields:
 - type: select
   config:
     source:
-      type: documents
+      type: simple
       section: jekyll-posts
       file: _posts/2016-11-15-machine-learning-de-la-practica-a-produccion-review.md
       path: categories
     required: true
+    options:
+    - self
+    - dart
+    - opinion
+    - flutter
+    - ruby
+    - elixir
+    - react
   label: categories
   name: categories
-  default: review
+  default: ''
 - type: tag_list
   label: tags
   name: tags
