@@ -33,7 +33,7 @@ fields:
     - react
   label: categories
   name: categories
-  default: ''
+  default: self
 - type: tag_list
   label: tags
   name: tags
@@ -42,6 +42,7 @@ fields:
   label: layout
   config:
     required: true
+  default: post
 - type: text
   name: description
   label: description
@@ -52,6 +53,7 @@ fields:
   label: author
   config:
     required: true
+  default: Gerardo Ortega
 - type: file
   name: cover
   label: cover
@@ -63,5 +65,6 @@ fields:
 - type: text
   name: lang
   label: lang
+  default: en
 pages:
 - _posts/2019-01-01-the-importance-about-thinking-in-systems.md
