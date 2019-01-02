@@ -1,5 +1,5 @@
 ---
-title: The importance about thinking in systems
+title: The Importance about Thinking in Systems
 date: 2019-01-01 06:00:00 +0000
 categories: self
 tags:
