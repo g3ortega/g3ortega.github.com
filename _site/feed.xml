@@ -5,12 +5,12 @@
     <description>Personal blog of Gerardo Ortega. Topics: Software Engineering, Data Science, Photography and Art. Blog personal de Gerardo Ortega.</description>
     <link>http://localhost:4000//</link>
     <atom:link href="http://localhost:4000//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 02 Jan 2019 05:43:43 +0000</pubDate>
-    <lastBuildDate>Wed, 02 Jan 2019 05:43:43 +0000</lastBuildDate>
+    <pubDate>Wed, 02 Jan 2019 15:14:45 +0000</pubDate>
+    <lastBuildDate>Wed, 02 Jan 2019 15:14:45 +0000</lastBuildDate>
     <generator>Jekyll v3.8.4</generator>
     
       <item>
-        <title>The importance about thinking in systems</title>
+        <title>On Thinking in Systems</title>
         <description>&lt;p&gt;I was reflecting today about the things that will have a higher priority this year, of course, many apparent things are always present, you know, like exercise more, pay more attention to my spiritual and familiar life, learn X or Y, save more money, etc. These are things we always have in mind, year after year, but we usually fail to achieve them. Even if we have a well-defined plan, it’s difficult to keep the self-discipline needed to get things done.&lt;/p&gt;
 
 &lt;p&gt;I have decided this year to change the approach, and instead of focusing on the goals, pay more attention to the thinking models I’m applying. And in that regard, one thing with proven effectiveness, at least in my professional life, it’s thinking in systems.&lt;/p&gt;
@@ -21,28 +21,31 @@
 
 &lt;p&gt;I want to start this year by creating and optimizing systems that I can apply in many areas of my life. I’ve been thinking about some characteristics that good systems have, here’s a list of what I consider are the most important things:&lt;/p&gt;
 
-&lt;p&gt;·        Good systems are easy to track. One of the main aspects of systems is that they need to be monitored to identify what is working or not.&lt;/p&gt;
-
-&lt;p&gt;·        They are constantly receiving feedback from outside. An essential characteristic of good systems is that they need to receive input from the outside world to improve. For example, while drive it’s possible that you do the same error many times. You’re receiving external feedback, and you’ll need to adjust your driving system to avoid some costly future mistakes.&lt;/p&gt;
-
-&lt;p&gt;·        They are easy to optimize and adjust to get better results&lt;/p&gt;
-
-&lt;p&gt; &lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;Good systems are easy to track. One of the main aspects of systems is that they need to be monitored to identify what is working or not.&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;They are constantly receiving feedback from outside. An essential characteristic of good systems is that they need to receive input from the outside world to improve. For example, while drive it’s possible that you do the same error many times. You’re receiving external feedback, and you’ll need to adjust your driving system to avoid some costly future mistakes.&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;They are easy to optimize and adjust to get better results&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;So, for this year I’m preparing some systems to avoid some self-willing traps. Preparation is more valuable than self-control. These are some good starting points to design good systems for this year:&lt;/p&gt;
 
-&lt;p&gt;·        Create systems to avoid certain things not aligned with your goals and values. In that regard, deliberately designed ways to protect yourself against temptations are better than simply trying to avoid them, remember that self-control is hard.&lt;/p&gt;
-
-&lt;p&gt;·        Preparing yourself beforehand for hard situations is a great way to maintain the calm and keep a cool head when you would need the most. Design systems to plan ahead of the circumstances and you are going to get out of your mind some stressful scenarios. So, work on systems to keep an emergency fund, to avoid spending unnecessary money, etc.&lt;/p&gt;
-
-&lt;p&gt;·        Learning is one of the most fertile fields to apply systems. You need to keep learning, but in our busy worlds, it’s challenging to find enough will to learn and try new things. Creating systems of learning would help you a lot to achieve that, you can start with mini-habits: reading at least one page of a book on X topic per day, take at least 30 minutes of X class, etc. Remember that you’ll need to keep it simple, your reserves of self-discipline are limited, and it’s better using them in harder or unplanned situations.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;Create systems to avoid certain things not aligned with your goals and values&lt;/em&gt;&lt;/strong&gt;&lt;em&gt;. In that regard, deliberately designed ways to protect yourself against temptations are better than simply trying to avoid them, remember that self-control is hard.&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;Preparing yourself beforehand for hard situations is a great way to maintain the calm and keep a cool head when you would need the most.&lt;/em&gt;&lt;/strong&gt; &lt;em&gt;Design systems to plan ahead of the circumstances and you are going to get out of your mind some stressful scenarios. So, work on systems to keep an emergency fund, to avoid spending unnecessary money, etc.&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;Learning is one of the most fertile fields to apply systems.&lt;/em&gt;&lt;/strong&gt; &lt;em&gt;You need to keep learning, but in our busy worlds, it’s challenging to find enough will to learn and try new things. Creating systems of learning would help you a lot to achieve that, you can start with mini-habits: reading at least one page of a book on X topic per day, take at least 30 minutes of X class, etc. Remember that you’ll need to keep it simple, your reserves of self-discipline are limited, and it’s better using them in harder or unplanned situations.&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;Etc&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         <pubDate>Tue, 01 Jan 2019 06:00:00 +0000</pubDate>
-        <link>http://localhost:4000//personal/2019/01/01/the-importance-about-thinking-in-systems.html</link>
-        <guid isPermaLink="true">http://localhost:4000//personal/2019/01/01/the-importance-about-thinking-in-systems.html</guid>
+        <link>http://localhost:4000//self/2019/01/01/the-importance-about-thinking-in-systems.html</link>
+        <guid isPermaLink="true">http://localhost:4000//self/2019/01/01/the-importance-about-thinking-in-systems.html</guid>
+        
+        <category>2019</category>
+        
+        <category>thinking models</category>
         
         
-        <category>personal</category>
+        <category>self</category>
         
       </item>
     
