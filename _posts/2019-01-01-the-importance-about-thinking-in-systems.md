@@ -4,6 +4,7 @@ date: 2019-01-01 06:00:00 +0000
 categories: self
 tags:
 - '2019'
+- thinking models
 layout: post
 description: I want to start this year by creating and optimizing systems that I can
   apply in many areas of my life. I’ve been thinking about some characteristics that
