@@ -1,0 +1,57 @@
+---
+label: g3ortega blog
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  name: title
+  label: Title
+  config:
+    required: true
+- type: datetime
+  label: Date
+  name: date
+  config:
+    date_format: YYYY-MM-DD
+    time_format: h:mm A ZZ
+    required: true
+- type: select
+  config:
+    source:
+      type: documents
+      section: jekyll-posts
+      file: _posts/2016-11-15-machine-learning-de-la-practica-a-produccion-review.md
+      path: categories
+    required: true
+  label: categories
+  name: categories
+  default: review
+- type: tag_list
+  label: tags
+  name: tags
+- type: text
+  name: layout
+  label: layout
+  config:
+    required: true
+- type: text
+  name: description
+  label: description
+  config:
+    required: true
+- type: text
+  name: author
+  label: author
+  config:
+    required: true
+- type: file
+  name: cover
+  label: cover
+- type: text
+  name: ref
+  label: ref
+  config:
+    required: true
+- type: text
+  name: lang
+  label: lang
