@@ -15,7 +15,7 @@ ref: thinkin-in-systems
 lang: en
 
 ---
-I was reflecting today about the things that will have a higher priority this year, of course, many apparent things are always present, you know, like exercise more, pay more attention to my spiritual and familiar life, learn X or Y, save more money, etc. These are things we always have in mind, year after year, but we usually fail to achieve them. Even if we have a well-defined plan, it’s difficult to keep the self-discipline needed to get things done.
+I was reflecting today about the things that will have a higher priority this year, of course, many obvious things are always present, you know, like exercise more, pay more attention to my spiritual and familiar life, learn X or Y, save more money, etc. These are things we always have in mind, year after year, but we usually fail to achieve them. Even if we have a well-defined plan, it’s difficult to keep the self-discipline needed to get things done.
 
 I have decided this year to change the approach, and instead of focusing on the goals, pay more attention to the thinking models I’m applying. And in that regard, one thing with proven effectiveness, at least in my professional life, it’s thinking in systems.
 
