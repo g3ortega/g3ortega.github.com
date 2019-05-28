@@ -66,4 +66,5 @@ fields:
   label: lang
   default: en
 pages:
+- _posts/publishing-content-from-multiple-sources-using-gatsbyjs.md
 - _posts/2019-01-01-the-importance-about-thinking-in-systems.md
