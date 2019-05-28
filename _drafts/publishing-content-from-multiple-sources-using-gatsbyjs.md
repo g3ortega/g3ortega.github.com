@@ -15,6 +15,19 @@ cover: assets/gatsby_js.png
 ref: gatsby_dynamic_content_multiple_sources
 
 ---
-GatsbyJS is one of the emerging alternatives to publish static websites, compared with other options available in the market Gatsby offers a good amount of features that allow you to extend your static website and add new functionalities
+GatsbyJS is one of the emerging alternatives to publish static websites, compared with other options available in the market Gatsby offers a good amount of features that allow you to extend your static website and add new functionalities..
+
+One of the issues I faced while creating a site using Gatsby i
+
+There are some challenges while o use GatsbyJS
+
+
+
+
+
+
+
+
+
 
 
