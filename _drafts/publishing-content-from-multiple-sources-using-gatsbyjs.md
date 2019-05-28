@@ -3,7 +3,7 @@ categories: self
 layout: post
 author: Gerardo Ortega
 lang: en
-title: Publishing Content from Multiple Sources using GatsbyJS
+title: Publishing Dynamic Content from Multiple Sources using GatsbyJS
 date: 2019-05-31 06:00:00 +0000
 tags:
 - gatsbyjs
